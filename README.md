@@ -55,7 +55,7 @@ pip install numpy scipy Pillow pyobjc-framework-Vision pyobjc-framework-Quartz
 
 You'll also need:
 - `poppler` for PDF extraction: `brew install poppler`
-- A copy of the Yale Beinecke MS 408 high-res scan saved as `source/voynich_scan_yale.pdf`
+- A copy of the Yale Beinecke [MS 408 high-res scan](https://collections.library.yale.edu/pdfs/2002046.pdf) saved as `source/voynich_scan_yale.pdf`
   (or adjust `scripts/05_pipeline/segment_pipeline.py`)
 
 ## Pipeline
