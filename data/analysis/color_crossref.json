@@ -1,0 +1,1259 @@
+{
+  "color_tags": {
+    "f1v": {
+      "Br": "brown tuber/root"
+    },
+    "f2r": {
+      "B": "blue dotted bulbs"
+    },
+    "f2v": {
+      "W": "white water flower",
+      "G": "green leaves"
+    },
+    "f3r": {
+      "R": "red leaves alternating",
+      "W": "white leaves",
+      "G": "green leaves"
+    },
+    "f4r": {
+      "G": "green leaves/berries"
+    },
+    "f4v": {
+      "G": "green"
+    },
+    "f5r": {
+      "G": "primarily green"
+    },
+    "f6r": {
+      "G": "green pods",
+      "Br": "brown decay patches"
+    },
+    "f6v": {
+      "G": "green star leaves",
+      "B": "blue details"
+    },
+    "f7r": {
+      "G": "green",
+      "W": "white/light flower"
+    },
+    "f7v": {
+      "B": "blue dots/berries",
+      "G": "green"
+    },
+    "f8r": {
+      "G": "green leaf"
+    },
+    "f8v": {
+      "B": "blue flowers",
+      "R": "red flowers"
+    },
+    "f9r": {
+      "Br": "brown/hairy roots"
+    },
+    "f9v": {
+      "B": "blue flowers"
+    },
+    "f10r": {
+      "G": "green"
+    },
+    "f10v": {
+      "G": "green hanging leaves"
+    },
+    "f11r": {
+      "B": "dark blue flowers",
+      "G": "green bushel"
+    },
+    "f11v": {
+      "G": "green dense bushel"
+    },
+    "f13r": {
+      "Br": "brown root",
+      "G": "green large round leaves"
+    },
+    "f13v": {
+      "G": "green"
+    },
+    "f14r": {
+      "G": "green arrow leaves"
+    },
+    "f14v": {
+      "G": "green"
+    },
+    "f15r": {
+      "G": "green complex"
+    },
+    "f15v": {
+      "G": "green pinwheel leaves"
+    },
+    "f16r": {
+      "G": "green starry leaves"
+    },
+    "f16v": {
+      "B": "blue flower",
+      "R": "red leaves"
+    },
+    "f17r": {
+      "B": "dark blue flowers"
+    },
+    "f17v": {
+      "Br": "brown/hairy bulbs",
+      "R": "red berries/currants"
+    },
+    "f18r": {
+      "G": "green"
+    },
+    "f18v": {
+      "G": "green"
+    },
+    "f19r": {
+      "B": "dark blue lily flower"
+    },
+    "f19v": {
+      "G": "green"
+    },
+    "f20r": {
+      "G": "green small leaves"
+    },
+    "f20v": {
+      "G": "green"
+    },
+    "f21r": {
+      "G": "green tiny leaves"
+    },
+    "f21v": {
+      "B": "blue flowers",
+      "R": "red flowers",
+      "G": "alternating green/white"
+    },
+    "f22r": {
+      "G": "green"
+    },
+    "f22v": {
+      "Br": "brown thorny roots"
+    },
+    "f23r": {
+      "B": "small blue flowers"
+    },
+    "f23v": {
+      "G": "green"
+    },
+    "f24r": {
+      "G": "green"
+    },
+    "f24v": {
+      "W": "white flowers",
+      "B": "blue flowers"
+    },
+    "f25r": {
+      "Br": "small brown beans"
+    },
+    "f25v": {
+      "G": "green"
+    },
+    "f26r": {
+      "B": "blue flowers",
+      "Br": "brown/plain roots"
+    },
+    "f26v": {
+      "B": "many small blue flowers"
+    },
+    "f27r": {
+      "G": "green"
+    },
+    "f27v": {
+      "W": "white flowers",
+      "R": "red hearts/centers",
+      "Br": "brown root nails"
+    },
+    "f28r": {
+      "G": "green crown leaves"
+    },
+    "f28v": {
+      "W": "large white flower",
+      "G": "green flower behind"
+    },
+    "f29r": {
+      "B": "blue leaves alternating",
+      "G": "green leaves alternating"
+    },
+    "f29v": {
+      "B": "one blue flower",
+      "G": "green bulbs",
+      "Br": "needle roots"
+    },
+    "f30r": {
+      "B": "small blue flowers",
+      "G": "long green leaves"
+    },
+    "f30v": {
+      "Br": "brown leaves",
+      "R": "red/conspicuous root"
+    },
+    "f31r": {
+      "Br": "long twisted brown root",
+      "U": "unpainted flowers"
+    },
+    "f31v": {
+      "Br": "brown leaf",
+      "G": "green leaves"
+    },
+    "f32r": {
+      "W": "white flowers",
+      "B": "blue flowers",
+      "Y": "yellow crown"
+    },
+    "f32v": {
+      "B": "three blue flowers",
+      "G": "green starry leaves"
+    },
+    "f33r": {
+      "G": "green flowers",
+      "Br": "brown humanoid root faces"
+    },
+    "f33v": {
+      "G": "green",
+      "B": "blue",
+      "R": "red"
+    },
+    "f34r": {
+      "G": "green"
+    },
+    "f34v": {
+      "Br": "brown leaves",
+      "U": "unpainted flowers"
+    },
+    "f35r": {
+      "B": "blue bud",
+      "R": "red bud",
+      "G": "green"
+    },
+    "f35v": {
+      "Br": "brown currants/berries",
+      "G": "green oak leaves"
+    },
+    "f36r": {
+      "G": "green leaves",
+      "Y": "yellow leaves"
+    },
+    "f36v": {
+      "G": "green finger leaves"
+    },
+    "f37r": {
+      "G": "green",
+      "Br": "brown berries"
+    },
+    "f37v": {
+      "G": "green",
+      "W": "white alternating",
+      "Br": "brown humanoid root"
+    },
+    "f38r": {
+      "G": "huge dark green leaf",
+      "W": "white commas with dots"
+    },
+    "f38v": {
+      "B": "one blue flower",
+      "G": "green",
+      "Br": "brown stacked"
+    },
+    "f39r": {
+      "G": "green bed of flowers"
+    },
+    "f39v": {
+      "G": "green dominant"
+    },
+    "f40r": {
+      "B": "one blue flower",
+      "G": "green"
+    },
+    "f40v": {
+      "G": "green"
+    },
+    "f41r": {
+      "G": "light green"
+    },
+    "f41v": {
+      "Br": "bright brown roots",
+      "G": "green frilled leaves"
+    },
+    "f42r": {
+      "G": "green leaf",
+      "Br": "bright brown small leaves"
+    },
+    "f42v": {
+      "G": "green leaves"
+    },
+    "f43r": {
+      "G": "green/white alternating leaves"
+    },
+    "f43v": {
+      "G": "green",
+      "Br": "brown snake root"
+    },
+    "f44r": {
+      "Br": "brown thorny/hairy root"
+    },
+    "f44v": {
+      "R": "red striped flower buds"
+    },
+    "f45r": {
+      "B": "tiny blue flowers",
+      "G": "green triangular"
+    },
+    "f45v": {
+      "B": "small blue flowers",
+      "G": "green"
+    },
+    "f46r": {
+      "G": "green"
+    },
+    "f46v": {
+      "G": "green large leaves"
+    },
+    "f47r": {
+      "G": "green"
+    },
+    "f47v": {
+      "B": "three small blue flowers",
+      "G": "green large leaves"
+    },
+    "f48r": {
+      "G": "green only leaves painted"
+    },
+    "f48v": {
+      "B": "blue flowers",
+      "Y": "yellow flowers",
+      "G": "green"
+    },
+    "f49r": {
+      "G": "green"
+    },
+    "f49v": {
+      "G": "green"
+    },
+    "f50r": {
+      "G": "green"
+    },
+    "f50v": {
+      "G": "green"
+    },
+    "f51r": {
+      "G": "green"
+    },
+    "f51v": {
+      "G": "green"
+    },
+    "f52r": {
+      "G": "green",
+      "R": "red"
+    },
+    "f52v": {
+      "G": "green"
+    },
+    "f53r": {
+      "G": "green"
+    },
+    "f53v": {
+      "G": "green"
+    },
+    "f54r": {
+      "G": "green"
+    },
+    "f54v": {
+      "G": "green"
+    },
+    "f55r": {
+      "G": "green"
+    },
+    "f55v": {
+      "G": "green"
+    },
+    "f56r": {
+      "G": "green"
+    },
+    "f56v": {
+      "G": "green",
+      "B": "blue"
+    },
+    "f65r": {
+      "G": "green"
+    },
+    "f65v": {
+      "G": "green"
+    },
+    "f66v": {
+      "G": "green",
+      "Br": "brown"
+    },
+    "f87r": {
+      "G": "green"
+    },
+    "f87v": {
+      "G": "green"
+    },
+    "f90r1": {
+      "G": "green"
+    },
+    "f90r2": {
+      "G": "green"
+    },
+    "f90v1": {
+      "G": "green"
+    },
+    "f90v2": {
+      "G": "green"
+    },
+    "f93r": {
+      "Br": "brown pod",
+      "G": "green"
+    },
+    "f93v": {
+      "R": "red currants",
+      "G": "green",
+      "Br": "brown bulbous roots"
+    },
+    "f94r": {
+      "B": "blue buds",
+      "G": "green",
+      "Br": "brown thorny roots"
+    },
+    "f94v": {
+      "G": "green bulb/flower"
+    },
+    "f95r1": {
+      "G": "green/white alternating"
+    },
+    "f95r2": {
+      "Br": "brown roots",
+      "G": "green"
+    },
+    "f95v1": {
+      "B": "blue flowers",
+      "Br": "brown bulbous roots"
+    },
+    "f95v2": {
+      "G": "green"
+    },
+    "f96r": {
+      "G": "green"
+    },
+    "f96v": {
+      "G": "green",
+      "Br": "brown bulbous root"
+    }
+  },
+  "color_enrichment": {
+    "R": {
+      "name": "RED",
+      "n_folios": 12,
+      "top_enriched": [
+        {
+          "word": "damo",
+          "count": 3,
+          "log_odds": 5.845294019278758,
+          "pct": 100.0
+        },
+        {
+          "word": "okyytoldy",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "damychcthod",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "sholo",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "opydaiin",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "okeom",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "porar",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "kchain",
+          "count": 2,
+          "log_odds": 5.260331518557602,
+          "pct": 100.0
+        },
+        {
+          "word": "oksho",
+          "count": 2,
+          "log_odds": 4.260331518557602,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "shosaiin",
+          "count": 2,
+          "log_odds": 4.260331518557602,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "keeor",
+          "count": 2,
+          "log_odds": 4.260331518557602,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "okaly",
+          "count": 2,
+          "log_odds": 4.260331518557602,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "otcheor",
+          "count": 2,
+          "log_odds": 4.260331518557602,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "teol",
+          "count": 2,
+          "log_odds": 3.260331518557602,
+          "pct": 50.0
+        },
+        {
+          "word": "chl",
+          "count": 2,
+          "log_odds": 3.260331518557602,
+          "pct": 50.0
+        },
+        {
+          "word": "ochor",
+          "count": 2,
+          "log_odds": 3.260331518557602,
+          "pct": 40.0
+        },
+        {
+          "word": "chkar",
+          "count": 3,
+          "log_odds": 3.260331518557602,
+          "pct": 50.0
+        },
+        {
+          "word": "tsho",
+          "count": 2,
+          "log_odds": 3.260331518557602,
+          "pct": 50.0
+        },
+        {
+          "word": "sheaiin",
+          "count": 4,
+          "log_odds": 3.260331518557602,
+          "pct": 50.0
+        },
+        {
+          "word": "okary",
+          "count": 2,
+          "log_odds": 3.260331518557602,
+          "pct": 40.0
+        }
+      ]
+    },
+    "B": {
+      "name": "BLUE",
+      "n_folios": 30,
+      "top_enriched": [
+        {
+          "word": "daiinotaldordaim",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "lkeey",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "ok",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "tokar",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "cheedls",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "chordy",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "ykchor",
+          "count": 4,
+          "log_odds": 3.737427182729059,
+          "pct": 80.0
+        },
+        {
+          "word": "porar",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "dydar",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "qokom",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "ytcho",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "otchar",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "cth",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "olkchdy",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "oldckhy",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "okchom",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "qokcheor",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "mol",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "ychody",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        },
+        {
+          "word": "dshe",
+          "count": 2,
+          "log_odds": 3.737427182729059,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Br": {
+      "name": "BROWN",
+      "n_folios": 30,
+      "top_enriched": [
+        {
+          "word": "chokal",
+          "count": 3,
+          "log_odds": 4.185589210056488,
+          "pct": 100.0
+        },
+        {
+          "word": "chedaiin",
+          "count": 3,
+          "log_odds": 4.185589210056488,
+          "pct": 100.0
+        },
+        {
+          "word": "fchy",
+          "count": 3,
+          "log_odds": 4.185589210056488,
+          "pct": 100.0
+        },
+        {
+          "word": "shecthy",
+          "count": 3,
+          "log_odds": 4.185589210056488,
+          "pct": 100.0
+        },
+        {
+          "word": "shotol",
+          "count": 3,
+          "log_odds": 4.185589210056488,
+          "pct": 100.0
+        },
+        {
+          "word": "chkain",
+          "count": 3,
+          "log_odds": 4.185589210056488,
+          "pct": 100.0
+        },
+        {
+          "word": "chepar",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "shedar",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "keo",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "checkhey",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "octhodaly",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "qotodain",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "oar",
+          "count": 4,
+          "log_odds": 3.6006267093353324,
+          "pct": 80.0
+        },
+        {
+          "word": "cthoshol",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "ykchdm",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "chotey",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "chotar",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "daldalol",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "lr",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 100.0
+        },
+        {
+          "word": "cthedy",
+          "count": 2,
+          "log_odds": 3.6006267093353324,
+          "pct": 66.66666666666667
+        }
+      ]
+    },
+    "W": {
+      "name": "WHITE",
+      "n_folios": 9,
+      "top_enriched": [
+        {
+          "word": "shty",
+          "count": 2,
+          "log_odds": 6.010644102000657,
+          "pct": 100.0
+        },
+        {
+          "word": "chckhchy",
+          "count": 2,
+          "log_odds": 6.010644102000657,
+          "pct": 100.0
+        },
+        {
+          "word": "choaiin",
+          "count": 2,
+          "log_odds": 6.010644102000657,
+          "pct": 100.0
+        },
+        {
+          "word": "kchod",
+          "count": 3,
+          "log_odds": 5.595606602721813,
+          "pct": 75.0
+        },
+        {
+          "word": "doiir",
+          "count": 2,
+          "log_odds": 5.010644102000657,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "damo",
+          "count": 2,
+          "log_odds": 5.010644102000657,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "chcth",
+          "count": 2,
+          "log_odds": 5.010644102000657,
+          "pct": 66.66666666666667
+        },
+        {
+          "word": "okcho",
+          "count": 3,
+          "log_odds": 4.595606602721813,
+          "pct": 60.0
+        },
+        {
+          "word": "chl",
+          "count": 2,
+          "log_odds": 4.010644102000657,
+          "pct": 50.0
+        },
+        {
+          "word": "daiiin",
+          "count": 3,
+          "log_odds": 3.595606602721813,
+          "pct": 42.857142857142854
+        },
+        {
+          "word": "dshor",
+          "count": 3,
+          "log_odds": 3.595606602721813,
+          "pct": 42.857142857142854
+        },
+        {
+          "word": "schey",
+          "count": 2,
+          "log_odds": 3.425681601279501,
+          "pct": 40.0
+        },
+        {
+          "word": "ycheor",
+          "count": 2,
+          "log_odds": 3.425681601279501,
+          "pct": 40.0
+        },
+        {
+          "word": "qot",
+          "count": 2,
+          "log_odds": 3.0106441020006565,
+          "pct": 33.333333333333336
+        },
+        {
+          "word": "cham",
+          "count": 4,
+          "log_odds": 3.0106441020006565,
+          "pct": 33.333333333333336
+        },
+        {
+          "word": "dsho",
+          "count": 2,
+          "log_odds": 2.425681601279501,
+          "pct": 25.0
+        },
+        {
+          "word": "choiin",
+          "count": 3,
+          "log_odds": 2.273678507834451,
+          "pct": 23.076923076923077
+        },
+        {
+          "word": "chkaiin",
+          "count": 2,
+          "log_odds": 2.2032891799430527,
+          "pct": 22.22222222222222
+        },
+        {
+          "word": "chan",
+          "count": 2,
+          "log_odds": 2.2032891799430527,
+          "pct": 22.22222222222222
+        },
+        {
+          "word": "qokchor",
+          "count": 2,
+          "log_odds": 2.2032891799430527,
+          "pct": 22.22222222222222
+        }
+      ]
+    },
+    "Y": {
+      "name": "YELLOW",
+      "n_folios": 3,
+      "top_enriched": [
+        {
+          "word": "cheedls",
+          "count": 2,
+          "log_odds": 7.4582066310295705,
+          "pct": 100.0
+        },
+        {
+          "word": "chtol",
+          "count": 2,
+          "log_odds": 5.4582066310295705,
+          "pct": 50.0
+        },
+        {
+          "word": "ytam",
+          "count": 2,
+          "log_odds": 4.873244130308414,
+          "pct": 40.0
+        },
+        {
+          "word": "dary",
+          "count": 3,
+          "log_odds": 4.4582066310295705,
+          "pct": 33.333333333333336
+        },
+        {
+          "word": "m",
+          "count": 2,
+          "log_odds": 3.4582066310295705,
+          "pct": 20.0
+        },
+        {
+          "word": "otedy",
+          "count": 4,
+          "log_odds": 3.370743789779231,
+          "pct": 19.047619047619047
+        },
+        {
+          "word": "otar",
+          "count": 4,
+          "log_odds": 3.136278536142208,
+          "pct": 16.666666666666668
+        },
+        {
+          "word": "tor",
+          "count": 2,
+          "log_odds": 2.8732441303084144,
+          "pct": 14.285714285714286
+        },
+        {
+          "word": "otam",
+          "count": 2,
+          "log_odds": 2.551316035421052,
+          "pct": 11.764705882352942
+        },
+        {
+          "word": "tchy",
+          "count": 2,
+          "log_odds": 2.288281629587258,
+          "pct": 10.0
+        },
+        {
+          "word": "qotol",
+          "count": 2,
+          "log_odds": 2.136278536142208,
+          "pct": 9.090909090909092
+        },
+        {
+          "word": "am",
+          "count": 2,
+          "log_odds": 1.9346446749725574,
+          "pct": 8.0
+        },
+        {
+          "word": "y",
+          "count": 4,
+          "log_odds": 1.8434967869143624,
+          "pct": 7.547169811320755
+        },
+        {
+          "word": "cthol",
+          "count": 3,
+          "log_odds": 1.5513160354210518,
+          "pct": 6.25
+        },
+        {
+          "word": "dair",
+          "count": 2,
+          "log_odds": 1.5513160354210518,
+          "pct": 6.25
+        },
+        {
+          "word": "chedy",
+          "count": 4,
+          "log_odds": 1.5040103206426954,
+          "pct": 5.882352941176471
+        },
+        {
+          "word": "okar",
+          "count": 2,
+          "log_odds": 1.5040103206426954,
+          "pct": 6.0606060606060606
+        },
+        {
+          "word": "shey",
+          "count": 2,
+          "log_odds": 1.2487532654006206,
+          "pct": 5.0
+        },
+        {
+          "word": "qokchy",
+          "count": 2,
+          "log_odds": 1.172804412167322,
+          "pct": 4.761904761904762
+        },
+        {
+          "word": "dol",
+          "count": 2,
+          "log_odds": 1.1006546264114867,
+          "pct": 4.545454545454546
+        }
+      ]
+    }
+  },
+  "color_candidates": [
+    {
+      "word": "dary",
+      "best_color": "YELLOW",
+      "enrichment": 14.0,
+      "count": 3
+    },
+    {
+      "word": "okcho",
+      "best_color": "WHITE",
+      "enrichment": 8.4,
+      "count": 3
+    },
+    {
+      "word": "otedy",
+      "best_color": "YELLOW",
+      "enrichment": 8.0,
+      "count": 4
+    },
+    {
+      "word": "otar",
+      "best_color": "YELLOW",
+      "enrichment": 7.0,
+      "count": 4
+    },
+    {
+      "word": "daiiin",
+      "best_color": "WHITE",
+      "enrichment": 6.0,
+      "count": 3
+    },
+    {
+      "word": "dshor",
+      "best_color": "WHITE",
+      "enrichment": 6.0,
+      "count": 3
+    },
+    {
+      "word": "sheaiin",
+      "best_color": "RED",
+      "enrichment": 5.25,
+      "count": 4
+    },
+    {
+      "word": "chkar",
+      "best_color": "RED",
+      "enrichment": 5.25,
+      "count": 3
+    },
+    {
+      "word": "cham",
+      "best_color": "WHITE",
+      "enrichment": 4.666666666666667,
+      "count": 4
+    },
+    {
+      "word": "chkeey",
+      "best_color": "RED",
+      "enrichment": 3.9375,
+      "count": 3
+    },
+    {
+      "word": "cthaiin",
+      "best_color": "RED",
+      "enrichment": 3.9375,
+      "count": 3
+    },
+    {
+      "word": "otchor",
+      "best_color": "RED",
+      "enrichment": 3.5,
+      "count": 4
+    },
+    {
+      "word": "oar",
+      "best_color": "BROWN",
+      "enrichment": 3.3600000000000003,
+      "count": 4
+    },
+    {
+      "word": "ykchor",
+      "best_color": "BLUE",
+      "enrichment": 3.3600000000000003,
+      "count": 4
+    },
+    {
+      "word": "choiin",
+      "best_color": "WHITE",
+      "enrichment": 3.2307692307692313,
+      "count": 3
+    },
+    {
+      "word": "y",
+      "best_color": "YELLOW",
+      "enrichment": 3.169811320754717,
+      "count": 4
+    },
+    {
+      "word": "chom",
+      "best_color": "RED",
+      "enrichment": 3.15,
+      "count": 3
+    },
+    {
+      "word": "kal",
+      "best_color": "BROWN",
+      "enrichment": 3.0000000000000004,
+      "count": 5
+    },
+    {
+      "word": "ytchy",
+      "best_color": "RED",
+      "enrichment": 2.8636363636363638,
+      "count": 3
+    },
+    {
+      "word": "l",
+      "best_color": "RED",
+      "enrichment": 2.8636363636363638,
+      "count": 3
+    },
+    {
+      "word": "otchol",
+      "best_color": "WHITE",
+      "enrichment": 2.8000000000000003,
+      "count": 4
+    },
+    {
+      "word": "ykol",
+      "best_color": "BROWN",
+      "enrichment": 2.8,
+      "count": 4
+    },
+    {
+      "word": "odaiin",
+      "best_color": "RED",
+      "enrichment": 2.763157894736842,
+      "count": 5
+    },
+    {
+      "word": "cthol",
+      "best_color": "YELLOW",
+      "enrichment": 2.625,
+      "count": 3
+    },
+    {
+      "word": "ctho",
+      "best_color": "RED",
+      "enrichment": 2.625,
+      "count": 4
+    },
+    {
+      "word": "sar",
+      "best_color": "RED",
+      "enrichment": 2.625,
+      "count": 3
+    },
+    {
+      "word": "chear",
+      "best_color": "RED",
+      "enrichment": 2.625,
+      "count": 3
+    },
+    {
+      "word": "sy",
+      "best_color": "RED",
+      "enrichment": 2.625,
+      "count": 3
+    },
+    {
+      "word": "chedy",
+      "best_color": "YELLOW",
+      "enrichment": 2.545454545454546,
+      "count": 4
+    },
+    {
+      "word": "shan",
+      "best_color": "BROWN",
+      "enrichment": 2.52,
+      "count": 3
+    }
+  ]
+}

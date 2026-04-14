@@ -1,0 +1,3482 @@
+{
+  "plant_features": {
+    "f1v": [
+      "bulbous_root",
+      "single_flower",
+      "broad_leaves"
+    ],
+    "f2r": [
+      "thin_roots",
+      "multiple_flowers",
+      "small_leaves"
+    ],
+    "f2v": [
+      "water_plant",
+      "veined_leaves",
+      "round_leaves"
+    ],
+    "f3r": [
+      "alternating_colors",
+      "stacked_leaves",
+      "no_flowers"
+    ],
+    "f4r": [
+      "small_leaves",
+      "small_flowers",
+      "berries"
+    ],
+    "f4v": [
+      "small_leaves",
+      "bulging_stem",
+      "multiple_flowers"
+    ],
+    "f5r": [
+      "green_dominant",
+      "leaves_connect_one_point"
+    ],
+    "f6r": [
+      "pods",
+      "veined_leaves",
+      "decay_patches"
+    ],
+    "f6v": [
+      "star_leaves",
+      "spiky_fruits",
+      "veined_leaves"
+    ],
+    "f7r": [
+      "large_flower",
+      "symmetrical",
+      "simple_roots",
+      "pinwheel"
+    ],
+    "f7v": [
+      "blue_dots",
+      "berries",
+      "pinwheel"
+    ],
+    "f8r": [
+      "single_large_leaf",
+      "veined_leaves",
+      "no_flowers"
+    ],
+    "f8v": [
+      "blue_flowers",
+      "red_flowers",
+      "plain_roots"
+    ],
+    "f9r": [
+      "hairy_roots",
+      "flat_topped_root",
+      "seeds"
+    ],
+    "f9v": [
+      "plain_roots",
+      "veined_leaves",
+      "blue_flowers"
+    ],
+    "f10v": [
+      "hanging_leaves",
+      "calyx"
+    ],
+    "f11r": [
+      "flat_topped_root",
+      "two_leaf_shapes",
+      "blue_flowers",
+      "dense_bushel"
+    ],
+    "f11v": [
+      "dense_bushel",
+      "single_flower"
+    ],
+    "f13r": [
+      "brown_root",
+      "round_leaves",
+      "veined_leaves",
+      "flat_topped_root"
+    ],
+    "f14r": [
+      "arrow_leaves",
+      "single_flower",
+      "flat_topped_root"
+    ],
+    "f14v": [
+      "large_leaves",
+      "multiple_flowers",
+      "three_stems"
+    ],
+    "f15r": [
+      "large_complex",
+      "two_leaf_shapes",
+      "multiple_flowers"
+    ],
+    "f15v": [
+      "pinwheel",
+      "tendrils",
+      "large_leaves"
+    ],
+    "f16r": [
+      "star_leaves",
+      "seeds",
+      "flat_topped_root"
+    ],
+    "f16v": [
+      "blue_flowers",
+      "red_leaves",
+      "veined_leaves",
+      "flat_topped_root"
+    ],
+    "f17r": [
+      "thin_roots",
+      "thin_leaves",
+      "blue_flowers"
+    ],
+    "f17v": [
+      "bulbous_root",
+      "berries"
+    ],
+    "f18r": [
+      "plain_roots",
+      "two_leaf_shapes",
+      "calyx",
+      "multiple_flowers"
+    ],
+    "f19r": [
+      "veined_leaves",
+      "two_leaf_shapes",
+      "flat_topped_root",
+      "blue_flowers"
+    ],
+    "f20r": [
+      "small_leaves",
+      "veined_leaves",
+      "small_flowers"
+    ],
+    "f20v": [
+      "three_stems",
+      "narrow_leaves",
+      "multiple_flowers"
+    ],
+    "f21r": [
+      "tiny_leaves",
+      "pinwheel",
+      "berries"
+    ],
+    "f22r": [
+      "reconnecting_stem",
+      "multiple_flowers"
+    ],
+    "f22v": [
+      "brown_root",
+      "thorny_roots",
+      "multiple_flowers"
+    ],
+    "f23r": [
+      "flat_topped_root",
+      "blue_flowers",
+      "two_plants"
+    ],
+    "f24r": [
+      "tall_flowers",
+      "two_plants"
+    ],
+    "f25r": [
+      "veined_leaves",
+      "beans"
+    ],
+    "f25v": [
+      "pinwheel",
+      "veined_leaves",
+      "no_flowers",
+      "dragon_animal"
+    ],
+    "f26r": [
+      "plain_roots",
+      "blue_flowers",
+      "two_stalks"
+    ],
+    "f27r": [
+      "veined_leaves",
+      "two_leaf_shapes",
+      "small_flowers",
+      "two_plants"
+    ],
+    "f27v": [
+      "flat_topped_root",
+      "thorny_roots",
+      "white_flowers",
+      "red_center"
+    ],
+    "f28r": [
+      "simple_roots",
+      "crown_leaves",
+      "pinwheel"
+    ],
+    "f28v": [
+      "large_flower",
+      "veined_leaves",
+      "two_leaf_shapes",
+      "white_flowers"
+    ],
+    "f29r": [
+      "alternating_colors"
+    ],
+    "f29v": [
+      "needle_roots",
+      "bulbs",
+      "blue_flowers"
+    ],
+    "f30r": [
+      "long_leaves",
+      "blue_flowers",
+      "veined_leaves"
+    ],
+    "f30v": [
+      "conspicuous_root",
+      "brown_leaves",
+      "berries",
+      "tendrils"
+    ],
+    "f31r": [
+      "twisted_root",
+      "brown_root",
+      "calyx"
+    ],
+    "f32r": [
+      "small_leaves",
+      "white_flowers",
+      "blue_flowers",
+      "yellow_crown"
+    ],
+    "f32v": [
+      "large_root",
+      "star_leaves",
+      "blue_flowers",
+      "tall_plant"
+    ],
+    "f33r": [
+      "humanoid_root",
+      "green_flowers"
+    ],
+    "f33v": [
+      "star_leaves",
+      "huge_flowers",
+      "dead_flower"
+    ],
+    "f34r": [
+      "large_root",
+      "parallel_leaves",
+      "calyx",
+      "multiple_flowers"
+    ],
+    "f34v": [
+      "extensive_roots",
+      "animal_root",
+      "brown_leaves"
+    ],
+    "f35r": [
+      "blue_flowers",
+      "red_flowers",
+      "leaves_connect_one_point"
+    ],
+    "f35v": [
+      "strong_roots",
+      "oak_leaves",
+      "berries",
+      "currants"
+    ],
+    "f36r": [
+      "flat_topped_root",
+      "veined_leaves",
+      "small_buds"
+    ],
+    "f36v": [
+      "finger_leaves",
+      "seeds"
+    ],
+    "f37r": [
+      "oblong_leaves",
+      "berries",
+      "hanging_leaves"
+    ],
+    "f37v": [
+      "humanoid_root",
+      "alternating_colors",
+      "flat_topped_root"
+    ],
+    "f38r": [
+      "huge_leaf",
+      "tiny_buds",
+      "white_dots"
+    ],
+    "f38v": [
+      "three_colors",
+      "blue_flowers",
+      "bush"
+    ],
+    "f39r": [
+      "root_platform",
+      "parallel_leaves",
+      "calyx"
+    ],
+    "f39v": [
+      "large_root",
+      "flat_topped_root",
+      "parallel_leaves",
+      "multiple_flowers"
+    ],
+    "f40r": [
+      "loop_stem",
+      "parallel_leaves",
+      "blue_flowers"
+    ],
+    "f40v": [
+      "two_plants",
+      "parallel_leaves",
+      "calyx",
+      "huge_flowers"
+    ],
+    "f41v": [
+      "brown_root",
+      "finger_leaves",
+      "seeds",
+      "veined_leaves"
+    ],
+    "f42v": [
+      "narrow_roots",
+      "thin_stem",
+      "single_flower"
+    ],
+    "f43r": [
+      "extensive_roots",
+      "root_platform",
+      "small_leaves",
+      "alternating_colors",
+      "calyx"
+    ],
+    "f43v": [
+      "snake_root",
+      "bushy_root",
+      "crescent_leaves",
+      "two_plants"
+    ],
+    "f44r": [
+      "thick_stem",
+      "thorny_roots",
+      "small_flower"
+    ],
+    "f45r": [
+      "conspicuous_root",
+      "flat_topped_root",
+      "triangular_leaves",
+      "blue_flowers",
+      "three_stems"
+    ],
+    "f45v": [
+      "large_root",
+      "flat_topped_root",
+      "three_stems",
+      "blue_flowers",
+      "small_leaves"
+    ],
+    "f46r": [
+      "root_platform",
+      "three_stems",
+      "parallel_leaves"
+    ],
+    "f46v": [
+      "eagle_root",
+      "large_leaves",
+      "spiraling_stem",
+      "calyx"
+    ],
+    "f47r": [
+      "thin_stem",
+      "large_leaves",
+      "no_flowers"
+    ],
+    "f47v": [
+      "plain_roots",
+      "large_leaves",
+      "blue_flowers"
+    ],
+    "f48v": [
+      "crossing_roots",
+      "two_plants",
+      "blue_flowers",
+      "calyx"
+    ]
+  },
+  "feature_enrichment": {
+    "alternating_colors": {
+      "folios": [
+        "f29r",
+        "f37v",
+        "f3r",
+        "f43r"
+      ],
+      "enriched": [
+        {
+          "word": "yteody",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 8,
+          "log_odds": 5.902752844088913
+        },
+        {
+          "word": "opchdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 20,
+          "log_odds": 5.902752844088913
+        },
+        {
+          "word": "old",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.902752844088913
+        },
+        {
+          "word": "qokody",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 10,
+          "log_odds": 5.902752844088913
+        },
+        {
+          "word": "damo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.902752844088913
+        },
+        {
+          "word": "otchdy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 22,
+          "log_odds": 4.902752844088913
+        },
+        {
+          "word": "ytchedy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 10,
+          "log_odds": 4.902752844088913
+        },
+        {
+          "word": "octhy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 9,
+          "log_odds": 4.902752844088913
+        },
+        {
+          "word": "ycheor",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 9,
+          "log_odds": 3.902752844088913
+        },
+        {
+          "word": "cham",
+          "with_count": 4,
+          "without_count": 5,
+          "total": 22,
+          "log_odds": 3.580824749201551
+        },
+        {
+          "word": "qotar",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 67,
+          "log_odds": 3.487715344810069
+        },
+        {
+          "word": "qotedy",
+          "with_count": 4,
+          "without_count": 6,
+          "total": 94,
+          "log_odds": 3.317790343367757
+        },
+        {
+          "word": "yty",
+          "with_count": 3,
+          "without_count": 6,
+          "total": 22,
+          "log_odds": 2.902752844088913
+        },
+        {
+          "word": "cheody",
+          "with_count": 3,
+          "without_count": 6,
+          "total": 78,
+          "log_odds": 2.902752844088913
+        },
+        {
+          "word": "odain",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 19,
+          "log_odds": 2.902752844088913
+        }
+      ]
+    },
+    "berries": {
+      "folios": [
+        "f17v",
+        "f21r",
+        "f30v",
+        "f35v",
+        "f37r",
+        "f4r",
+        "f7v"
+      ],
+      "enriched": [
+        {
+          "word": "chkol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "otoly",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "ctheey",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 13,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "okeoaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "qoteeol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "dady",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 5,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "qos",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.33455309697192
+        },
+        {
+          "word": "tcheey",
+          "with_count": 3,
+          "without_count": 1,
+          "total": 7,
+          "log_odds": 4.919515597693075
+        },
+        {
+          "word": "chokeody",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 4.33455309697192
+        },
+        {
+          "word": "keeor",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 8,
+          "log_odds": 4.33455309697192
+        },
+        {
+          "word": "daiir",
+          "with_count": 3,
+          "without_count": 2,
+          "total": 15,
+          "log_odds": 3.9195155976930756
+        },
+        {
+          "word": "shory",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 6,
+          "log_odds": 3.3345530969719195
+        },
+        {
+          "word": "keor",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 9,
+          "log_odds": 3.3345530969719195
+        },
+        {
+          "word": "sheor",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 50,
+          "log_odds": 3.3345530969719195
+        },
+        {
+          "word": "chkeey",
+          "with_count": 3,
+          "without_count": 3,
+          "total": 13,
+          "log_odds": 3.3345530969719195
+        }
+      ]
+    },
+    "blue_flowers": {
+      "folios": [
+        "f11r",
+        "f16v",
+        "f17r",
+        "f19r",
+        "f23r",
+        "f26r",
+        "f29v",
+        "f30r",
+        "f32r",
+        "f32v",
+        "f35r",
+        "f38v",
+        "f40r",
+        "f45r",
+        "f45v",
+        "f47v",
+        "f48v",
+        "f8v",
+        "f9v"
+      ],
+      "enriched": [
+        {
+          "word": "okchol",
+          "with_count": 4,
+          "without_count": 0,
+          "total": 10,
+          "log_odds": 4.729588929557391
+        },
+        {
+          "word": "otshy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 4.314551430278547
+        },
+        {
+          "word": "ykchor",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 5,
+          "log_odds": 4.314551430278547
+        },
+        {
+          "word": "key",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 15,
+          "log_odds": 4.314551430278547
+        },
+        {
+          "word": "okchar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "dcholdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "shoyty",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "chordy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "ypchy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "daiinotaldordaim",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "ok",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "dytchor",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "oldckhy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "qokcheor",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        },
+        {
+          "word": "mol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 3.7295889295573907
+        }
+      ]
+    },
+    "brown_root": {
+      "folios": [
+        "f13r",
+        "f22v",
+        "f31r",
+        "f41v"
+      ],
+      "enriched": [
+        {
+          "word": "qokeody",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 30,
+          "log_odds": 6.947274009437391
+        },
+        {
+          "word": "daldalol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.3623115087162345
+        },
+        {
+          "word": "qopchy",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 11,
+          "log_odds": 4.3623115087162345
+        },
+        {
+          "word": "okedy",
+          "with_count": 6,
+          "without_count": 10,
+          "total": 112,
+          "log_odds": 3.625345914550028
+        },
+        {
+          "word": "qokeedy",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 306,
+          "log_odds": 3.3623115087162345
+        },
+        {
+          "word": "okey",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 54,
+          "log_odds": 3.040383413828872
+        },
+        {
+          "word": "sheol",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 104,
+          "log_odds": 2.777349007995078
+        },
+        {
+          "word": "okeedy",
+          "with_count": 2,
+          "without_count": 7,
+          "total": 105,
+          "log_odds": 2.5549565866586303
+        },
+        {
+          "word": "ykeey",
+          "with_count": 2,
+          "without_count": 7,
+          "total": 48,
+          "log_odds": 2.5549565866586303
+        },
+        {
+          "word": "qokedy",
+          "with_count": 4,
+          "without_count": 16,
+          "total": 268,
+          "log_odds": 2.3623115087162345
+        },
+        {
+          "word": "kchy",
+          "with_count": 4,
+          "without_count": 16,
+          "total": 29,
+          "log_odds": 2.3623115087162345
+        },
+        {
+          "word": "tchor",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 21,
+          "log_odds": 2.3623115087162345
+        },
+        {
+          "word": "okeey",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 159,
+          "log_odds": 2.3623115087162345
+        },
+        {
+          "word": "qokeey",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 308,
+          "log_odds": 2.040383413828872
+        },
+        {
+          "word": "ykchy",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 18,
+          "log_odds": 2.040383413828872
+        }
+      ]
+    },
+    "calyx": {
+      "folios": [
+        "f10v",
+        "f18r",
+        "f31r",
+        "f34r",
+        "f39r",
+        "f40v",
+        "f43r",
+        "f46v",
+        "f48v"
+      ],
+      "enriched": [
+        {
+          "word": "shed",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 18,
+          "log_odds": 5.0822231253076735
+        },
+        {
+          "word": "ytam",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 12,
+          "log_odds": 5.0822231253076735
+        },
+        {
+          "word": "tchedy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 33,
+          "log_odds": 5.0822231253076735
+        },
+        {
+          "word": "otchdy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 22,
+          "log_odds": 5.0822231253076735
+        },
+        {
+          "word": "qofchedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 9,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "shckhey",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "fchedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "air",
+          "with_count": 4,
+          "without_count": 1,
+          "total": 56,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "dchedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 24,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "cheedls",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "chdain",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 9,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "ofcheefar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "ykchdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 5,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "olar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 4.497260624586517
+        },
+        {
+          "word": "shckhefy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.497260624586517
+        }
+      ]
+    },
+    "flat_topped_root": {
+      "folios": [
+        "f11r",
+        "f13r",
+        "f14r",
+        "f16r",
+        "f16v",
+        "f19r",
+        "f23r",
+        "f27v",
+        "f36r",
+        "f37v",
+        "f39v",
+        "f45r",
+        "f45v",
+        "f9r"
+      ],
+      "enriched": [
+        {
+          "word": "chkar",
+          "with_count": 4,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 5.286995548758884
+        },
+        {
+          "word": "ykchor",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 5,
+          "log_odds": 4.87195804948004
+        },
+        {
+          "word": "yd",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "okchar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "dcholdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "soiiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "shoyty",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "sheedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 83,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "olchef",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "oykeey",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "dayty",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "okaiir",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "dyky",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "doal",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        },
+        {
+          "word": "sholo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.286995548758884
+        }
+      ]
+    },
+    "large_leaves": {
+      "folios": [
+        "f14v",
+        "f15v",
+        "f46v",
+        "f47r",
+        "f47v"
+      ],
+      "enriched": [
+        {
+          "word": "shckhefy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.9286692866603845
+        },
+        {
+          "word": "daim",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 9,
+          "log_odds": 5.9286692866603845
+        },
+        {
+          "word": "dchyd",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.9286692866603845
+        },
+        {
+          "word": "ydain",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 4.9286692866603845
+        },
+        {
+          "word": "dardy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 3,
+          "log_odds": 4.9286692866603845
+        },
+        {
+          "word": "n",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 4,
+          "log_odds": 3.9286692866603845
+        },
+        {
+          "word": "tor",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 24,
+          "log_odds": 3.5136317873815406
+        },
+        {
+          "word": "dshy",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 9,
+          "log_odds": 3.5136317873815406
+        },
+        {
+          "word": "chdam",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 11,
+          "log_odds": 3.3437067859392284
+        },
+        {
+          "word": "ckhey",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 34,
+          "log_odds": 3.3437067859392284
+        },
+        {
+          "word": "ytchor",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 9,
+          "log_odds": 2.9286692866603845
+        },
+        {
+          "word": "okchor",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 17,
+          "log_odds": 2.606741191773022
+        },
+        {
+          "word": "dair",
+          "with_count": 5,
+          "without_count": 15,
+          "total": 88,
+          "log_odds": 2.3437067859392284
+        },
+        {
+          "word": "m",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 15,
+          "log_odds": 2.3437067859392284
+        },
+        {
+          "word": "otchy",
+          "with_count": 4,
+          "without_count": 13,
+          "total": 42,
+          "log_odds": 2.228229568519292
+        }
+      ]
+    },
+    "large_root": {
+      "folios": [
+        "f32v",
+        "f34r",
+        "f39v",
+        "f45v"
+      ],
+      "enriched": [
+        {
+          "word": "tam",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 8,
+          "log_odds": 5.906430332391698
+        },
+        {
+          "word": "dcholdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.906430332391698
+        },
+        {
+          "word": "cthaiindaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.906430332391698
+        },
+        {
+          "word": "sheedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 83,
+          "log_odds": 5.906430332391698
+        },
+        {
+          "word": "olchef",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.906430332391698
+        },
+        {
+          "word": "chcthedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 8,
+          "log_odds": 5.906430332391698
+        },
+        {
+          "word": "olky",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 22,
+          "log_odds": 4.906430332391698
+        },
+        {
+          "word": "cphor",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 6,
+          "log_odds": 3.906430332391697
+        },
+        {
+          "word": "kam",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 12,
+          "log_odds": 3.906430332391697
+        },
+        {
+          "word": "shky",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 16,
+          "log_odds": 3.906430332391697
+        },
+        {
+          "word": "ain",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 92,
+          "log_odds": 3.906430332391697
+        },
+        {
+          "word": "chd",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 8,
+          "log_odds": 3.906430332391697
+        },
+        {
+          "word": "daram",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 6,
+          "log_odds": 3.906430332391697
+        },
+        {
+          "word": "air",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 56,
+          "log_odds": 3.3214678316705415
+        },
+        {
+          "word": "ykar",
+          "with_count": 3,
+          "without_count": 5,
+          "total": 32,
+          "log_odds": 3.1694647382254915
+        }
+      ]
+    },
+    "multiple_flowers": {
+      "folios": [
+        "f14v",
+        "f15r",
+        "f18r",
+        "f20v",
+        "f22r",
+        "f22v",
+        "f2r",
+        "f34r",
+        "f39v",
+        "f4v"
+      ],
+      "enriched": [
+        {
+          "word": "dardy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.231010047168955
+        },
+        {
+          "word": "okear",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "ychain",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "choross",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "ofchy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "sheedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 83,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "olchef",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "daldalol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "chcthedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 8,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "ypchol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "chtody",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "dchyd",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "ykchol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.646047546447798
+        },
+        {
+          "word": "ychy",
+          "with_count": 3,
+          "without_count": 1,
+          "total": 5,
+          "log_odds": 4.231010047168955
+        },
+        {
+          "word": "sal",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 53,
+          "log_odds": 3.646047546447799
+        }
+      ]
+    },
+    "no_flowers": {
+      "folios": [
+        "f25v",
+        "f3r",
+        "f47r",
+        "f8r"
+      ],
+      "enriched": [
+        {
+          "word": "damo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 6.044622991420628
+        },
+        {
+          "word": "ckhey",
+          "with_count": 3,
+          "without_count": 2,
+          "total": 34,
+          "log_odds": 4.629585492141784
+        },
+        {
+          "word": "cham",
+          "with_count": 5,
+          "without_count": 4,
+          "total": 22,
+          "log_odds": 4.36655108630799
+        },
+        {
+          "word": "ycheor",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 9,
+          "log_odds": 4.044622991420628
+        },
+        {
+          "word": "dshey",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 15,
+          "log_odds": 3.4596604906994712
+        },
+        {
+          "word": "qokcho",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 10,
+          "log_odds": 3.4596604906994712
+        },
+        {
+          "word": "ckhol",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 23,
+          "log_odds": 3.4596604906994712
+        },
+        {
+          "word": "do",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 13,
+          "log_odds": 3.4596604906994712
+        },
+        {
+          "word": "cthom",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 9,
+          "log_odds": 2.4596604906994712
+        },
+        {
+          "word": "chom",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 16,
+          "log_odds": 2.4596604906994712
+        },
+        {
+          "word": "kchor",
+          "with_count": 3,
+          "without_count": 12,
+          "total": 23,
+          "log_odds": 2.0446229914206273
+        },
+        {
+          "word": "am",
+          "with_count": 2,
+          "without_count": 9,
+          "total": 96,
+          "log_odds": 1.8746979899783154
+        },
+        {
+          "word": "kaiin",
+          "with_count": 2,
+          "without_count": 9,
+          "total": 66,
+          "log_odds": 1.8746979899783154
+        },
+        {
+          "word": "qokeey",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 308,
+          "log_odds": 1.7226948965332654
+        },
+        {
+          "word": "dam",
+          "with_count": 5,
+          "without_count": 26,
+          "total": 101,
+          "log_odds": 1.6661113681668978
+        }
+      ]
+    },
+    "parallel_leaves": {
+      "folios": [
+        "f34r",
+        "f39r",
+        "f39v",
+        "f40r",
+        "f40v",
+        "f46r"
+      ],
+      "enriched": [
+        {
+          "word": "shky",
+          "with_count": 4,
+          "without_count": 0,
+          "total": 16,
+          "log_odds": 5.9248277657785975
+        },
+        {
+          "word": "shee",
+          "with_count": 4,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 5.9248277657785975
+        },
+        {
+          "word": "okair",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 20,
+          "log_odds": 5.509790266499754
+        },
+        {
+          "word": "tchedy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 33,
+          "log_odds": 5.509790266499754
+        },
+        {
+          "word": "sheckhy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 37,
+          "log_odds": 5.509790266499754
+        },
+        {
+          "word": "qokam",
+          "with_count": 4,
+          "without_count": 1,
+          "total": 30,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "chekaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "sheedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 83,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "olkaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 33,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "olchef",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "chdain",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 9,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "ykal",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 13,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "ofcheefar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "dardam",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.9248277657785975
+        },
+        {
+          "word": "chkal",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 12,
+          "log_odds": 4.9248277657785975
+        }
+      ]
+    },
+    "pinwheel": {
+      "folios": [
+        "f15v",
+        "f21r",
+        "f25v",
+        "f28r",
+        "f7r",
+        "f7v"
+      ],
+      "enriched": [
+        {
+          "word": "yteol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "okeoaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "qoteeol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "dady",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 5,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "choaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 7,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "kchod",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "qos",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.891769308583855
+        },
+        {
+          "word": "chochy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 3,
+          "log_odds": 4.891769308583855
+        },
+        {
+          "word": "qokcho",
+          "with_count": 3,
+          "without_count": 2,
+          "total": 10,
+          "log_odds": 4.4767318093050115
+        },
+        {
+          "word": "chotchy",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 8,
+          "log_odds": 3.8917693085838554
+        },
+        {
+          "word": "keor",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 9,
+          "log_odds": 3.8917693085838554
+        },
+        {
+          "word": "dshey",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 15,
+          "log_odds": 3.3068068078626998
+        },
+        {
+          "word": "cthody",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 17,
+          "log_odds": 3.3068068078626998
+        },
+        {
+          "word": "kshy",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 7,
+          "log_odds": 3.3068068078626998
+        },
+        {
+          "word": "chkaiin",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 19,
+          "log_odds": 2.8917693085838554
+        }
+      ]
+    },
+    "plain_roots": {
+      "folios": [
+        "f18r",
+        "f26r",
+        "f47v",
+        "f8v",
+        "f9v"
+      ],
+      "enriched": [
+        {
+          "word": "chykchy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.9664157741152675
+        },
+        {
+          "word": "dychol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.9664157741152675
+        },
+        {
+          "word": "daiinotaldordaim",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.9664157741152675
+        },
+        {
+          "word": "eedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.9664157741152675
+        },
+        {
+          "word": "ykchol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 5.9664157741152675
+        },
+        {
+          "word": "ry",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 13,
+          "log_odds": 3.966415774115268
+        },
+        {
+          "word": "cthaiin",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 9,
+          "log_odds": 3.3814532733941114
+        },
+        {
+          "word": "chkaiin",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 19,
+          "log_odds": 2.966415774115268
+        },
+        {
+          "word": "o",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 39,
+          "log_odds": 2.6444876792279053
+        },
+        {
+          "word": "shaiin",
+          "with_count": 3,
+          "without_count": 8,
+          "total": 20,
+          "log_odds": 2.551378274836424
+        },
+        {
+          "word": "kaiin",
+          "with_count": 3,
+          "without_count": 8,
+          "total": 66,
+          "log_odds": 2.551378274836424
+        },
+        {
+          "word": "qokedy",
+          "with_count": 5,
+          "without_count": 15,
+          "total": 268,
+          "log_odds": 2.381453273394112
+        },
+        {
+          "word": "ytedy",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 21,
+          "log_odds": 2.3814532733941114
+        },
+        {
+          "word": "qokchol",
+          "with_count": 3,
+          "without_count": 9,
+          "total": 18,
+          "log_odds": 2.3814532733941114
+        },
+        {
+          "word": "qokchor",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 11,
+          "log_odds": 2.3814532733941114
+        }
+      ]
+    },
+    "root_platform": {
+      "folios": [
+        "f39r",
+        "f43r",
+        "f46r"
+      ],
+      "enriched": [
+        {
+          "word": "shee",
+          "with_count": 4,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 6.6893224112476775
+        },
+        {
+          "word": "sheckhy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 37,
+          "log_odds": 6.2742849119688335
+        },
+        {
+          "word": "ykal",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 13,
+          "log_odds": 5.6893224112476775
+        },
+        {
+          "word": "dardam",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.6893224112476775
+        },
+        {
+          "word": "chckham",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.6893224112476775
+        },
+        {
+          "word": "opchdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 20,
+          "log_odds": 5.6893224112476775
+        },
+        {
+          "word": "old",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.6893224112476775
+        },
+        {
+          "word": "ofcheefar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.6893224112476775
+        },
+        {
+          "word": "daly",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 28,
+          "log_odds": 4.6893224112476775
+        },
+        {
+          "word": "ytchdy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 10,
+          "log_odds": 4.6893224112476775
+        },
+        {
+          "word": "shd",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 4.6893224112476775
+        },
+        {
+          "word": "ches",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 30,
+          "log_odds": 4.6893224112476775
+        },
+        {
+          "word": "otchdy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 22,
+          "log_odds": 4.6893224112476775
+        },
+        {
+          "word": "ytchedy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 10,
+          "log_odds": 4.6893224112476775
+        },
+        {
+          "word": "shed",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 18,
+          "log_odds": 4.6893224112476775
+        }
+      ]
+    },
+    "seeds": {
+      "folios": [
+        "f16r",
+        "f36v",
+        "f41v",
+        "f9r"
+      ],
+      "enriched": [
+        {
+          "word": "dayty",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.457853300860715
+        },
+        {
+          "word": "dyky",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 6.457853300860715
+        },
+        {
+          "word": "doal",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.457853300860715
+        },
+        {
+          "word": "qokeody",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 30,
+          "log_odds": 5.457853300860715
+        },
+        {
+          "word": "opchy",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 15,
+          "log_odds": 4.042815801581872
+        },
+        {
+          "word": "ytor",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 14,
+          "log_odds": 3.8728908001395594
+        },
+        {
+          "word": "shcthy",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 33,
+          "log_odds": 3.8728908001395594
+        },
+        {
+          "word": "yky",
+          "with_count": 4,
+          "without_count": 8,
+          "total": 17,
+          "log_odds": 3.4578533008607155
+        },
+        {
+          "word": "okey",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 54,
+          "log_odds": 3.1359252059733533
+        },
+        {
+          "word": "ytaiin",
+          "with_count": 2,
+          "without_count": 7,
+          "total": 41,
+          "log_odds": 2.6504983788031113
+        },
+        {
+          "word": "tchor",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 21,
+          "log_odds": 2.4578533008607155
+        },
+        {
+          "word": "tchey",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 22,
+          "log_odds": 2.4578533008607155
+        },
+        {
+          "word": "okeey",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 159,
+          "log_odds": 2.4578533008607155
+        },
+        {
+          "word": "okal",
+          "with_count": 3,
+          "without_count": 14,
+          "total": 129,
+          "log_odds": 2.2354608795242674
+        },
+        {
+          "word": "otar",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 127,
+          "log_odds": 2.1359252059733533
+        }
+      ]
+    },
+    "single_flower": {
+      "folios": [
+        "f11v",
+        "f14r",
+        "f1v",
+        "f42v"
+      ],
+      "enriched": [
+        {
+          "word": "chok",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 6.421980076949072
+        },
+        {
+          "word": "teor",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 5.421980076949072
+        },
+        {
+          "word": "olol",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 17,
+          "log_odds": 4.421980076949072
+        },
+        {
+          "word": "otcho",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 7,
+          "log_odds": 3.8370175762279146
+        },
+        {
+          "word": "qoteey",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 41,
+          "log_odds": 3.8370175762279146
+        },
+        {
+          "word": "dshey",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 15,
+          "log_odds": 3.8370175762279146
+        },
+        {
+          "word": "okol",
+          "with_count": 5,
+          "without_count": 10,
+          "total": 63,
+          "log_odds": 3.421980076949071
+        },
+        {
+          "word": "okor",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 29,
+          "log_odds": 2.8370175762279146
+        },
+        {
+          "word": "kchy",
+          "with_count": 4,
+          "without_count": 16,
+          "total": 29,
+          "log_odds": 2.421980076949071
+        },
+        {
+          "word": "tchey",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 22,
+          "log_odds": 2.421980076949071
+        },
+        {
+          "word": "taiin",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 41,
+          "log_odds": 2.421980076949071
+        },
+        {
+          "word": "dol",
+          "with_count": 5,
+          "without_count": 22,
+          "total": 107,
+          "log_odds": 2.284476553199136
+        },
+        {
+          "word": "chody",
+          "with_count": 4,
+          "without_count": 18,
+          "total": 87,
+          "log_odds": 2.252055075506759
+        },
+        {
+          "word": "ky",
+          "with_count": 2,
+          "without_count": 9,
+          "total": 22,
+          "log_odds": 2.252055075506759
+        },
+        {
+          "word": "qotchor",
+          "with_count": 2,
+          "without_count": 9,
+          "total": 15,
+          "log_odds": 2.252055075506759
+        }
+      ]
+    },
+    "small_flowers": {
+      "folios": [
+        "f20r",
+        "f27r",
+        "f4r"
+      ],
+      "enriched": [
+        {
+          "word": "choteol",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 5.785166003572239
+        },
+        {
+          "word": "chary",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 7,
+          "log_odds": 5.785166003572239
+        },
+        {
+          "word": "cthody",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 17,
+          "log_odds": 4.200203502851082
+        },
+        {
+          "word": "qoteey",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 41,
+          "log_odds": 4.200203502851082
+        },
+        {
+          "word": "tchey",
+          "with_count": 4,
+          "without_count": 6,
+          "total": 22,
+          "log_odds": 4.200203502851082
+        },
+        {
+          "word": "chees",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 31,
+          "log_odds": 3.7851660035722383
+        },
+        {
+          "word": "qotchol",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 13,
+          "log_odds": 3.4632379086848757
+        },
+        {
+          "word": "qotchey",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 19,
+          "log_odds": 3.4632379086848757
+        },
+        {
+          "word": "cheey",
+          "with_count": 3,
+          "without_count": 9,
+          "total": 170,
+          "log_odds": 3.2002035028510822
+        },
+        {
+          "word": "cthey",
+          "with_count": 4,
+          "without_count": 13,
+          "total": 46,
+          "log_odds": 3.084726285431146
+        },
+        {
+          "word": "cheody",
+          "with_count": 2,
+          "without_count": 7,
+          "total": 78,
+          "log_odds": 2.977811081514634
+        },
+        {
+          "word": "ytchy",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 17,
+          "log_odds": 2.7851660035722383
+        },
+        {
+          "word": "choiin",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 13,
+          "log_odds": 2.4632379086848757
+        },
+        {
+          "word": "chaiin",
+          "with_count": 3,
+          "without_count": 22,
+          "total": 41,
+          "log_odds": 1.910696885656097
+        },
+        {
+          "word": "tchy",
+          "with_count": 2,
+          "without_count": 15,
+          "total": 23,
+          "log_odds": 1.8782754079637198
+        }
+      ]
+    },
+    "small_leaves": {
+      "folios": [
+        "f20r",
+        "f2r",
+        "f32r",
+        "f43r",
+        "f45v",
+        "f4r",
+        "f4v"
+      ],
+      "enriched": [
+        {
+          "word": "choteol",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.872804972508547
+        },
+        {
+          "word": "dcholdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.287842471787391
+        },
+        {
+          "word": "daral",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.287842471787391
+        },
+        {
+          "word": "chtody",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.287842471787391
+        },
+        {
+          "word": "opchdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 20,
+          "log_odds": 5.287842471787391
+        },
+        {
+          "word": "old",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.287842471787391
+        },
+        {
+          "word": "otchdy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 22,
+          "log_odds": 4.287842471787391
+        },
+        {
+          "word": "ytchedy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 10,
+          "log_odds": 4.287842471787391
+        },
+        {
+          "word": "qokey",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 108,
+          "log_odds": 3.2878424717873913
+        },
+        {
+          "word": "odal",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 12,
+          "log_odds": 3.2878424717873913
+        },
+        {
+          "word": "yty",
+          "with_count": 4,
+          "without_count": 5,
+          "total": 22,
+          "log_odds": 2.9659143769000287
+        },
+        {
+          "word": "cheody",
+          "with_count": 4,
+          "without_count": 5,
+          "total": 78,
+          "log_odds": 2.9659143769000287
+        },
+        {
+          "word": "qotol",
+          "with_count": 6,
+          "without_count": 8,
+          "total": 48,
+          "log_odds": 2.8728049725085474
+        },
+        {
+          "word": "qotchol",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 13,
+          "log_odds": 2.8728049725085474
+        },
+        {
+          "word": "dan",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 14,
+          "log_odds": 2.8728049725085474
+        }
+      ]
+    },
+    "star_leaves": {
+      "folios": [
+        "f16r",
+        "f32v",
+        "f33v",
+        "f6v"
+      ],
+      "enriched": [
+        {
+          "word": "cthaiindaiin",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.105844297627867
+        },
+        {
+          "word": "dyky",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 6.105844297627867
+        },
+        {
+          "word": "doal",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.105844297627867
+        },
+        {
+          "word": "porar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.105844297627867
+        },
+        {
+          "word": "oees",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 8,
+          "log_odds": 5.105844297627867
+        },
+        {
+          "word": "okary",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 8,
+          "log_odds": 5.105844297627867
+        },
+        {
+          "word": "okaly",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 17,
+          "log_odds": 5.105844297627867
+        },
+        {
+          "word": "opchy",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 15,
+          "log_odds": 3.690806798349023
+        },
+        {
+          "word": "shcthy",
+          "with_count": 2,
+          "without_count": 3,
+          "total": 33,
+          "log_odds": 3.520881796906711
+        },
+        {
+          "word": "sar",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 72,
+          "log_odds": 2.783916202740505
+        },
+        {
+          "word": "kchdy",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 18,
+          "log_odds": 2.783916202740505
+        },
+        {
+          "word": "cthom",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 9,
+          "log_odds": 2.520881796906711
+        },
+        {
+          "word": "tar",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 44,
+          "log_odds": 2.520881796906711
+        },
+        {
+          "word": "okchy",
+          "with_count": 3,
+          "without_count": 9,
+          "total": 25,
+          "log_odds": 2.5208817969067105
+        },
+        {
+          "word": "cthar",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 19,
+          "log_odds": 2.105844297627867
+        }
+      ]
+    },
+    "thorny_roots": {
+      "folios": [
+        "f22v",
+        "f27v",
+        "f44r"
+      ],
+      "enriched": [
+        {
+          "word": "daldalol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 6.968068484968433
+        },
+        {
+          "word": "okcho",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 9,
+          "log_odds": 4.968068484968433
+        },
+        {
+          "word": "dsho",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 8,
+          "log_odds": 3.9680684849684327
+        },
+        {
+          "word": "dchy",
+          "with_count": 5,
+          "without_count": 15,
+          "total": 27,
+          "log_odds": 3.3831059842472766
+        },
+        {
+          "word": "ychor",
+          "with_count": 2,
+          "without_count": 7,
+          "total": 17,
+          "log_odds": 3.1607135629108285
+        },
+        {
+          "word": "qoky",
+          "with_count": 4,
+          "without_count": 15,
+          "total": 146,
+          "log_odds": 3.061177889359914
+        },
+        {
+          "word": "otchy",
+          "with_count": 3,
+          "without_count": 14,
+          "total": 42,
+          "log_odds": 2.745676063631985
+        },
+        {
+          "word": "ykchy",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 18,
+          "log_odds": 2.6461403900810705
+        },
+        {
+          "word": "otam",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 46,
+          "log_odds": 2.6461403900810705
+        },
+        {
+          "word": "choky",
+          "with_count": 2,
+          "without_count": 11,
+          "total": 36,
+          "log_odds": 2.5086368663311354
+        },
+        {
+          "word": "kchy",
+          "with_count": 3,
+          "without_count": 17,
+          "total": 29,
+          "log_odds": 2.4655681444392497
+        },
+        {
+          "word": "qotchy",
+          "with_count": 5,
+          "without_count": 31,
+          "total": 63,
+          "log_odds": 2.33580026946892
+        },
+        {
+          "word": "qokchy",
+          "with_count": 3,
+          "without_count": 22,
+          "total": 70,
+          "log_odds": 2.0935993670522914
+        },
+        {
+          "word": "shy",
+          "with_count": 6,
+          "without_count": 46,
+          "total": 92,
+          "log_odds": 2.029469029632576
+        },
+        {
+          "word": "dam",
+          "with_count": 3,
+          "without_count": 28,
+          "total": 101,
+          "log_odds": 1.745676063631985
+        }
+      ]
+    },
+    "three_stems": {
+      "folios": [
+        "f14v",
+        "f20v",
+        "f45r",
+        "f45v",
+        "f46r"
+      ],
+      "enriched": [
+        {
+          "word": "shee",
+          "with_count": 4,
+          "without_count": 0,
+          "total": 11,
+          "log_odds": 6.64467202897619
+        },
+        {
+          "word": "sheckhy",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 37,
+          "log_odds": 6.229634529697347
+        },
+        {
+          "word": "okchar",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.64467202897619
+        },
+        {
+          "word": "dcholdy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.64467202897619
+        },
+        {
+          "word": "dardam",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.64467202897619
+        },
+        {
+          "word": "chckham",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.64467202897619
+        },
+        {
+          "word": "dchyd",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.64467202897619
+        },
+        {
+          "word": "otshy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 4.64467202897619
+        },
+        {
+          "word": "shd",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 4.64467202897619
+        },
+        {
+          "word": "shos",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 8,
+          "log_odds": 4.64467202897619
+        },
+        {
+          "word": "ykeol",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 11,
+          "log_odds": 4.64467202897619
+        },
+        {
+          "word": "ydain",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 4,
+          "log_odds": 4.64467202897619
+        },
+        {
+          "word": "dardy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 3,
+          "log_odds": 4.64467202897619
+        },
+        {
+          "word": "shky",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 16,
+          "log_odds": 3.6446720289761907
+        },
+        {
+          "word": "cheos",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 29,
+          "log_odds": 3.6446720289761907
+        }
+      ]
+    },
+    "two_leaf_shapes": {
+      "folios": [
+        "f11r",
+        "f15r",
+        "f18r",
+        "f19r",
+        "f27r",
+        "f28v"
+      ],
+      "enriched": [
+        {
+          "word": "ykchor",
+          "with_count": 3,
+          "without_count": 0,
+          "total": 5,
+          "log_odds": 6.394862471221602
+        },
+        {
+          "word": "okear",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "choross",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "daky",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "shoyty",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "ds",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "chordy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "shoteo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "ykchol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 5.809899970500446
+        },
+        {
+          "word": "chary",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 7,
+          "log_odds": 4.809899970500446
+        },
+        {
+          "word": "chl",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 24,
+          "log_odds": 3.809899970500446
+        },
+        {
+          "word": "o",
+          "with_count": 3,
+          "without_count": 4,
+          "total": 39,
+          "log_odds": 3.394862471221602
+        },
+        {
+          "word": "qokchor",
+          "with_count": 3,
+          "without_count": 5,
+          "total": 11,
+          "log_odds": 3.07293437633424
+        },
+        {
+          "word": "qokchol",
+          "with_count": 4,
+          "without_count": 8,
+          "total": 18,
+          "log_odds": 2.809899970500446
+        },
+        {
+          "word": "chkaiin",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 19,
+          "log_odds": 2.809899970500446
+        }
+      ]
+    },
+    "two_plants": {
+      "folios": [
+        "f23r",
+        "f24r",
+        "f27r",
+        "f40v",
+        "f43v",
+        "f48v"
+      ],
+      "enriched": [
+        {
+          "word": "qokain",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 275,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "sham",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 8,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "qocthedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "ok",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "cheedls",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "lkeo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "pchedy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 35,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "yfor",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 5.166571566332503
+        },
+        {
+          "word": "cthal",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 8,
+          "log_odds": 4.166571566332503
+        },
+        {
+          "word": "chees",
+          "with_count": 4,
+          "without_count": 2,
+          "total": 31,
+          "log_odds": 4.166571566332503
+        },
+        {
+          "word": "oteody",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 19,
+          "log_odds": 4.166571566332503
+        },
+        {
+          "word": "ytam",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 12,
+          "log_odds": 4.166571566332503
+        },
+        {
+          "word": "shecthy",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 21,
+          "log_odds": 4.166571566332503
+        },
+        {
+          "word": "chary",
+          "with_count": 2,
+          "without_count": 1,
+          "total": 7,
+          "log_odds": 4.166571566332503
+        },
+        {
+          "word": "kedy",
+          "with_count": 4,
+          "without_count": 3,
+          "total": 46,
+          "log_odds": 3.5816090656113464
+        }
+      ]
+    },
+    "veined_leaves": {
+      "folios": [
+        "f13r",
+        "f16v",
+        "f19r",
+        "f20r",
+        "f25r",
+        "f25v",
+        "f27r",
+        "f28v",
+        "f2v",
+        "f30r",
+        "f36r",
+        "f41v",
+        "f6r",
+        "f6v",
+        "f8r",
+        "f9v"
+      ],
+      "enriched": [
+        {
+          "word": "qokcho",
+          "with_count": 4,
+          "without_count": 1,
+          "total": 10,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "qochol",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "ochy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 4,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "shty",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 6,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "rchey",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 9,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "shoteo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "qodchy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "chordy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "pchocthy",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "sholo",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "qotshey",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 3,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "daiinotaldordaim",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "cky",
+          "with_count": 2,
+          "without_count": 0,
+          "total": 2,
+          "log_odds": 4.144877355716434
+        },
+        {
+          "word": "chain",
+          "with_count": 5,
+          "without_count": 2,
+          "total": 17,
+          "log_odds": 3.4668054506037964
+        },
+        {
+          "word": "daiiin",
+          "with_count": 4,
+          "without_count": 2,
+          "total": 15,
+          "log_odds": 3.1448773557164342
+        }
+      ]
+    },
+    "white_flowers": {
+      "folios": [
+        "f27v",
+        "f28v",
+        "f32r"
+      ],
+      "enriched": [
+        {
+          "word": "chl",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 24,
+          "log_odds": 5.049292918771292
+        },
+        {
+          "word": "okcho",
+          "with_count": 2,
+          "without_count": 2,
+          "total": 9,
+          "log_odds": 5.049292918771292
+        },
+        {
+          "word": "chkaiin",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 19,
+          "log_odds": 4.049292918771292
+        },
+        {
+          "word": "dsho",
+          "with_count": 2,
+          "without_count": 4,
+          "total": 8,
+          "log_odds": 4.049292918771292
+        },
+        {
+          "word": "o",
+          "with_count": 2,
+          "without_count": 5,
+          "total": 39,
+          "log_odds": 3.72736482388393
+        },
+        {
+          "word": "dary",
+          "with_count": 2,
+          "without_count": 6,
+          "total": 21,
+          "log_odds": 3.464330418050136
+        },
+        {
+          "word": "ctho",
+          "with_count": 2,
+          "without_count": 8,
+          "total": 16,
+          "log_odds": 3.0492929187712923
+        },
+        {
+          "word": "dchy",
+          "with_count": 4,
+          "without_count": 16,
+          "total": 27,
+          "log_odds": 3.0492929187712923
+        },
+        {
+          "word": "otol",
+          "with_count": 2,
+          "without_count": 10,
+          "total": 65,
+          "log_odds": 2.72736482388393
+        },
+        {
+          "word": "qoty",
+          "with_count": 3,
+          "without_count": 17,
+          "total": 82,
+          "log_odds": 2.5467925782421097
+        },
+        {
+          "word": "qotol",
+          "with_count": 2,
+          "without_count": 12,
+          "total": 48,
+          "log_odds": 2.464330418050136
+        },
+        {
+          "word": "tchy",
+          "with_count": 2,
+          "without_count": 15,
+          "total": 23,
+          "log_odds": 2.1424023231627736
+        },
+        {
+          "word": "dol",
+          "with_count": 3,
+          "without_count": 24,
+          "total": 107,
+          "log_odds": 2.0492929187712923
+        },
+        {
+          "word": "dair",
+          "with_count": 2,
+          "without_count": 18,
+          "total": 88,
+          "log_odds": 1.8793679173289801
+        },
+        {
+          "word": "kchy",
+          "with_count": 2,
+          "without_count": 18,
+          "total": 29,
+          "log_odds": 1.8793679173289801
+        }
+      ]
+    }
+  },
+  "adjective_candidates": [
+    {
+      "word": "okair",
+      "feature": "parallel_leaves",
+      "log_odds": 5.509790266499754,
+      "count": 3
+    },
+    {
+      "word": "chkar",
+      "feature": "flat_topped_root",
+      "log_odds": 5.286995548758884,
+      "count": 4
+    },
+    {
+      "word": "shed",
+      "feature": "calyx",
+      "log_odds": 5.0822231253076735,
+      "count": 3
+    },
+    {
+      "word": "ytam",
+      "feature": "calyx",
+      "log_odds": 5.0822231253076735,
+      "count": 3
+    },
+    {
+      "word": "qokam",
+      "feature": "parallel_leaves",
+      "log_odds": 4.9248277657785975,
+      "count": 4
+    },
+    {
+      "word": "tcheey",
+      "feature": "berries",
+      "log_odds": 4.919515597693075,
+      "count": 3
+    },
+    {
+      "word": "okchol",
+      "feature": "blue_flowers",
+      "log_odds": 4.729588929557391,
+      "count": 4
+    },
+    {
+      "word": "air",
+      "feature": "calyx",
+      "log_odds": 4.497260624586517,
+      "count": 4
+    },
+    {
+      "word": "key",
+      "feature": "blue_flowers",
+      "log_odds": 4.314551430278547,
+      "count": 3
+    },
+    {
+      "word": "okedy",
+      "feature": "brown_root",
+      "log_odds": 3.625345914550028,
+      "count": 6
+    },
+    {
+      "word": "tor",
+      "feature": "large_leaves",
+      "log_odds": 3.5136317873815406,
+      "count": 3
+    },
+    {
+      "word": "dshy",
+      "feature": "large_leaves",
+      "log_odds": 3.5136317873815406,
+      "count": 3
+    },
+    {
+      "word": "yky",
+      "feature": "seeds",
+      "log_odds": 3.4578533008607155,
+      "count": 4
+    },
+    {
+      "word": "okol",
+      "feature": "single_flower",
+      "log_odds": 3.421980076949071,
+      "count": 5
+    },
+    {
+      "word": "cheey",
+      "feature": "small_flowers",
+      "log_odds": 3.2002035028510822,
+      "count": 3
+    },
+    {
+      "word": "cthey",
+      "feature": "small_flowers",
+      "log_odds": 3.084726285431146,
+      "count": 4
+    },
+    {
+      "word": "qoky",
+      "feature": "thorny_roots",
+      "log_odds": 3.061177889359914,
+      "count": 4
+    },
+    {
+      "word": "otchy",
+      "feature": "thorny_roots",
+      "log_odds": 2.745676063631985,
+      "count": 3
+    },
+    {
+      "word": "shaiin",
+      "feature": "plain_roots",
+      "log_odds": 2.551378274836424,
+      "count": 3
+    },
+    {
+      "word": "qoty",
+      "feature": "white_flowers",
+      "log_odds": 2.5467925782421097,
+      "count": 3
+    },
+    {
+      "word": "kchy",
+      "feature": "single_flower",
+      "log_odds": 2.421980076949071,
+      "count": 4
+    },
+    {
+      "word": "qokedy",
+      "feature": "brown_root",
+      "log_odds": 2.3623115087162345,
+      "count": 4
+    }
+  ]
+}

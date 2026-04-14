@@ -1,0 +1,1171 @@
+{
+  "total_labels": 550,
+  "recurring_words": {
+    "s": {
+      "n_folios": 6,
+      "sections": [
+        "A",
+        "B",
+        "C",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r",
+        "f67r2",
+        "f69r",
+        "f75v",
+        "f76r"
+      ]
+    },
+    "o": {
+      "n_folios": 5,
+      "sections": [
+        "A",
+        "B",
+        "C",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r",
+        "f68r3",
+        "f69r",
+        "f76r"
+      ]
+    },
+    "r": {
+      "n_folios": 5,
+      "sections": [
+        "B",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f1r",
+        "f49v",
+        "f66r",
+        "f75v",
+        "f76r"
+      ]
+    },
+    "d": {
+      "n_folios": 5,
+      "sections": [
+        "B",
+        "C",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f1r",
+        "f49v",
+        "f66r",
+        "f69r",
+        "f76r"
+      ]
+    },
+    "am": {
+      "n_folios": 5,
+      "sections": [
+        "A",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f101v",
+        "f67r2",
+        "f70v1",
+        "f70v2",
+        "f88r"
+      ]
+    },
+    "otol": {
+      "n_folios": 5,
+      "sections": [
+        "A",
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f102v2",
+        "f68r1",
+        "f71r",
+        "f77r",
+        "f77v"
+      ]
+    },
+    "otedy": {
+      "n_folios": 5,
+      "sections": [
+        "B",
+        "Z"
+      ],
+      "folios": [
+        "f73v",
+        "f75v",
+        "f77r",
+        "f82v",
+        "f84r"
+      ]
+    },
+    "otoldy": {
+      "n_folios": 5,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f82v",
+        "f89r1",
+        "f89r2",
+        "f99r",
+        "f99v"
+      ]
+    },
+    "y": {
+      "n_folios": 4,
+      "sections": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r",
+        "f69r",
+        "f89r2"
+      ]
+    },
+    "l": {
+      "n_folios": 4,
+      "sections": [
+        "B",
+        "C",
+        "T"
+      ],
+      "folios": [
+        "f66r",
+        "f69r",
+        "f75v",
+        "f76r"
+      ]
+    },
+    "okol": {
+      "n_folios": 4,
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f101v",
+        "f73v",
+        "f88r",
+        "f89r2"
+      ]
+    },
+    "otal": {
+      "n_folios": 4,
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f101v",
+        "f72r2",
+        "f75v",
+        "f99v"
+      ]
+    },
+    "dy": {
+      "n_folios": 4,
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f102v2",
+        "f70v1",
+        "f75v",
+        "f89r2"
+      ]
+    },
+    "okain": {
+      "n_folios": 4,
+      "sections": [
+        "A",
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f67r2",
+        "f77v",
+        "f82v",
+        "f89r2"
+      ]
+    },
+    "okaiin": {
+      "n_folios": 4,
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f72v2",
+        "f83v",
+        "f88v",
+        "f89r1"
+      ]
+    },
+    "otaly": {
+      "n_folios": 4,
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f73r",
+        "f84r",
+        "f88r",
+        "f99v"
+      ]
+    },
+    "chos": {
+      "n_folios": 3,
+      "sections": [
+        "P"
+      ],
+      "folios": [
+        "f100v",
+        "f89r2",
+        "f89v1"
+      ]
+    },
+    "otory": {
+      "n_folios": 3,
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f102v2",
+        "f68r3",
+        "f88v"
+      ]
+    },
+    "otor": {
+      "n_folios": 3,
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f68r1",
+        "f88r",
+        "f89v1"
+      ]
+    },
+    "otoly": {
+      "n_folios": 3,
+      "sections": [
+        "B",
+        "Z"
+      ],
+      "folios": [
+        "f73r",
+        "f75v",
+        "f84r"
+      ]
+    },
+    "f": {
+      "n_folios": 2,
+      "sections": [
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r"
+      ]
+    },
+    "dal": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "B"
+      ],
+      "folios": [
+        "f68r3",
+        "f75v"
+      ]
+    },
+    "k": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "H"
+      ],
+      "folios": [
+        "f49v",
+        "f76r"
+      ]
+    },
+    "p": {
+      "n_folios": 2,
+      "sections": [
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r"
+      ]
+    },
+    "okary": {
+      "n_folios": 2,
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f73r",
+        "f99r"
+      ]
+    },
+    "orol": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f100r",
+        "f82r"
+      ]
+    },
+    "sar": {
+      "n_folios": 2,
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f100r",
+        "f70v2"
+      ]
+    },
+    "ykchdy": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f100v",
+        "f68r1"
+      ]
+    },
+    "otaldy": {
+      "n_folios": 2,
+      "sections": [
+        "P"
+      ],
+      "folios": [
+        "f101v",
+        "f88r"
+      ]
+    },
+    "okeody": {
+      "n_folios": 2,
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f102v1",
+        "f73v"
+      ]
+    },
+    "oror": {
+      "n_folios": 2,
+      "sections": [
+        "P",
+        "S"
+      ],
+      "folios": [
+        "f102v2",
+        "f116v"
+      ]
+    },
+    "dam": {
+      "n_folios": 2,
+      "sections": [
+        "H",
+        "P"
+      ],
+      "folios": [
+        "f65r",
+        "f99r"
+      ]
+    },
+    "qokal": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "T"
+      ],
+      "folios": [
+        "f66r",
+        "f75v"
+      ]
+    },
+    "air": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "T"
+      ],
+      "folios": [
+        "f66r",
+        "f67r2"
+      ]
+    },
+    "okal": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "B"
+      ],
+      "folios": [
+        "f67r2",
+        "f82r"
+      ]
+    },
+    "okoldy": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "B"
+      ],
+      "folios": [
+        "f68r1",
+        "f82r"
+      ]
+    },
+    "dchol": {
+      "n_folios": 2,
+      "sections": [
+        "A"
+      ],
+      "folios": [
+        "f68r2",
+        "f68r3"
+      ]
+    },
+    "chol": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f68r2",
+        "f89r1"
+      ]
+    },
+    "okos": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f68r3",
+        "f99r"
+      ]
+    },
+    "chdy": {
+      "n_folios": 2,
+      "sections": [
+        "A",
+        "Z"
+      ],
+      "folios": [
+        "f68r3",
+        "f71r"
+      ]
+    },
+    "oteos": {
+      "n_folios": 2,
+      "sections": [
+        "C",
+        "Z"
+      ],
+      "folios": [
+        "f69r",
+        "f71r"
+      ]
+    },
+    "or": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "Z"
+      ],
+      "folios": [
+        "f72r3",
+        "f84r"
+      ]
+    },
+    "darol": {
+      "n_folios": 2,
+      "sections": [
+        "B"
+      ],
+      "folios": [
+        "f75v",
+        "f82r"
+      ]
+    },
+    "oty": {
+      "n_folios": 2,
+      "sections": [
+        "B"
+      ],
+      "folios": [
+        "f75v",
+        "f82v"
+      ]
+    },
+    "dary": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f75v",
+        "f88r"
+      ]
+    },
+    "opal": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f75v",
+        "f89v1"
+      ]
+    },
+    "okchdy": {
+      "n_folios": 2,
+      "sections": [
+        "B"
+      ],
+      "folios": [
+        "f78r",
+        "f83v"
+      ]
+    },
+    "okolo": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f80r",
+        "f99r"
+      ]
+    },
+    "okory": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f80r",
+        "f89v2"
+      ]
+    },
+    "olkol": {
+      "n_folios": 2,
+      "sections": [
+        "B"
+      ],
+      "folios": [
+        "f81v",
+        "f82v"
+      ]
+    },
+    "olaiin": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f82r",
+        "f89v1"
+      ]
+    },
+    "daiin": {
+      "n_folios": 2,
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f82v",
+        "f89v1"
+      ]
+    },
+    "otoky": {
+      "n_folios": 2,
+      "sections": [
+        "P"
+      ],
+      "folios": [
+        "f88r",
+        "f99v"
+      ]
+    },
+    "sheol": {
+      "n_folios": 2,
+      "sections": [
+        "P"
+      ],
+      "folios": [
+        "f89r2",
+        "f89v2"
+      ]
+    }
+  },
+  "cross_section": {
+    "orol": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f100r",
+        "f82r"
+      ]
+    },
+    "sar": {
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f100r",
+        "f70v2"
+      ]
+    },
+    "ykchdy": {
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f100v",
+        "f68r1"
+      ]
+    },
+    "okol": {
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f101v",
+        "f73v",
+        "f88r",
+        "f89r2"
+      ]
+    },
+    "am": {
+      "sections": [
+        "A",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f101v",
+        "f67r2",
+        "f70v1",
+        "f70v2",
+        "f88r"
+      ]
+    },
+    "otal": {
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f101v",
+        "f72r2",
+        "f75v",
+        "f99v"
+      ]
+    },
+    "okeody": {
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f102v1",
+        "f73v"
+      ]
+    },
+    "dy": {
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f102v2",
+        "f70v1",
+        "f75v",
+        "f89r2"
+      ]
+    },
+    "oror": {
+      "sections": [
+        "P",
+        "S"
+      ],
+      "folios": [
+        "f102v2",
+        "f116v"
+      ]
+    },
+    "otol": {
+      "sections": [
+        "A",
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f102v2",
+        "f68r1",
+        "f71r",
+        "f77r",
+        "f77v"
+      ]
+    },
+    "otory": {
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f102v2",
+        "f68r3",
+        "f88v"
+      ]
+    },
+    "d": {
+      "sections": [
+        "B",
+        "C",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f1r",
+        "f49v",
+        "f66r",
+        "f69r",
+        "f76r"
+      ]
+    },
+    "r": {
+      "sections": [
+        "B",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f1r",
+        "f49v",
+        "f66r",
+        "f75v",
+        "f76r"
+      ]
+    },
+    "f": {
+      "sections": [
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r"
+      ]
+    },
+    "k": {
+      "sections": [
+        "B",
+        "H"
+      ],
+      "folios": [
+        "f49v",
+        "f76r"
+      ]
+    },
+    "s": {
+      "sections": [
+        "A",
+        "B",
+        "C",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r",
+        "f67r2",
+        "f69r",
+        "f75v",
+        "f76r"
+      ]
+    },
+    "p": {
+      "sections": [
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r"
+      ]
+    },
+    "o": {
+      "sections": [
+        "A",
+        "B",
+        "C",
+        "H",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r",
+        "f68r3",
+        "f69r",
+        "f76r"
+      ]
+    },
+    "y": {
+      "sections": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
+      "folios": [
+        "f49v",
+        "f66r",
+        "f69r",
+        "f89r2"
+      ]
+    },
+    "dam": {
+      "sections": [
+        "H",
+        "P"
+      ],
+      "folios": [
+        "f65r",
+        "f99r"
+      ]
+    },
+    "qokal": {
+      "sections": [
+        "B",
+        "T"
+      ],
+      "folios": [
+        "f66r",
+        "f75v"
+      ]
+    },
+    "air": {
+      "sections": [
+        "A",
+        "T"
+      ],
+      "folios": [
+        "f66r",
+        "f67r2"
+      ]
+    },
+    "l": {
+      "sections": [
+        "B",
+        "C",
+        "T"
+      ],
+      "folios": [
+        "f66r",
+        "f69r",
+        "f75v",
+        "f76r"
+      ]
+    },
+    "okal": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "folios": [
+        "f67r2",
+        "f82r"
+      ]
+    },
+    "okain": {
+      "sections": [
+        "A",
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f67r2",
+        "f77v",
+        "f82v",
+        "f89r2"
+      ]
+    },
+    "otor": {
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f68r1",
+        "f88r",
+        "f89v1"
+      ]
+    },
+    "okoldy": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "folios": [
+        "f68r1",
+        "f82r"
+      ]
+    },
+    "chol": {
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f68r2",
+        "f89r1"
+      ]
+    },
+    "dal": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "folios": [
+        "f68r3",
+        "f75v"
+      ]
+    },
+    "okos": {
+      "sections": [
+        "A",
+        "P"
+      ],
+      "folios": [
+        "f68r3",
+        "f99r"
+      ]
+    },
+    "chdy": {
+      "sections": [
+        "A",
+        "Z"
+      ],
+      "folios": [
+        "f68r3",
+        "f71r"
+      ]
+    },
+    "oteos": {
+      "sections": [
+        "C",
+        "Z"
+      ],
+      "folios": [
+        "f69r",
+        "f71r"
+      ]
+    },
+    "or": {
+      "sections": [
+        "B",
+        "Z"
+      ],
+      "folios": [
+        "f72r3",
+        "f84r"
+      ]
+    },
+    "okaiin": {
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f72v2",
+        "f83v",
+        "f88v",
+        "f89r1"
+      ]
+    },
+    "otoly": {
+      "sections": [
+        "B",
+        "Z"
+      ],
+      "folios": [
+        "f73r",
+        "f75v",
+        "f84r"
+      ]
+    },
+    "okary": {
+      "sections": [
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f73r",
+        "f99r"
+      ]
+    },
+    "otaly": {
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ],
+      "folios": [
+        "f73r",
+        "f84r",
+        "f88r",
+        "f99v"
+      ]
+    },
+    "otedy": {
+      "sections": [
+        "B",
+        "Z"
+      ],
+      "folios": [
+        "f73v",
+        "f75v",
+        "f77r",
+        "f82v",
+        "f84r"
+      ]
+    },
+    "dary": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f75v",
+        "f88r"
+      ]
+    },
+    "opal": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f75v",
+        "f89v1"
+      ]
+    },
+    "okolo": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f80r",
+        "f99r"
+      ]
+    },
+    "okory": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f80r",
+        "f89v2"
+      ]
+    },
+    "olaiin": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f82r",
+        "f89v1"
+      ]
+    },
+    "daiin": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f82v",
+        "f89v1"
+      ]
+    },
+    "otoldy": {
+      "sections": [
+        "B",
+        "P"
+      ],
+      "folios": [
+        "f82v",
+        "f89r1",
+        "f89r2",
+        "f99r",
+        "f99v"
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Voynich Preliminary Lexicon</title>
+<style>@font-face{font-family:'VoynichEVA';src:url('fonts/Voynich/VoynichEVA.ttf')format('truetype')}
+body{font-family:'Segoe UI',system-ui,sans-serif;max-width:1200px;margin:0 auto;padding:20px;background:#0d1117;color:#c9d1d9;line-height:1.6}
+h1{color:#58a6ff;border-bottom:2px solid #1f6feb}h2{color:#79c0ff;margin-top:30px}
+.v{font-family:'VoynichEVA',serif;font-size:1.8em;color:#ffa657;letter-spacing:3px}
+.eva{font-family:monospace;background:#161b22;padding:2px 8px;border-radius:3px;color:#7ee787;font-size:1.1em}
+table{border-collapse:collapse;margin:10px 0;background:#161b22;width:100%}
+th,td{border:1px solid #30363d;padding:10px 12px;text-align:left;vertical-align:top}
+th{background:#21262d;color:#58a6ff}
+tr:hover{background:#1c2128}
+.conf-A{color:#7ee787;font-weight:bold}.conf-B{color:#d29922}.conf-C{color:#8b949e}
+.note{background:#1c2128;border-left:4px solid #1f6feb;padding:12px 15px;margin:15px 0}
+.paradigm{font-family:monospace;color:#d2a8ff;font-size:0.9em}
+</style></head><body>
+<h1>Voynich Manuscript — Preliminary Lexicon</h1>
+<div class='note'>
+<strong>40 entries</strong> compiled from distributional analysis, 
+visual cross-referencing, structural tokenization, and declension analysis. 
+No phonetic values assigned — all analysis is structural/distributional. 
+<br>Confidence: <span class='conf-A'>A (strong)</span> = 16, 
+<span class='conf-B'>B (moderate)</span> = 16, 
+<span class='conf-C'>C (tentative)</span> = 8
+</div>
+<h2>Function Word</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐉󿐐󿐀󿐀󿐁</span></td><td><span class='eva'>daiin</span></td><td class='conf-A'>A</td><td>Most common word; likely preposition, copula, or demonstrative ("this", "the", "is", "in")<br><span class='paradigm'>Paradigm: daiin, dain, dair, dar, dal, dam, dan</span></td><td>Highest frequency (829). Appears in all sections. Head of the da- paradigm with 7+ declined forms. Dominates herbal section (54%) suggesting it introduces/connects descriptions.</td></tr>
+<tr><td><span class='v'>󿐔󿐃</span></td><td><span class='eva'>or</span></td><td class='conf-A'>A</td><td>Declined form of ol/or/ar/al paradigm<br><span class='paradigm'>Paradigm: ol, or, al, ar, am</span></td><td>Vector analogy ol:or::al:ar confirmed (cosine 0.72). Same paradigm as ol.</td></tr>
+<tr><td><span class='v'>󿐐󿐃</span></td><td><span class='eva'>ar</span></td><td class='conf-A'>A</td><td>Declined form of ol/or/ar/al paradigm<br><span class='paradigm'>Paradigm: ol, or, al, ar, am</span></td><td>Stars-heavy (48%). Vector analogy confirmed.</td></tr>
+<tr><td><span class='v'>󿐐󿐚</span></td><td><span class='eva'>al</span></td><td class='conf-A'>A</td><td>Declined form of ol/or/ar/al paradigm<br><span class='paradigm'>Paradigm: ol, or, al, ar, am</span></td><td>Stars-heavy (63%). Strongly enriched on astronomical pages.</td></tr>
+<tr><td><span class='v'>󿐔󿐚</span></td><td><span class='eva'>ol</span></td><td class='conf-B'>B</td><td>Common function word; possibly "water", "of", or a case marker<br><span class='paradigm'>Paradigm: ol, or, al, ar, am</span></td><td>Second most common (534). Appears as prefix in water-page compounds (olkain, olshey, orol). Bio/bath section enriched (48%). Forms word-initial element in pool/water vocabulary.</td></tr>
+</table>
+<h2>Prefix/Determiner</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐝󿐔-</span></td><td><span class='eva'>qo-</span></td><td class='conf-A'>A</td><td>Word-initial prefix; determiner, relative pronoun, or definite article</td><td>Token QO has positional entropy 0.098 (virtually always word-initial). 97.6% q+o co-occurrence. Attaches to stems from all domains (qokedy=Bio, qoor=Pharma, qokedaiin=Stars). Forms the most productive...</td></tr>
+</table>
+<h2>Prefix</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐔-</span></td><td><span class='eva'>o-</span></td><td class='conf-B'>B</td><td>Word-initial element on labels; possibly Arabic definite article al- or a general determiner</td><td>67% of star labels and 90%+ of zodiac labels begin with o-. Arabic star names universally begin with al-. May be the same element as standalone "ol/or/al/ar" in declined form.</td></tr>
+</table>
+<h2>Suffix/Particle</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐉󿐗</span></td><td><span class='eva'>dy</span></td><td class='conf-B'>B</td><td>Common word-final element; possibly locative case marker ("in/at") or verbal suffix</td><td>Appears in all sections. Sentence-initial clustering in Language B (chi2=75.3). As suffix: -dy/-edy/-eedy form the dominant Language B ending pattern.</td></tr>
+</table>
+<h2>Particle</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐊</span></td><td><span class='eva'>s</span></td><td class='conf-B'>B</td><td>Short function word; possibly conjunction ("and") or sentence particle</td><td>Appears in all 7 section types. High frequency (191). Herbal-enriched (67%).</td></tr>
+</table>
+<h2>Particle/Suffix</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐗</span></td><td><span class='eva'>y</span></td><td class='conf-A'>A</td><td>Common word-final token; vowel or grammatical suffix</td><td>Token Y has mean position 0.879 (strongly word-final). 11.9% of all tokens.</td></tr>
+</table>
+<h2>Suffix</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>-󿐐󿐀󿐀󿐁/-󿐐󿐀󿐁</span></td><td><span class='eva'>-aiin/-ain</span></td><td class='conf-A'>A</td><td>Case/declension ending; short vs long vowel marks grammatical distinction (possibly nominative vs accusative, or definite vs indefinite)<br><span class='paradigm'>Paradigm: daiin/dain, okaiin/okain, aiin/ain, saiin/sain, otaiin/otain</span></td><td>AII+N has positional entropy 0.217 (virtually always word-final). PMI 4.89. daiin/dain differ in collocation (Jaccard <0.2 in Lang A). 4.64x within-family vector similarity vs random baseline.</td></tr>
+<tr><td><span class='v'>-󿐆󿐉󿐗/-󿐆󿐆󿐉󿐗</span></td><td><span class='eva'>-edy/-eedy</span></td><td class='conf-A'>A</td><td>Case/declension ending; Language B dominant suffix. Vowel length (ee vs e) marks grammatical distinction<br><span class='paradigm'>Paradigm: chedy/cheedy, shedy/sheedy, qokedy/qokeedy, otedy/oteedy</span></td><td>chedy/cheedy, shedy/sheedy, qokedy/qokeedy all show different collocations. -edy is the signature morpheme of Currier Language B.</td></tr>
+<tr><td><span class='v'>-󿐆󿐗/-󿐆󿐆󿐗</span></td><td><span class='eva'>-ey/-eey</span></td><td class='conf-A'>A</td><td>Case/declension ending; related to -edy system<br><span class='paradigm'>Paradigm: chey/cheey, shey/sheey, qokey/qokeey, okey/okeey</span></td><td>chey/cheey, shey/sheey show systematic paradigmatic behavior.</td></tr>
+</table>
+<h2>Suffix Set</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>-󿐔󿐚/-󿐔󿐃/-󿐐󿐚/-󿐐󿐃/-󿐐󿐄</span></td><td><span class='eva'>-ol/-or/-al/-ar/-am</span></td><td class='conf-A'>A</td><td>Five-way case ending system on stems; the core declension paradigm<br><span class='paradigm'>Paradigm: chol/chor, shol/shor, okal/okar/okam, otal/otar</span></td><td>Vector analogy ol:or::al:ar confirmed. Five endings attach to all major stems: ch-ol/-or, sh-ol/-or, ok-al/-ar/-am, ot-al/-ar. Suffix agreement ratio 1.70x (Lang A).</td></tr>
+</table>
+<h2>Stem (Astronomical)</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐚󿐢-</span></td><td><span class='eva'>lk-</span></td><td class='conf-A'>A</td><td>Astronomical domain marker; possibly "star", "constellation", or "celestial body"<br><span class='paradigm'>Paradigm: lkaiin, lkeey, lkeeey, lkam, lkal, lkchdy, lkshedy</span></td><td>Almost exclusively on Stars section pages (lkaiin: 45 astro / 5 other). Takes full declension endings (-aiin, -eey, -am, -al, -chdy). Too frequent for a proper noun; likely a common noun.</td></tr>
+</table>
+<h2>Label (Cross-Ref)</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐔󿐣󿐔󿐚</span></td><td><span class='eva'>otol</span></td><td class='conf-A'>A</td><td>Label appearing across Astro/Bio/Pharma/Zodiac; a key cross-reference term linking star diagrams to bath procedures to recipes</td><td>The most connected label: f68r1 (star label), f71r (zodiac), f77r+f77v (bath tubes), f102v2 (pharma fragment). Four-way section bridge.</td></tr>
+<tr><td><span class='v'>󿐔󿐣󿐔󿐚󿐉󿐗</span></td><td><span class='eva'>otoldy</span></td><td class='conf-A'>A</td><td>Declined form of otol; labels bath tube (f82v) and pharma fragments (f89r1, f89r2, f99r, f99v)</td><td>Strongest Bio↔Pharma bridge (5 folios). Appears as both container label and fragment label.</td></tr>
+</table>
+<h2>Label (Plant Name?)</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐔󿐣󿐐󿐚󿐗</span></td><td><span class='eva'>otaly</span></td><td class='conf-A'>A</td><td>Name of a brown multi-fingered root plant; visually confirmed across pharma pages. Cross-references zodiac (Scorpio?) and bath section.</td><td>Visual verification: f88r and f99v both show brown multi-fingered root fragments. f73r labels nymph on Scorpio zodiac page. f84r labels bath flow. Complete pharma reference chain: zodiac timing → bath...</td></tr>
+</table>
+<h2>Label Modifier</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐐󿐄</span></td><td><span class='eva'>am</span></td><td class='conf-B'>B</td><td>Appears as second word in compound labels (okain am, otor am, sar am); possibly a unit marker, quantity, or temporal modifier</td><td>Bridges Astro/Pharma/Zodiac. On zodiac pages appears with sign labels (otalchy tar am dy). On pharma pages modifies fragment labels.</td></tr>
+</table>
+<h2>Stem</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐌󿐏-</span></td><td><span class='eva'>ch-</span></td><td class='conf-B'>B</td><td>Major content stem; takes all declension endings. Herbal and Bio sections. Possibly a general botanical term or common noun<br><span class='paradigm'>Paradigm: chol, chor, chey, cheey, chedy, cheedy, cheol, cheor</span></td><td>Second largest paradigm (585 endings, 5004 occurrences). CHol, CHor, CHey, CHedy are among the most common words.</td></tr>
+<tr><td><span class='v'>󿐊󿐏-</span></td><td><span class='eva'>sh-</span></td><td class='conf-B'>B</td><td>Major content stem parallel to ch-; same endings. Bio section enriched (60% for shedy)<br><span class='paradigm'>Paradigm: shol, shor, shey, sheey, shedy, sheedy, sheol</span></td><td>Third largest paradigm. SH- and CH- behave as parallel stems (vector analogy chol:chor::shol:shor confirmed). May be two related nouns or a grammatical alternation.</td></tr>
+</table>
+<h2>Content Word</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐌󿐏󿐆󿐔󿐚</span></td><td><span class='eva'>cheol</span></td><td class='conf-B'>B</td><td>Pharma-enriched word (24%). Possibly names a container type, preparation method, or ingredient category</td><td>Appears on jar-illustration pages. Related to cheor (also pharma-enriched). The -eol ending may mark pharma-specific vocabulary.</td></tr>
+<tr><td><span class='v'>󿐝󿐔󿐚</span></td><td><span class='eva'>qol</span></td><td class='conf-B'>B</td><td>Bio/bath section word (78% bio). Likely relates to bath/water procedure or nymph-associated concept</td><td>Strongly enriched on pool/nymph pages. Nearest neighbors: qokain, chedy, ly, oly — all bio-section words.</td></tr>
+<tr><td><span class='v'>󿐌󿐣󿐏󿐗</span></td><td><span class='eva'>cthy</span></td><td class='conf-B'>B</td><td>Herbal-exclusive word (88% herbal). Likely describes a plant property or processing step</td><td>Appears on 44 herbal folios. Nearest neighbors: daiin, chor, tchol, qotchy, chol — all herbal vocabulary.</td></tr>
+<tr><td><span class='v'>󿐔󿐢󿐆󿐔󿐚</span></td><td><span class='eva'>okeol</span></td><td class='conf-B'>B</td><td>Strongly pharma-associated (52%). Likely names a specific preparation or container contents</td><td>Nearest neighbor: qockheol (0.77). The -eol ending cluster is pharma-specific.</td></tr>
+</table>
+<h2>Bath Vocabulary</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐝󿐔󿐚󿐌󿐏󿐆󿐉󿐗</span></td><td><span class='eva'>qolchedy</span></td><td class='conf-B'>B</td><td>Bio/bath exclusive (100%). Labels or describes something specific to the bath/nymph illustrations</td><td>11 occurrences, all on Bio pages. Never in herbal or stars.</td></tr>
+<tr><td><span class='v'>󿐔󿐃󿐔󿐚󿐗</span></td><td><span class='eva'>oroly</span></td><td class='conf-B'>B</td><td>Bath/water exclusive (100%). Contains ol- prefix. Likely water/pool-related</td><td>6 occurrences, all on pool/water pages.</td></tr>
+</table>
+<h2>Herbal Vocabulary</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐌󿐣󿐏󿐔</span></td><td><span class='eva'>ctho</span></td><td class='conf-B'>B</td><td>Herbal exclusive (100%). Likely describes a plant property, processing step, or part name</td><td>16 occurrences, all herbal. Never in other sections.</td></tr>
+</table>
+<h2>Stellar Vocabulary</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐊󿐏󿐆󿐉󿐐󿐀󿐁</span></td><td><span class='eva'>shedain</span></td><td class='conf-B'>B</td><td>Stars exclusive (100%). Likely a stellar/astronomical term</td><td>10 occurrences, all on Stars pages.</td></tr>
+</table>
+<h2>Adjective?</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐔󿐢󿐆󿐉󿐗</span></td><td><span class='eva'>okedy</span></td><td class='conf-C'>C</td><td>Enriched on brown-root plant pages; candidate for "brown" or "dark"</td><td>Log-odds 3.63 for brown_root feature.</td></tr>
+<tr><td><span class='v'>󿐔󿐢󿐔󿐚</span></td><td><span class='eva'>okol</span></td><td class='conf-C'>C</td><td>Enriched on single-flower plant pages; candidate for "single" or "one"</td><td>Log-odds 3.42 for single_flower feature. Also appears as zodiac/pharma label.</td></tr>
+<tr><td><span class='v'>󿐊󿐏󿐆󿐉</span></td><td><span class='eva'>shed</span></td><td class='conf-C'>C</td><td>Enriched on calyx-type flower pages; candidate for "cup-shaped" or descriptor of calyx structure</td><td>Log-odds 5.08 for calyx feature.</td></tr>
+<tr><td><span class='v'>󿐗󿐢󿐗</span></td><td><span class='eva'>yky</span></td><td class='conf-C'>C</td><td>Enriched on seed-bearing plant pages; candidate for "seed" or "grain"</td><td>Log-odds 3.46 for seeds feature.</td></tr>
+<tr><td><span class='v'>󿐢󿐆󿐗</span></td><td><span class='eva'>key</span></td><td class='conf-C'>C</td><td>Enriched exclusively on blue-flower plant pages; short word, strong color term candidate for "blue"</td><td>Log-odds 4.31 for blue_flowers feature. 3 occurrences, all on blue-flower pages.</td></tr>
+<tr><td><span class='v'>󿐌󿐏󿐢󿐐󿐃</span></td><td><span class='eva'>chkar</span></td><td class='conf-C'>C</td><td>Enriched exclusively on flat-topped-root pages; candidate for "flat" or "truncated"</td><td>Log-odds 5.29 for flat_topped_root. 4 occurrences, all on flat-root pages.</td></tr>
+<tr><td><span class='v'>󿐊󿐏󿐆󿐆</span></td><td><span class='eva'>shee</span></td><td class='conf-C'>C</td><td>Enriched on root-platform plant pages; candidate for "platform", "base", or "earth"</td><td>Log-odds 6.34 for root_platform feature. 4 occurrences, all on platform-root pages.</td></tr>
+<tr><td><span class='v'>󿐔󿐢󿐌󿐏󿐔󿐚</span></td><td><span class='eva'>okchol</span></td><td class='conf-C'>C</td><td>Enriched exclusively on blue-flower plant pages; candidate for color term "blue"</td><td>Log-odds 4.73 for blue_flowers feature. Appears only on folios with blue-flowered plants.</td></tr>
+</table>
+<h2>Structural</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐌 (EVA)</span></td><td><span class='eva'>c (EVA)</span></td><td class='conf-A'>A</td><td>NOT a phoneme. Structural left-bracket of the ch ligature and gallows cartouche. 99.8% followed by h/t/k/p/f.</td><td>Only 29/12645 instances of c not followed by h/t/k/p/f. Functions as glyph connector.</td></tr>
+</table>
+<h2>Glyph Unit</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐌󿐏 (EVA)</span></td><td><span class='eva'>ch (EVA)</span></td><td class='conf-A'>A</td><td>Single consonant unit (ligated cc). The most common consonant in the script.</td><td>10412 occurrences. Takes gallows modifiers: cth, ckh, cph, cfh. Position: mean 0.211 (word-initial tendency).</td></tr>
+</table>
+<h2>Modifiers</h2>
+<table><tr><th>Glyph</th><th>EVA</th><th>Conf</th><th>Meaning</th><th>Evidence</th></tr>
+<tr><td><span class='v'>󿐋󿐐󿐚󿐚󿐔w󿐊 (󿐣,󿐢,󿐡,󿐠)</span></td><td><span class='eva'>gallows (t,k,p,f)</span></td><td class='conf-B'>B</td><td>Not standalone consonants but modifiers of adjacent characters. Create the cartouche construct c-gallows-h. May encode aspiration, emphasis, or phonological features.</td><td>63% of t preceded by o. 48% of p followed by c (→pch compound). True consonant inventory is ~8 base consonants with modifier variants.</td></tr>
+</table>
+</body></html>

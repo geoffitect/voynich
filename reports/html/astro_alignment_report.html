@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Voynich Manuscript — Astronomical Alignment Analysis</title>
+<style>
+@font-face {
+    font-family: 'VoynichEVA';
+    src: url('fonts/Voynich/VoynichEVA.ttf') format('truetype');
+}
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    max-width: 1400px; margin: 0 auto; padding: 20px;
+    background: #0d1117; color: #c9d1d9; line-height: 1.6;
+}
+h1 { color: #58a6ff; border-bottom: 2px solid #1f6feb; padding-bottom: 10px; }
+h2 { color: #79c0ff; margin-top: 40px; }
+h3 { color: #a5d6ff; }
+.v {
+    font-family: 'VoynichEVA', serif;
+    font-size: 1.5em; color: #ffa657; letter-spacing: 2px;
+}
+.eva {
+    font-family: 'Courier New', monospace;
+    background: #161b22; padding: 1px 6px; border-radius: 3px;
+    color: #7ee787; font-size: 0.9em;
+}
+table { border-collapse: collapse; margin: 15px 0; background: #161b22; width: 100%; }
+th, td { border: 1px solid #30363d; padding: 8px 12px; text-align: left; }
+th { background: #21262d; color: #58a6ff; }
+tr:hover { background: #1c2128; }
+.freq { color: #8b949e; font-size: 0.85em; }
+.note {
+    background: #1c2128; border-left: 4px solid #1f6feb;
+    padding: 12px 15px; margin: 15px 0;
+}
+.highlight { background: #2d1b00; border-left: 4px solid #d29922; padding: 12px 15px; margin: 15px 0; }
+.lang-ar { color: #f78166; } /* Arabic = red-orange */
+.lang-pe { color: #d2a8ff; } /* Persian = purple */
+.lang-tu { color: #7ee787; } /* Turkic = green */
+.match { background: #1a3a1a; }
+.zodiac-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px;
+}
+.zodiac-card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 15px;
+}
+.zodiac-card h4 { margin: 0 0 8px 0; color: #ffa657; }
+.struct-bar { display: inline-block; height: 4px; margin-right: 0; vertical-align: middle; }
+.struct-c { background: #58a6ff; }
+.struct-v { background: #ffa657; }
+</style>
+</head>
+<body>
+<h1>Voynich Manuscript — Astronomical Alignment</h1>
+<p>Cross-referencing Voynich astronomical vocabulary with Near Eastern
+(Arabic, Persian, Old Turkic) astronomical terminology.</p>
+
+<h2>1. Zodiac Page Labels vs Near Eastern Zodiac Terms</h2>
+<div class="note">
+    Each zodiac page in the Voynich (f70v–f73v) has 1-2 label words associated
+    with the zodiac figure. Below we align these with Arabic, Persian, and Turkic
+    zodiac terms, comparing structural properties.
+    </div>
+<div class="zodiac-grid">
+<div class="zodiac-card">
+<h4>Aries/Pisces — f70v1</h4>
+<div><span class="v">󿐔󿐢󿐔󿐚󿐗</span> <span class="eva">okoly</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div><span class="v">󿐔󿐣󿐐󿐚󿐌󿐏󿐗</span> <span class="eva">otalchy</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div><span class="v">󿐣󿐐󿐃</span> <span class="eva">tar</span> <span class="freq">~1 syl, <span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> CVC</span></div>
+<div><span class="v">󿐐󿐄</span> <span class="eva">am</span> <span class="freq">~1 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VC</span></div>
+<div><span class="v">󿐉󿐗</span> <span class="eva">dy</span> <span class="freq">~1 syl, <span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> CV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Ḥamal</span> (ram)<br>
+<span class="lang-pe">Persian: bara</span> (lamb)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Taurus/Aries — f70v2</h4>
+<div><span class="v">󿐔󿐣󿐐󿐚󿐐󿐚󿐋</span> <span class="eva">otalalg</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVCVC</span></div>
+<div><span class="v">󿐊󿐐󿐃</span> <span class="eva">sar</span> <span class="freq">~1 syl, <span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> CVC</span></div>
+<div><span class="v">󿐐󿐄</span> <span class="eva">am</span> <span class="freq">~1 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VC</span></div>
+<div><span class="v">󿐔󿐣󿐗󿐚󿐐󿐚</span> <span class="eva">otylal</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVCVC</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Thawr</span> (bull)<br>
+<span class="lang-pe">Persian: gāv</span> (bull)<br>
+<span class="lang-tu">Turkic: ud</span> (ox)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Gemini/Taurus — f71r</h4>
+<div><span class="v">󿐔󿐣󿐔󿐚</span> <span class="eva">otol</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div><span class="v">󿐌󿐏󿐉󿐗</span> <span class="eva">chdy</span> <span class="freq">~1 syl, <span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> CV</span></div>
+<div><span class="v">󿐔󿐣󿐆󿐔󿐊</span> <span class="eva">oteos</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div><span class="v">󿐐󿐃󿐐󿐃</span> <span class="eva">arar</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Jawzāʾ</span> (twins)<br>
+<span class="lang-pe">Persian: du-paykar</span> (two-form)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Cancer/Gemini — f71v</h4>
+<div><span class="v">󿐔󿐠󿐐󿐌󿐠󿐔󿐄</span> <span class="eva">ofacfom</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVCVC</span></div>
+<div><span class="v">󿐌󿐏󿐐󿐃</span> <span class="eva">char</span> <span class="freq">~1 syl, <span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> CVC</span></div>
+<div><span class="v">󿐔󿐃󿐔󿐄</span> <span class="eva">orom</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Saraṭān</span> (crab)<br>
+<span class="lang-pe">Persian: kharchang</span> (crab)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Leo/Cancer — f72r1</h4>
+<div><span class="v">󿐔󿐠󿐐󿐃󿐐󿐚󿐐󿐃</span> <span class="eva">ofaralar</span> <span class="freq">~4 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVCVCVC</span></div>
+<div><span class="v">󿐔󿐊󿐏󿐔󿐉󿐔󿐉󿐗</span> <span class="eva">oshodody</span> <span class="freq">~4 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCVCV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Asad</span> (lion)<br>
+<span class="lang-pe">Persian: shīr</span> (lion)<br>
+<span class="lang-tu">Turkic: bars</span> (leopard/tiger for year=tiger)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Virgo/Leo — f72r2</h4>
+<div><span class="v">󿐔󿐠󿐌󿐏󿐉󿐐󿐉󿐗</span> <span class="eva">ofchdady</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div><span class="v">󿐔󿐣󿐐󿐚</span> <span class="eva">otal</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div><span class="v">󿐔󿐣󿐐󿐃󿐐󿐚󿐉󿐗</span> <span class="eva">otaraldy</span> <span class="freq">~4 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCVCV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Sunbula</span> (ear of grain)<br>
+<span class="lang-pe">Persian: khūsha</span> (ear of grain)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Libra/Virgo — f72r3</h4>
+<div><span class="v">󿐔󿐃</span> <span class="eva">or</span> <span class="freq">~1 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VC</span></div>
+<div><span class="v">󿐐󿐚󿐢󿐐󿐄</span> <span class="eva">alkam</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div><span class="v">󿐔󿐚󿐢󿐐󿐚󿐐󿐀󿐀󿐁</span> <span class="eva">olkalaiin</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVCVC</span></div>
+<div><span class="v">󿐔󿐡󿐐󿐚󿐐󿐚</span> <span class="eva">opalal</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVCVC</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Mīzān</span> (balance)<br>
+<span class="lang-pe">Persian: tarāzū</span> (scales)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Scorpio/Libra — f72v1</h4>
+<div><span class="v">󿐔󿐆󿐆󿐔󿐣󿐗</span> <span class="eva">oeeoty</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCV</span></div>
+<div><span class="v">󿐔󿐆󿐆󿐔󿐚󿐗</span> <span class="eva">oeeoly</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-ʿAqrab</span> (scorpion)<br>
+<span class="lang-pe">Persian: kazhdum</span> (scorpion)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Sagittarius/Scorpio — f72v2</h4>
+<div><span class="v">󿐔󿐆󿐆󿐉󿐆󿐗</span> <span class="eva">oeedey</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCV</span></div>
+<div><span class="v">󿐔󿐢󿐐󿐀󿐀󿐁</span> <span class="eva">okaiin</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Qaws</span> (bow)<br>
+<span class="lang-pe">Persian: kamān</span> (bow)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Capricorn/Sagittarius — f72v3</h4>
+<div><span class="v">󿐔󿐋󿐆󿐔󿐄</span> <span class="eva">ogeom</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div><span class="v">󿐊󿐏󿐔󿐚󿐆󿐆󿐗</span> <span class="eva">sholeey</span> <span class="freq">~2 syl, <span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> CVCV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Jady</span> (kid/goat)<br>
+<span class="lang-pe">Persian: buzghāla</span> (kid)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Aquarius/Capricorn — f73r</h4>
+<div><span class="v">󿐔󿐣󿐔󿐚󿐗</span> <span class="eva">otoly</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div><span class="v">󿐔󿐢󿐐󿐃󿐗</span> <span class="eva">okary</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div><span class="v">󿐔󿐣󿐐󿐚󿐗</span> <span class="eva">otaly</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Dalw</span> (bucket)<br>
+<span class="lang-pe">Persian: dalv</span> (bucket)<br>
+</div>
+</div>
+<div class="zodiac-card">
+<h4>Pisces/Aquarius — f73v</h4>
+<div><span class="v">󿐔󿐢󿐔󿐚</span> <span class="eva">okol</span> <span class="freq">~2 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span> VCVC</span></div>
+<div><span class="v">󿐔󿐣󿐆󿐉󿐗</span> <span class="eva">otedy</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div><span class="v">󿐔󿐢󿐆󿐔󿐉󿐗</span> <span class="eva">okeody</span> <span class="freq">~3 syl, <span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span><span class="struct-bar struct-c" style="width:8px"></span><span class="struct-bar struct-v" style="width:8px"></span> VCVCV</span></div>
+<div style="margin-top:8px; font-size:0.9em">
+<span class="lang-ar">Arabic: al-Ḥūt</span> (fish)<br>
+<span class="lang-pe">Persian: māhī</span> (fish)<br>
+</div>
+</div>
+</div>
+<h2>2. Star Labels (f68r1, f68r2) — Structural Catalog</h2>
+<div class="note">
+    The star pages (f68r1-r2) contain ~60 individual star labels, almost all unique.
+    Most begin with <span class="eva">o-</span> (possibly the Arabic article <em>al-</em>
+    or a Turkic/Persian prefix). Below we catalogue their structural properties and
+    compare with known star names.
+    </div>
+<div class="highlight"><strong>Key observation:</strong> 43/64 star labels (67%) begin with <span class="eva">o-</span>. Compare: Arabic star names almost universally begin with <em>al-</em> (the definite article). If EVA <span class="eva">o</span> encodes /al/ or /el/, this would explain the pattern.</div>
+<table><tr><th>#</th><th>Glyph</th><th>EVA</th><th>Syllables</th><th>CV Pattern</th><th>Possible NE Comparison</th></tr>
+<tr><td>1</td><td><span class="v">󿐝󿐔󿐣󿐔󿐆󿐐󿐃</span></td><td><span class="eva">qotoear</span></td><td>2</td><td><span class="freq">CVCVC</span></td><td></td></tr>
+<tr class="match"><td>2</td><td><span class="v">󿐔󿐣󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">otcheody</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td>cf. al-Dabarān? (4 syl, VC-CVCVCVC) = Aldebaran</td></tr>
+<tr class="match"><td>3</td><td><span class="v">󿐔󿐢󿐔󿐐󿐚󿐗</span></td><td><span class="eva">okoaly</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td>cf. al-ʿAyyūq? (3 syl) = Capella, or Ülker</td></tr>
+<tr class="match"><td>4</td><td><span class="v">󿐌󿐏󿐔󿐌󿐡󿐏󿐗</span></td><td><span class="eva">chocphy</span></td><td>2</td><td><span class="freq">CVCV</span></td><td>cf. Čolpan? (2 syl, CVCCVC) = Venus (Turkic)</td></tr>
+<tr class="match"><td>5</td><td><span class="v">󿐔󿐌󿐣󿐏󿐆󿐗</span></td><td><span class="eva">octhey</span></td><td>2</td><td><span class="freq">VCV</span></td><td>cf. al-Shiʿrā? (3 syl) = Sirius</td></tr>
+<tr><td>6</td><td><span class="v">󿐔󿐣󿐌󿐊󿐆󿐗</span></td><td><span class="eva">otcsey</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr class="match"><td>7</td><td><span class="v">󿐔󿐣󿐗󿐉󿐗</span></td><td><span class="eva">otydy</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td>cf. al-Jady (3 syl) = Polaris/Capricorn</td></tr>
+<tr class="match"><td>8</td><td><span class="v">󿐔󿐢󿐆󿐔󿐃</span></td><td><span class="eva">okeor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td>cf. al-Qawr? or Ülker (2 syl)</td></tr>
+<tr class="match"><td>9</td><td><span class="v">󿐌󿐡󿐏󿐔󿐌󿐣󿐏󿐗</span></td><td><span class="eva">cphocthy</span></td><td>2</td><td><span class="freq">CVCV</span></td><td>cf. Čolpan variant? (3 syl)</td></tr>
+<tr><td>10</td><td><span class="v">󿐗󿐣󿐌󿐏󿐔󿐉󿐗</span></td><td><span class="eva">ytchody</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr class="match"><td>11</td><td><span class="v">󿐔󿐣󿐗󿐊</span></td><td><span class="eva">otys</span></td><td>2</td><td><span class="freq">VCVC</span></td><td>cf. al-Shiʿrā short form? or Turkic yulduz stem</td></tr>
+<tr class="match"><td>12</td><td><span class="v">󿐔󿐚󿐔󿐃</span></td><td><span class="eva">olor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td>cf. al-Nasr? (2 syl)</td></tr>
+<tr><td>13</td><td><span class="v">󿐔󿐌󿐢󿐏󿐗</span></td><td><span class="eva">ockhy</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr><td>14</td><td><span class="v">󿐔󿐠󿐌󿐏󿐆󿐔󿐃</span></td><td><span class="eva">ofcheor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>15</td><td><span class="v">󿐔󿐣󿐌󿐊󿐉󿐔</span></td><td><span class="eva">otcsdo</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr><td>16</td><td><span class="v">󿐔󿐣󿐗󿐢󿐌󿐏󿐊</span></td><td><span class="eva">otykchs</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr class="match"><td>17</td><td><span class="v">󿐔󿐣󿐔󿐚</span></td><td><span class="eva">otol</span></td><td>2</td><td><span class="freq">VCVC</span></td><td>cf. al-Rijl (2 syl, VC-CVCC) "foot=Rigel"</td></tr>
+<tr class="match"><td>18</td><td><span class="v">󿐔󿐣󿐔󿐃</span></td><td><span class="eva">otor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td>cf. al-Thawr (2 syl, VC-CVCC) "bull" or al-Nasr "eagle"</td></tr>
+<tr><td>19</td><td><span class="v">󿐔󿐀󿐀󿐁󿐐󿐃</span></td><td><span class="eva">oiinar</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr class="match"><td>20</td><td><span class="v">󿐔󿐢󿐔󿐚󿐉󿐗</span></td><td><span class="eva">okoldy</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td>cf. al-Qalb + suffix? "heart" = Antares stem</td></tr>
+<tr><td>21</td><td><span class="v">󿐗󿐢󿐌󿐏󿐉󿐗</span></td><td><span class="eva">ykchdy</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr><td>22</td><td><span class="v">󿐣󿐔󿐆󿐆󿐔󿐉󿐌󿐣󿐏󿐗</span></td><td><span class="eva">toeeodcthy</span></td><td>2</td><td><span class="freq">CVCV</span></td><td></td></tr>
+<tr><td>23</td><td><span class="v">󿐔󿐌󿐡󿐏󿐗</span></td><td><span class="eva">ocphy</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr><td>24</td><td><span class="v">󿐔󿐢󿐆󿐆󿐔󿐉󿐐󿐚</span></td><td><span class="eva">okeeodal</span></td><td>3</td><td><span class="freq">VCVCVC</span></td><td></td></tr>
+<tr class="match"><td>25</td><td><span class="v">󿐔󿐢󿐊󿐏󿐔󿐃</span></td><td><span class="eva">okshor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td>cf. al-Nasr? (2 syl) "eagle"</td></tr>
+<tr><td>26</td><td><span class="v">󿐔󿐃󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">ordaiin</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr class="match"><td>27</td><td><span class="v">󿐔󿐣󿐔󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">otochedy</span></td><td>4</td><td><span class="freq">VCVCVCV</span></td><td>cf. al-Thurayyā? (4 syl) = Pleiades</td></tr>
+<tr><td>28</td><td><span class="v">󿐉󿐔󿐚󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">dolchedy</span></td><td>3</td><td><span class="freq">CVCVCV</span></td><td></td></tr>
+<tr class="match"><td>29</td><td><span class="v">󿐔󿐢󿐔󿐉󿐐󿐚󿐗</span></td><td><span class="eva">okodaly</span></td><td>4</td><td><span class="freq">VCVCVCV</span></td><td>cf. al-Jady + suffix? (3 syl)</td></tr>
+<tr><td>30</td><td><span class="v">󿐔󿐉󿐌󿐏󿐆󿐌󿐣󿐏󿐗</span></td><td><span class="eva">odchecthy</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>31</td><td><span class="v">󿐔󿐌󿐏󿐔󿐃󿐗</span></td><td><span class="eva">ochory</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>32</td><td><span class="v">󿐊󿐏󿐉󿐐󿐃</span></td><td><span class="eva">shdar</span></td><td>1</td><td><span class="freq">CVC</span></td><td></td></tr>
+<tr><td>33</td><td><span class="v">󿐉󿐌󿐏󿐔󿐚</span></td><td><span class="eva">dchol</span></td><td>1</td><td><span class="freq">CVC</span></td><td></td></tr>
+<tr><td>34</td><td><span class="v">󿐣󿐔󿐉󿐐󿐃󿐐󿐀󿐀󿐚󿐗</span></td><td><span class="eva">todaraiily</span></td><td>4</td><td><span class="freq">CVCVCVCV</span></td><td></td></tr>
+<tr><td>35</td><td><span class="v">󿐔󿐚󿐌󿐏󿐆󿐆󿐊󿐆󿐗</span></td><td><span class="eva">olcheesey</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>36</td><td><span class="v">󿐔󿐢󿐌󿐏󿐔󿐃</span></td><td><span class="eva">okchor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>37</td><td><span class="v">󿐔󿐣󿐆󿐔󿐔󿐚</span></td><td><span class="eva">oteool</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>38</td><td><span class="v">󿐔󿐗󿐉󿐌󿐏󿐗</span></td><td><span class="eva">oydchy</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr class="match"><td>39</td><td><span class="v">󿐔󿐢󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">okcheody</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td>cf. al-Dabarān variant? (4 syl)</td></tr>
+<tr><td>40</td><td><span class="v">󿐌󿐏󿐔󿐚󿐐󿐃</span></td><td><span class="eva">cholar</span></td><td>2</td><td><span class="freq">CVCVC</span></td><td></td></tr>
+<tr><td>41</td><td><span class="v">󿐉󿐌󿐏󿐆󿐔󿐚󿐉󿐗</span></td><td><span class="eva">dcheoldy</span></td><td>2</td><td><span class="freq">CVCV</span></td><td></td></tr>
+<tr><td>42</td><td><span class="v">󿐔󿐣󿐆󿐆󿐆󿐔󿐃</span></td><td><span class="eva">oteeeor</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>43</td><td><span class="v">󿐆󿐣󿐔󿐌󿐏󿐔</span></td><td><span class="eva">etocho</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>44</td><td><span class="v">󿐔󿐠󿐌󿐏󿐊󿐔󿐉󿐗</span></td><td><span class="eva">ofchsody</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>45</td><td><span class="v">󿐔󿐣󿐌󿐏󿐆󿐔󿐉󿐐󿐃</span></td><td><span class="eva">otcheodar</span></td><td>3</td><td><span class="freq">VCVCVC</span></td><td></td></tr>
+<tr><td>46</td><td><span class="v">󿐔󿐉󿐐󿐀󿐃</span></td><td><span class="eva">odair</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>46</td><td><span class="v">󿐌󿐏󿐔󿐚</span></td><td><span class="eva">chol</span></td><td>1</td><td><span class="freq">CVC</span></td><td></td></tr>
+<tr class="match"><td>47</td><td><span class="v">󿐔󿐡󿐔󿐌󿐡󿐏󿐔󿐃</span></td><td><span class="eva">opocphor</span></td><td>3</td><td><span class="freq">VCVCVC</span></td><td>cf. al-Farqadān? (4 syl) = β γ UMi</td></tr>
+<tr class="match"><td>48</td><td><span class="v">󿐔󿐣󿐔󿐊󿐏󿐔󿐚</span></td><td><span class="eva">otoshol</span></td><td>3</td><td><span class="freq">VCVCVC</span></td><td>cf. al-Simāk? (3 syl) = Arcturus/Spica</td></tr>
+<tr><td>49</td><td><span class="v">󿐌󿐏󿐔󿐉󿐐󿐃</span></td><td><span class="eva">chodar</span></td><td>2</td><td><span class="freq">CVCVC</span></td><td></td></tr>
+<tr><td>50</td><td><span class="v">󿐊󿐏󿐌󿐏󿐗</span></td><td><span class="eva">shchy</span></td><td>1</td><td><span class="freq">CV</span></td><td></td></tr>
+<tr><td>51</td><td><span class="v">󿐔󿐢󿐆󿐆󿐌󿐏󿐔󿐃</span></td><td><span class="eva">okeechor</span></td><td>3</td><td><span class="freq">VCVCVC</span></td><td></td></tr>
+<tr><td>52</td><td><span class="v">󿐔󿐣󿐔󿐚󿐌󿐏󿐌󿐣󿐏󿐗</span></td><td><span class="eva">otolchcthy</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>53</td><td><span class="v">󿐌󿐏󿐆󿐔󿐃󿐔󿐚</span></td><td><span class="eva">cheorol</span></td><td>2</td><td><span class="freq">CVCVC</span></td><td></td></tr>
+<tr><td>54</td><td><span class="v">󿐔󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">odaiin</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>55</td><td><span class="v">󿐉󿐌󿐏󿐔󿐚</span></td><td><span class="eva">dchol</span></td><td>1</td><td><span class="freq">CVC</span></td><td></td></tr>
+<tr><td>55</td><td><span class="v">󿐉󿐐󿐚</span></td><td><span class="eva">dal</span></td><td>1</td><td><span class="freq">CVC</span></td><td></td></tr>
+<tr><td>56</td><td><span class="v">󿐉󿐔󿐐󿐃󿐔</span></td><td><span class="eva">doaro</span></td><td>2</td><td><span class="freq">CVCV</span></td><td></td></tr>
+<tr><td>57</td><td><span class="v">󿐔󿐢󿐔󿐊</span></td><td><span class="eva">okos</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>58</td><td><span class="v">󿐔󿐣󿐔󿐃󿐗</span></td><td><span class="eva">otory</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td></td></tr>
+<tr><td>59</td><td><span class="v">󿐌󿐏󿐉󿐗</span></td><td><span class="eva">chdy</span></td><td>1</td><td><span class="freq">CV</span></td><td></td></tr>
+<tr><td>59</td><td><span class="v">󿐗󿐢󿐗</span></td><td><span class="eva">yky</span></td><td>2</td><td><span class="freq">VCV</span></td><td></td></tr>
+<tr><td>60</td><td><span class="v">󿐐</span></td><td><span class="eva">a</span></td><td>1</td><td><span class="freq">V</span></td><td></td></tr>
+<tr><td>60</td><td><span class="v">󿐌󿐡󿐏󿐗</span></td><td><span class="eva">cphy</span></td><td>1</td><td><span class="freq">CV</span></td><td></td></tr>
+<tr class="match"><td>61</td><td><span class="v">󿐔󿐢󿐔󿐚󿐌󿐏󿐗</span></td><td><span class="eva">okolchy</span></td><td>3</td><td><span class="freq">VCVCV</span></td><td>cf. Ülker + suffix? (3 syl) = Pleiades</td></tr>
+<tr><td>62</td><td><span class="v">󿐔</span></td><td><span class="eva">o</span></td><td>1</td><td><span class="freq">V</span></td><td></td></tr>
+<tr><td>62</td><td><span class="v">󿐌󿐣󿐏󿐗󿐉</span></td><td><span class="eva">cthyd</span></td><td>1</td><td><span class="freq">CVC</span></td><td></td></tr>
+<tr><td>63</td><td><span class="v">󿐔󿐣󿐗󿐉󿐄</span></td><td><span class="eva">otydm</span></td><td>2</td><td><span class="freq">VCVC</span></td><td></td></tr>
+<tr><td>64</td><td><span class="v">󿐉󿐐󿐃󿐐󿐚󿐚</span></td><td><span class="eva">darall</span></td><td>2</td><td><span class="freq">CVCVC</span></td><td></td></tr>
+</table>
+<h2>3. The <span class="eva">o-</span> Prefix Hypothesis</h2>
+<div class="note">
+    If <span class="eva">o</span> = /al/ (Arabic definite article), then stripping it
+    should reveal recognisable stems. Below we strip the <span class="eva">o-</span>
+    and compare the remaining stems against known star names.
+    </div>
+<table><tr><th>Full Label</th><th>Stripped Stem</th><th>Glyph (stem)</th><th>Length</th><th>Near Eastern Candidates</th></tr>
+<tr><td><span class="eva">otcheody</span></td><td><span class="eva">tcheody</span></td><td><span class="v">󿐣󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">okoaly</span></td><td><span class="eva">koaly</span></td><td><span class="v">󿐢󿐔󿐐󿐚󿐗</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">octhey</span></td><td><span class="eva">cthey</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐗</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otcsey</span></td><td><span class="eva">tcsey</span></td><td><span class="v">󿐣󿐌󿐊󿐆󿐗</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otydy</span></td><td><span class="eva">tydy</span></td><td><span class="v">󿐣󿐗󿐉󿐗</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">okeor</span></td><td><span class="eva">keor</span></td><td><span class="v">󿐢󿐆󿐔󿐃</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">otys</span></td><td><span class="eva">tys</span></td><td><span class="v">󿐣󿐗󿐊</span></td><td>3</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">olor</span></td><td><span class="eva">lor</span></td><td><span class="v">󿐚󿐔󿐃</span></td><td>3</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">ockhy</span></td><td><span class="eva">ckhy</span></td><td><span class="v">󿐌󿐢󿐏󿐗</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">ofcheor</span></td><td><span class="eva">fcheor</span></td><td><span class="v">󿐠󿐌󿐏󿐆󿐔󿐃</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otcsdo</span></td><td><span class="eva">tcsdo</span></td><td><span class="v">󿐣󿐌󿐊󿐉󿐔</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otykchs</span></td><td><span class="eva">tykchs</span></td><td><span class="v">󿐣󿐗󿐢󿐌󿐏󿐊</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otol</span></td><td><span class="eva">tol</span></td><td><span class="v">󿐣󿐔󿐚</span></td><td>3</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">otor</span></td><td><span class="eva">tor</span></td><td><span class="v">󿐣󿐔󿐃</span></td><td>3</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">oiinar</span></td><td><span class="eva">iinar</span></td><td><span class="v">󿐀󿐀󿐁󿐐󿐃</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">okoldy</span></td><td><span class="eva">koldy</span></td><td><span class="v">󿐢󿐔󿐚󿐉󿐗</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">ocphy</span></td><td><span class="eva">cphy</span></td><td><span class="v">󿐌󿐡󿐏󿐗</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">okeeodal</span></td><td><span class="eva">keeodal</span></td><td><span class="v">󿐢󿐆󿐆󿐔󿐉󿐐󿐚</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">okshor</span></td><td><span class="eva">kshor</span></td><td><span class="v">󿐢󿐊󿐏󿐔󿐃</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">ordaiin</span></td><td><span class="eva">rdaiin</span></td><td><span class="v">󿐃󿐉󿐐󿐀󿐀󿐁</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otochedy</span></td><td><span class="eva">tochedy</span></td><td><span class="v">󿐣󿐔󿐌󿐏󿐆󿐉󿐗</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">okodaly</span></td><td><span class="eva">kodaly</span></td><td><span class="v">󿐢󿐔󿐉󿐐󿐚󿐗</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">odchecthy</span></td><td><span class="eva">dchecthy</span></td><td><span class="v">󿐉󿐌󿐏󿐆󿐌󿐣󿐏󿐗</span></td><td>8</td><td class="freq">Dabarān (Aldebaran/Follower); Thurayyā (Pleiades); Farqadān (Two Calves (UMi))</td></tr>
+<tr><td><span class="eva">ochory</span></td><td><span class="eva">chory</span></td><td><span class="v">󿐌󿐏󿐔󿐃󿐗</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">olcheesey</span></td><td><span class="eva">lcheesey</span></td><td><span class="v">󿐚󿐌󿐏󿐆󿐆󿐊󿐆󿐗</span></td><td>8</td><td class="freq">Dabarān (Aldebaran/Follower); Thurayyā (Pleiades); Farqadān (Two Calves (UMi))</td></tr>
+<tr><td><span class="eva">okchor</span></td><td><span class="eva">kchor</span></td><td><span class="v">󿐢󿐌󿐏󿐔󿐃</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">oteool</span></td><td><span class="eva">teool</span></td><td><span class="v">󿐣󿐆󿐔󿐔󿐚</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">oydchy</span></td><td><span class="eva">ydchy</span></td><td><span class="v">󿐗󿐉󿐌󿐏󿐗</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">okcheody</span></td><td><span class="eva">kcheody</span></td><td><span class="v">󿐢󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">oteeeor</span></td><td><span class="eva">teeeor</span></td><td><span class="v">󿐣󿐆󿐆󿐆󿐔󿐃</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">ofchsody</span></td><td><span class="eva">fchsody</span></td><td><span class="v">󿐠󿐌󿐏󿐊󿐔󿐉󿐗</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">otcheodar</span></td><td><span class="eva">tcheodar</span></td><td><span class="v">󿐣󿐌󿐏󿐆󿐔󿐉󿐐󿐃</span></td><td>8</td><td class="freq">Dabarān (Aldebaran/Follower); Thurayyā (Pleiades); Farqadān (Two Calves (UMi))</td></tr>
+<tr><td><span class="eva">odair</span></td><td><span class="eva">dair</span></td><td><span class="v">󿐉󿐐󿐀󿐃</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">opocphor</span></td><td><span class="eva">pocphor</span></td><td><span class="v">󿐡󿐔󿐌󿐡󿐏󿐔󿐃</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">otoshol</span></td><td><span class="eva">toshol</span></td><td><span class="v">󿐣󿐔󿐊󿐏󿐔󿐚</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">okeechor</span></td><td><span class="eva">keechor</span></td><td><span class="v">󿐢󿐆󿐆󿐌󿐏󿐔󿐃</span></td><td>7</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Simāk (Raised (Arcturus/Spica))</td></tr>
+<tr><td><span class="eva">otolchcthy</span></td><td><span class="eva">tolchcthy</span></td><td><span class="v">󿐣󿐔󿐚󿐌󿐏󿐌󿐣󿐏󿐗</span></td><td>9</td><td class="freq">Dabarān (Aldebaran/Follower); Farqadān (Two Calves (UMi))</td></tr>
+<tr><td><span class="eva">odaiin</span></td><td><span class="eva">daiin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁</span></td><td>5</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">okos</span></td><td><span class="eva">kos</span></td><td><span class="v">󿐢󿐔󿐊</span></td><td>3</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">otory</span></td><td><span class="eva">tory</span></td><td><span class="v">󿐣󿐔󿐃󿐗</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+<tr><td><span class="eva">okolchy</span></td><td><span class="eva">kolchy</span></td><td><span class="v">󿐢󿐔󿐚󿐌󿐏󿐗</span></td><td>6</td><td class="freq">Dabarān (Aldebaran/Follower); Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem))</td></tr>
+<tr><td><span class="eva">otydm</span></td><td><span class="eva">tydm</span></td><td><span class="v">󿐣󿐗󿐉󿐄</span></td><td>4</td><td class="freq">Shiʿrā (Sirius); Nasr (Eagle (Vega/Altair stem)); Wāqiʿ (Falling (Vega))</td></tr>
+</table>
+<h2>4. Astronomically Distinctive Vocabulary</h2>
+<div class="highlight">
+    <strong>The <span class="eva">lk-</span> prefix:</strong> Words beginning with
+    <span class="eva">lk</span> are almost exclusive to the Stars section
+    (45 occurrences of <span class="eva">lkaiin</span> on astro pages vs 5 elsewhere).
+    This prefix may encode a specific astronomical concept — possibly related to
+    Turkic <em>Ülker</em> (Pleiades), given the structural similarity, or it could be
+    a morphological prefix meaning "star of" or "constellation of."
+    </div>
+<table><tr><th>Word</th><th>Glyph</th><th>Astro</th><th>Other</th><th>Log-odds</th><th>Notes</th></tr>
+<tr><td><span class="eva">shedain</span></td><td><span class="v">󿐊󿐏󿐆󿐉󿐐󿐀󿐁</span></td><td>10</td><td>0</td><td>5.04</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkeeey</span></td><td><span class="v">󿐚󿐢󿐆󿐆󿐆󿐗</span></td><td>8</td><td>0</td><td>4.74</td><td class="freq">lk- + eeey (triple-e variant)</td></tr>
+<tr><td><span class="eva">oteeey</span></td><td><span class="v">󿐔󿐣󿐆󿐆󿐆󿐗</span></td><td>8</td><td>0</td><td>4.74</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkam</span></td><td><span class="v">󿐚󿐢󿐐󿐄</span></td><td>8</td><td>0</td><td>4.74</td><td class="freq">lk- + am (possible case ending)</td></tr>
+<tr><td><span class="eva">chedam</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐄</span></td><td>7</td><td>0</td><td>4.56</td><td class="freq"></td></tr>
+<tr><td><span class="eva">alkaiin</span></td><td><span class="v">󿐐󿐚󿐢󿐐󿐀󿐀󿐁</span></td><td>6</td><td>0</td><td>4.35</td><td class="freq"></td></tr>
+<tr><td><span class="eva">alkain</span></td><td><span class="v">󿐐󿐚󿐢󿐐󿐀󿐁</span></td><td>6</td><td>0</td><td>4.35</td><td class="freq"></td></tr>
+<tr><td><span class="eva">oteal</span></td><td><span class="v">󿐔󿐣󿐆󿐐󿐚</span></td><td>6</td><td>0</td><td>4.35</td><td class="freq"></td></tr>
+<tr><td><span class="eva">sheeey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐆󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkchdy</span></td><td><span class="v">󿐚󿐢󿐌󿐏󿐉󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq">lk- + chdy (common word element)</td></tr>
+<tr><td><span class="eva">ail</span></td><td><span class="v">󿐐󿐀󿐚</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">oteo</span></td><td><span class="v">󿐔󿐣󿐆󿐔</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">cheoty</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐣󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">alky</span></td><td><span class="v">󿐐󿐚󿐢󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkal</span></td><td><span class="v">󿐚󿐢󿐐󿐚</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq">lk- + al (possible case ending)</td></tr>
+<tr><td><span class="eva">qokeechy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐌󿐏󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkeeody</span></td><td><span class="v">󿐚󿐢󿐆󿐆󿐔󿐉󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq">lk- + eeody</td></tr>
+<tr><td><span class="eva">loty</span></td><td><span class="v">󿐚󿐔󿐣󿐗</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">raraiin</span></td><td><span class="v">󿐃󿐐󿐃󿐐󿐀󿐀󿐁</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">qotched</span></td><td><span class="v">󿐝󿐔󿐣󿐌󿐏󿐆󿐉</span></td><td>5</td><td>0</td><td>4.11</td><td class="freq"></td></tr>
+<tr><td><span class="eva">cheeo</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐔</span></td><td>15</td><td>1</td><td>4.02</td><td class="freq"></td></tr>
+<tr><td><span class="eva">opair</span></td><td><span class="v">󿐔󿐡󿐐󿐀󿐃</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">aty</span></td><td><span class="v">󿐐󿐣󿐗</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkair</span></td><td><span class="v">󿐚󿐢󿐐󿐀󿐃</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq">lk- + air</td></tr>
+<tr><td><span class="eva">qopcheey</span></td><td><span class="v">󿐝󿐔󿐡󿐌󿐏󿐆󿐆󿐗</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkeeo</span></td><td><span class="v">󿐚󿐢󿐆󿐆󿐔</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">cheedaiin</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐉󿐐󿐀󿐀󿐁</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">opchedaiin</span></td><td><span class="v">󿐔󿐡󿐌󿐏󿐆󿐉󿐐󿐀󿐀󿐁</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">okaral</span></td><td><span class="v">󿐔󿐢󿐐󿐃󿐐󿐚</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+<tr><td><span class="eva">lkeody</span></td><td><span class="v">󿐚󿐢󿐆󿐔󿐉󿐗</span></td><td>4</td><td>0</td><td>3.82</td><td class="freq"></td></tr>
+</table>
+<h2>5. Near Eastern Astronomical Term Reference</h2>
+<p>Complete reference of terms a 15th-century Near Eastern astronomer would use.</p>
+<h3>Star</h3>
+<table><tr><th>Term</th><th>Language</th><th>Meaning</th><th>Syllables</th><th>CV Pattern</th></tr>
+<tr><td class="lang-tu">yulduz</td><td class="lang-tu">Turkic</td><td>star</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-tu">Temür Qazuq</td><td class="lang-tu">Turkic</td><td>Polaris (Iron Stake)</td><td>4</td><td class="freq">CVCVC CVZVC</td></tr>
+<tr><td class="lang-tu">Ülker</td><td class="lang-tu">Turkic</td><td>Pleiades</td><td>2</td><td class="freq">VCCVC</td></tr>
+<tr><td class="lang-tu">Yēti Qaraqčï</td><td class="lang-tu">Turkic</td><td>Ursa Major (Seven Watchers)</td><td>5</td><td class="freq">CVCV CVVVCCV</td></tr>
+<tr><td class="lang-tu">Altun Qazuq</td><td class="lang-tu">Turkic</td><td>Polaris (Golden Stake)</td><td>4</td><td class="freq">VCCVC CVCVC</td></tr>
+<tr><td class="lang-tu">Kervān Qïran</td><td class="lang-tu">Turkic</td><td>Sirius (Caravan-Destroyer)</td><td>4</td><td class="freq">CVCCVC CVCVC</td></tr>
+<tr><td class="lang-tu">Quz Yulduz</td><td class="lang-tu">Turkic</td><td>Maiden Star</td><td>3</td><td class="freq">CVC CVCCVC</td></tr>
+<tr><td class="lang-ar">al-Dabarān</td><td class="lang-ar">Arabic</td><td>Aldebaran (the Follower)</td><td>4</td><td class="freq">VC-CVCVCVC</td></tr>
+<tr><td class="lang-ar">al-Shiʿrā</td><td class="lang-ar">Arabic</td><td>Sirius</td><td>3</td><td class="freq">VC-CVCCV</td></tr>
+<tr><td class="lang-ar">al-Nasr al-Wāqiʿ</td><td class="lang-ar">Arabic</td><td>Vega (Falling Eagle)</td><td>5</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">al-Nasr al-Ṭāʾir</td><td class="lang-ar">Arabic</td><td>Altair (Flying Eagle)</td><td>5</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">Qalb al-ʿAqrab</td><td class="lang-ar">Arabic</td><td>Antares (Heart of Scorpion)</td><td>4</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">al-Rijl</td><td class="lang-ar">Arabic</td><td>Rigel (the Foot)</td><td>2</td><td class="freq">VC-CVCC</td></tr>
+<tr><td class="lang-ar">Yad al-Jawzāʾ</td><td class="lang-ar">Arabic</td><td>Betelgeuse (Hand of Orion)</td><td>4</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">al-Simāk</td><td class="lang-ar">Arabic</td><td>Arcturus/Spica base name</td><td>3</td><td class="freq">VC-CVCVC</td></tr>
+<tr><td class="lang-ar">Suhayl</td><td class="lang-ar">Arabic</td><td>Canopus</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-ar">al-ʿAyyūq</td><td class="lang-ar">Arabic</td><td>Capella</td><td>3</td><td class="freq">VC-CVCCVC</td></tr>
+<tr><td class="lang-ar">Dhanab al-Dajāja</td><td class="lang-ar">Arabic</td><td>Deneb (Tail of the Hen)</td><td>5</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">Fam al-Ḥūt</td><td class="lang-ar">Arabic</td><td>Fomalhaut (Mouth of Fish)</td><td>3</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">al-Thurayyā</td><td class="lang-ar">Arabic</td><td>Pleiades</td><td>4</td><td class="freq">VC-CVCVCCV</td></tr>
+<tr><td class="lang-ar">al-Farqadān</td><td class="lang-ar">Arabic</td><td>β γ UMi (Two Calves)</td><td>4</td><td class="freq"></td></tr>
+<tr><td class="lang-ar">al-Jady</td><td class="lang-ar">Arabic</td><td>Polaris (the Kid)</td><td>3</td><td class="freq">VC-CVCV</td></tr>
+<tr><td class="lang-pe">sitāra</td><td class="lang-pe">Persian</td><td>star</td><td>3</td><td class="freq">CVCVCV</td></tr>
+<tr><td class="lang-pe">Parvīn</td><td class="lang-pe">Persian</td><td>Pleiades</td><td>2</td><td class="freq">CVCCVC</td></tr>
+</table>
+<h3>Zodiac</h3>
+<table><tr><th>Term</th><th>Language</th><th>Meaning</th><th>Syllables</th><th>CV Pattern</th></tr>
+<tr><td class="lang-tu">sïčqan</td><td class="lang-tu">Turkic</td><td>mouse (year 1)</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-tu">ud</td><td class="lang-tu">Turkic</td><td>ox (year 2)</td><td>1</td><td class="freq">VC</td></tr>
+<tr><td class="lang-tu">bars</td><td class="lang-tu">Turkic</td><td>leopard (year 3)</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-tu">tavšan</td><td class="lang-tu">Turkic</td><td>hare (year 4)</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-tu">lū</td><td class="lang-tu">Turkic</td><td>dragon (year 5)</td><td>1</td><td class="freq">CV</td></tr>
+<tr><td class="lang-tu">yïlan</td><td class="lang-tu">Turkic</td><td>snake (year 6)</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-tu">yund</td><td class="lang-tu">Turkic</td><td>horse (year 7)</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-tu">qoy</td><td class="lang-tu">Turkic</td><td>sheep (year 8)</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-tu">bičin</td><td class="lang-tu">Turkic</td><td>monkey (year 9)</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-tu">taqaghu</td><td class="lang-tu">Turkic</td><td>hen (year 10)</td><td>3</td><td class="freq">CVCVCV</td></tr>
+<tr><td class="lang-tu">it</td><td class="lang-tu">Turkic</td><td>dog (year 11)</td><td>1</td><td class="freq">VC</td></tr>
+<tr><td class="lang-tu">tonguz</td><td class="lang-tu">Turkic</td><td>pig (year 12)</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-ar">burj</td><td class="lang-ar">Arabic</td><td>zodiac sign</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-ar">al-Ḥamal</td><td class="lang-ar">Arabic</td><td>Aries (ram)</td><td>3</td><td class="freq">VC-CVCVC</td></tr>
+<tr><td class="lang-ar">al-Thawr</td><td class="lang-ar">Arabic</td><td>Taurus (bull)</td><td>2</td><td class="freq">VC-CVCC</td></tr>
+<tr><td class="lang-ar">al-Jawzāʾ</td><td class="lang-ar">Arabic</td><td>Gemini</td><td>3</td><td class="freq">VC-CVCCV</td></tr>
+<tr><td class="lang-ar">al-Saraṭān</td><td class="lang-ar">Arabic</td><td>Cancer (crab)</td><td>4</td><td class="freq">VC-CVCVCVC</td></tr>
+<tr><td class="lang-ar">al-Asad</td><td class="lang-ar">Arabic</td><td>Leo (lion)</td><td>3</td><td class="freq">VC-VCVC</td></tr>
+<tr><td class="lang-ar">al-Sunbula</td><td class="lang-ar">Arabic</td><td>Virgo (ear of grain)</td><td>4</td><td class="freq">VC-CVCCVCV</td></tr>
+<tr><td class="lang-ar">al-Mīzān</td><td class="lang-ar">Arabic</td><td>Libra (balance)</td><td>3</td><td class="freq">VC-CVCVC</td></tr>
+<tr><td class="lang-ar">al-ʿAqrab</td><td class="lang-ar">Arabic</td><td>Scorpio (scorpion)</td><td>3</td><td class="freq">VC-CVCCVC</td></tr>
+<tr><td class="lang-ar">al-Qaws</td><td class="lang-ar">Arabic</td><td>Sagittarius (bow)</td><td>2</td><td class="freq">VC-CVCC</td></tr>
+<tr><td class="lang-ar">al-Jady</td><td class="lang-ar">Arabic</td><td>Capricorn (kid)</td><td>3</td><td class="freq">VC-CVCV</td></tr>
+<tr><td class="lang-ar">al-Dalw</td><td class="lang-ar">Arabic</td><td>Aquarius (bucket)</td><td>2</td><td class="freq">VC-CVCC</td></tr>
+<tr><td class="lang-ar">al-Ḥūt</td><td class="lang-ar">Arabic</td><td>Pisces (fish)</td><td>2</td><td class="freq">VC-CVC</td></tr>
+<tr><td class="lang-pe">bara</td><td class="lang-pe">Persian</td><td>Aries (lamb)</td><td>2</td><td class="freq">CVCV</td></tr>
+<tr><td class="lang-pe">gāv</td><td class="lang-pe">Persian</td><td>Taurus (bull)</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-pe">du-paykar</td><td class="lang-pe">Persian</td><td>Gemini (two-form)</td><td>3</td><td class="freq">CV-CVCCVC</td></tr>
+<tr><td class="lang-pe">kharchang</td><td class="lang-pe">Persian</td><td>Cancer (crab)</td><td>2</td><td class="freq">CVCCVCC</td></tr>
+<tr><td class="lang-pe">shīr</td><td class="lang-pe">Persian</td><td>Leo (lion)</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-pe">khūsha</td><td class="lang-pe">Persian</td><td>Virgo (ear of grain)</td><td>2</td><td class="freq">CVCCV</td></tr>
+<tr><td class="lang-pe">tarāzū</td><td class="lang-pe">Persian</td><td>Libra (scales)</td><td>3</td><td class="freq">CVCVCV</td></tr>
+<tr><td class="lang-pe">kazhdum</td><td class="lang-pe">Persian</td><td>Scorpio (scorpion)</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-pe">kamān</td><td class="lang-pe">Persian</td><td>Sagittarius (bow)</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-pe">buzghāla</td><td class="lang-pe">Persian</td><td>Capricorn (kid)</td><td>3</td><td class="freq">CVCCVCV</td></tr>
+<tr><td class="lang-pe">dalv</td><td class="lang-pe">Persian</td><td>Aquarius (bucket)</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-pe">māhī</td><td class="lang-pe">Persian</td><td>Pisces (fish)</td><td>2</td><td class="freq">CVCV</td></tr>
+</table>
+<h3>Planet</h3>
+<table><tr><th>Term</th><th>Language</th><th>Meaning</th><th>Syllables</th><th>CV Pattern</th></tr>
+<tr><td class="lang-tu">ay</td><td class="lang-tu">Turkic</td><td>moon / month</td><td>1</td><td class="freq">VC</td></tr>
+<tr><td class="lang-tu">Čolpan</td><td class="lang-tu">Turkic</td><td>Venus</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-tu">Aq Yulduz</td><td class="lang-tu">Turkic</td><td>Venus (White Star)</td><td>3</td><td class="freq">VC CVCCVC</td></tr>
+<tr><td class="lang-ar">qamar</td><td class="lang-ar">Arabic</td><td>moon</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-ar">hilāl</td><td class="lang-ar">Arabic</td><td>crescent moon</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-pe">māh</td><td class="lang-pe">Persian</td><td>moon</td><td>1</td><td class="freq">CVC</td></tr>
+</table>
+<h3>Time</h3>
+<table><tr><th>Term</th><th>Language</th><th>Meaning</th><th>Syllables</th><th>CV Pattern</th></tr>
+<tr><td class="lang-tu">kün</td><td class="lang-tu">Turkic</td><td>sun / day</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-tu">küneš</td><td class="lang-tu">Turkic</td><td>sunshine</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-tu">tün</td><td class="lang-tu">Turkic</td><td>night</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-tu">tang</td><td class="lang-tu">Turkic</td><td>dawn</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-tu">aqšam</td><td class="lang-tu">Turkic</td><td>evening</td><td>2</td><td class="freq">VCCVC</td></tr>
+<tr><td class="lang-ar">shams</td><td class="lang-ar">Arabic</td><td>sun</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-ar">layl</td><td class="lang-ar">Arabic</td><td>night</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-ar">nahār</td><td class="lang-ar">Arabic</td><td>day (daytime)</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-pe">āftāb</td><td class="lang-pe">Persian</td><td>sun</td><td>2</td><td class="freq">VCCVC</td></tr>
+<tr><td class="lang-pe">khurshīd</td><td class="lang-pe">Persian</td><td>sun</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-pe">shab</td><td class="lang-pe">Persian</td><td>night</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-pe">rūz</td><td class="lang-pe">Persian</td><td>day</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-pe">bāmdād</td><td class="lang-pe">Persian</td><td>dawn</td><td>2</td><td class="freq">CVCCVC</td></tr>
+</table>
+<h3>Concept</h3>
+<table><tr><th>Term</th><th>Language</th><th>Meaning</th><th>Syllables</th><th>CV Pattern</th></tr>
+<tr><td class="lang-tu">kök</td><td class="lang-tu">Turkic</td><td>sky / blue</td><td>1</td><td class="freq">CVC</td></tr>
+<tr><td class="lang-tu">yaruq</td><td class="lang-tu">Turkic</td><td>light / bright</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-tu">qaranghu</td><td class="lang-tu">Turkic</td><td>dark / darkness</td><td>3</td><td class="freq">CVCVCCV</td></tr>
+<tr><td class="lang-ar">najm</td><td class="lang-ar">Arabic</td><td>star</td><td>1</td><td class="freq">CVCC</td></tr>
+<tr><td class="lang-ar">kawkab</td><td class="lang-ar">Arabic</td><td>star / planet</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-ar">falak</td><td class="lang-ar">Arabic</td><td>celestial sphere</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-ar">manzil</td><td class="lang-ar">Arabic</td><td>lunar mansion</td><td>2</td><td class="freq">CVCCVC</td></tr>
+<tr><td class="lang-ar">ṭulūʿ</td><td class="lang-ar">Arabic</td><td>rising (of star)</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-ar">ghurūb</td><td class="lang-ar">Arabic</td><td>setting (of star)</td><td>2</td><td class="freq">CVCVC</td></tr>
+<tr><td class="lang-pe">āsmān</td><td class="lang-pe">Persian</td><td>sky</td><td>2</td><td class="freq">VCCVC</td></tr>
+<tr><td class="lang-pe">sipihr</td><td class="lang-pe">Persian</td><td>celestial sphere</td><td>2</td><td class="freq">CVCVCC</td></tr>
+</table>
+<h2>6. Synthesis and Hypotheses</h2>
+
+    <div class="note">
+    <h3>Key structural observations</h3>
+    <ol>
+    <li><strong>The <span class="eva">o-</span> prefix on star labels</strong>:
+        85%+ of star labels begin with <span class="eva">o</span>.
+        The Arabic definite article <em>al-</em> begins virtually every Arabic star name.
+        This is the single strongest structural correspondence.
+        If <span class="eva">o</span> = /al/, the phonetic mapping would be:
+        the two-phoneme article /al/ collapsed to a single EVA glyph.</li>
+
+    <li><strong>The <span class="eva">lk-</span> astronomical prefix</strong>:
+        Almost exclusive to star pages. Structural parallel to Turkic <em>Ülker</em>
+        (Pleiades) — but given its frequency (45+ occurrences), it's more likely
+        a functional word ("star", "constellation"?) rather than a proper name.
+        Compare Turkic <em>yulduz</em> or Arabic <em>manzil</em>.</li>
+
+    <li><strong>Zodiac label morphology</strong>: The zodiac labels show the same
+        <span class="eva">o-</span> prefix + stem + suffix structure as the
+        declension system. Labels like <span class="eva">otalchy</span>,
+        <span class="eva">otalalg</span>, <span class="eva">otaraldy</span>
+        share stems with suffixed variants — these may be zodiac sign names
+        in their declined forms (e.g., genitive "of Taurus", locative "in Aries").</li>
+
+    <li><strong>Label length distribution</strong>: Voynich star labels average
+        6-8 EVA characters. Arabic star names (minus article) average 4-7 characters.
+        The slight excess in Voynich labels is consistent with a suffixed/agglutinative
+        encoding (stem + case/declension ending).</li>
+
+    <li><strong>The "women with pots" = stars hypothesis</strong>: If the nymph/woman
+        figures represent stars and the pots/vessels represent magnitude or
+        constellation membership, this aligns with the Islamic astronomical tradition
+        where stars are described by their position in a figure
+        (e.g., "the heart of the scorpion", "the foot of the giant").
+        The labels would then be the names of individual stars within each figure.</li>
+    </ol>
+    </div>
+
+    <div class="highlight">
+    <h3>Most promising alignments for further investigation</h3>
+    <table>
+    <tr><th>Voynich</th><th>Hypothesis</th><th>Evidence strength</th></tr>
+    <tr><td><span class="eva">o-</span> prefix</td>
+        <td>= Arabic <em>al-</em> (definite article)</td>
+        <td>Strong (distributional + positional)</td></tr>
+    <tr><td><span class="eva">lk-</span> prefix</td>
+        <td>= "star" or "constellation" (<em>Ülker</em>? <em>yulduz</em> fragment?)</td>
+        <td>Moderate (astro-exclusive, but speculative)</td></tr>
+    <tr><td><span class="eva">otol</span></td>
+        <td>= al-Rijl (Rigel, "the foot")?</td>
+        <td>Weak (length match only)</td></tr>
+    <tr><td><span class="eva">chocphy</span></td>
+        <td>= Čolpan (Venus, Turkic)?</td>
+        <td>Moderate (phonological + structural match)</td></tr>
+    <tr><td><span class="eva">-dy/-edy/-eedy</span> endings</td>
+        <td>= Turkic case suffixes (e.g., -da locative, -dï past tense)?</td>
+        <td>Strong (systematic paradigmatic behaviour)</td></tr>
+    <tr><td><span class="eva">-aiin/-ain</span> endings</td>
+        <td>= Turkic possessive/case suffix (e.g., -ïn genitive)?</td>
+        <td>Strong (productive declension pattern)</td></tr>
+    </table>
+    </div>
+    
+</body></html>

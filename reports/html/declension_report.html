@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Voynich Manuscript — Preliminary Declension Tables</title>
+<style>
+@font-face {
+    font-family: 'VoynichEVA';
+    src: url('fonts/Voynich/VoynichEVA.ttf') format('truetype');
+}
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #faf8f0;
+    color: #2a2a2a;
+    line-height: 1.6;
+}
+h1 { color: #4a3520; border-bottom: 3px solid #8b6914; padding-bottom: 10px; }
+h2 { color: #5a4020; margin-top: 40px; border-bottom: 2px solid #c9a84c; padding-bottom: 5px; }
+h3 { color: #6a5030; }
+.v {
+    font-family: 'VoynichEVA', serif;
+    font-size: 1.4em;
+    color: #3a2510;
+    letter-spacing: 1px;
+}
+.eva {
+    font-family: 'Courier New', monospace;
+    background: #f0e8d0;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+th, td {
+    border: 1px solid #d4c8a8;
+    padding: 8px 12px;
+    text-align: left;
+}
+th {
+    background: #f5eed8;
+    color: #4a3520;
+    font-weight: 600;
+}
+tr:nth-child(even) { background: #fdfbf5; }
+tr:hover { background: #f5eed8; }
+.freq { color: #888; font-size: 0.85em; }
+.case-label {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 0.85em;
+    color: white;
+}
+.case-nom { background: #4a90d9; }
+.case-acc { background: #d9534f; }
+.case-dat { background: #5cb85c; }
+.case-gen { background: #f0ad4e; color: #333; }
+.case-loc { background: #9b59b6; }
+.case-unk { background: #999; }
+.pos-bar {
+    display: inline-block;
+    height: 14px;
+    min-width: 2px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+.section { margin-bottom: 40px; }
+.lang-a { border-left: 4px solid #4a90d9; padding-left: 15px; }
+.lang-b { border-left: 4px solid #d9534f; padding-left: 15px; }
+.paradigm-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+}
+.paradigm-card {
+    background: white;
+    border: 1px solid #d4c8a8;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.paradigm-card h4 {
+    margin: 0 0 10px 0;
+    color: #4a3520;
+}
+.note {
+    background: #f0e8d0;
+    border-left: 4px solid #8b6914;
+    padding: 12px 15px;
+    margin: 15px 0;
+    font-style: italic;
+}
+.comparison-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Voynich Manuscript — Preliminary Declension Tables</h1>
+<p>Generated from consensus readings of 6 primary transcribers (Takahashi, Currier,
+Friedman/FSG, Landini, Stolfi, Grove) across 226 folios.</p>
+
+<div class="note">
+<strong>Methodology:</strong> Stems are extracted by exhaustive splitting of all words
+at positions 2–6. Endings that recur across multiple stems are clustered by positional
+distribution (cosine similarity) and stem overlap (Jaccard). Tentative case labels are
+assigned by positional profile: initial-heavy → nominative, medial → accusative,
+late-medial → dative, final-heavy → genitive, flat → locative/adverbial.
+These labels are hypothetical and intended as working categories for further study.
+</div>
+
+<h2>1. Potential Case Categories (Ending Clusters)</h2>
+<div class="comparison-row">
+<div class="section lang-a">
+<h3>Ending Clusters — Language A</h3>
+<table><tr><th>Case?</th><th>Endings (EVA)</th><th>Endings (Glyph)</th><th>Freq</th><th>Stems</th><th>Position Profile</th></tr>
+<tr><td><span class="case-label case-loc">LOC?</span></td><td><span class="eva">-l, -r, -iin, -dy, -m</span></td><td><span class="v">-󿐚</span> <span class="v">-󿐃</span> <span class="v">-󿐀󿐀󿐁</span> <span class="v">-󿐉󿐗</span> <span class="v">-󿐄</span></td><td class="freq">5540</td><td class="freq">905 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:40px" title="Init: 20%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:40px" title="Final: 20%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-or, -ey, -aiin, -o, -ody, -eey, -ar, -eol +6</span></td><td><span class="v">-󿐔󿐃</span> <span class="v">-󿐆󿐗</span> <span class="v">-󿐐󿐀󿐀󿐁</span> <span class="v">-󿐔</span> <span class="v">-󿐔󿐉󿐗</span> <span class="v">-󿐆󿐆󿐗</span> <span class="v">-󿐐󿐃</span> <span class="v">-󿐆󿐔󿐚</span></td><td class="freq">5282</td><td class="freq">792 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:40px" title="Init: 20%"></span><span class="pos-bar" style="background:#5cb85c;width:38px" title="Early: 19%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:42px" title="Late: 21%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-y, -ol</span></td><td><span class="v">-󿐗</span> <span class="v">-󿐔󿐚</span></td><td class="freq">4192</td><td class="freq">917 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:42px" title="Init: 21%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-hy, -hol, -hey, -hor</span></td><td><span class="v">-󿐏󿐗</span> <span class="v">-󿐏󿐔󿐚</span> <span class="v">-󿐏󿐆󿐗</span> <span class="v">-󿐏󿐔󿐃</span></td><td class="freq">1764</td><td class="freq">357 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:46px" title="Init: 23%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:38px" title="Mid: 19%"></span><span class="pos-bar" style="background:#e67e22;width:38px" title="Late: 19%"></span><span class="pos-bar" style="background:#d9534f;width:38px" title="Final: 19%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-in</span></td><td><span class="v">-󿐀󿐁</span></td><td class="freq">1532</td><td class="freq">302 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:38px" title="Init: 19%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-n</span></td><td><span class="v">-󿐁</span></td><td class="freq">1457</td><td class="freq">261 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:38px" title="Init: 19%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-ky, -ty, -ckhy, -keey, -cthy, -key</span></td><td><span class="v">-󿐢󿐗</span> <span class="v">-󿐣󿐗</span> <span class="v">-󿐌󿐢󿐏󿐗</span> <span class="v">-󿐢󿐆󿐆󿐗</span> <span class="v">-󿐌󿐣󿐏󿐗</span> <span class="v">-󿐢󿐆󿐗</span></td><td class="freq">506</td><td class="freq">111 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:36px" title="Init: 18%"></span><span class="pos-bar" style="background:#5cb85c;width:42px" title="Early: 21%"></span><span class="pos-bar" style="background:#f0ad4e;width:36px" title="Mid: 18%"></span><span class="pos-bar" style="background:#e67e22;width:42px" title="Late: 21%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-nom">NOM?</span></td><td><span class="eva">-chy</span></td><td><span class="v">-󿐌󿐏󿐗</span></td><td class="freq">338</td><td class="freq">120 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:52px" title="Init: 26%"></span><span class="pos-bar" style="background:#5cb85c;width:36px" title="Early: 18%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:38px" title="Late: 19%"></span><span class="pos-bar" style="background:#d9534f;width:34px" title="Final: 17%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-chor, -chol, -chey</span></td><td><span class="v">-󿐌󿐏󿐔󿐃</span> <span class="v">-󿐌󿐏󿐔󿐚</span> <span class="v">-󿐌󿐏󿐆󿐗</span></td><td class="freq">333</td><td class="freq">107 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:52px" title="Init: 26%"></span><span class="pos-bar" style="background:#5cb85c;width:44px" title="Early: 22%"></span><span class="pos-bar" style="background:#f0ad4e;width:32px" title="Mid: 16%"></span><span class="pos-bar" style="background:#e67e22;width:38px" title="Late: 19%"></span><span class="pos-bar" style="background:#d9534f;width:36px" title="Final: 18%"></span></td></tr>
+<tr><td><span class="case-label case-acc">ACC?</span></td><td><span class="eva">-ho, -heey, -heol</span></td><td><span class="v">-󿐏󿐔</span> <span class="v">-󿐏󿐆󿐆󿐗</span> <span class="v">-󿐏󿐆󿐔󿐚</span></td><td class="freq">291</td><td class="freq">88 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:30px" title="Init: 15%"></span><span class="pos-bar" style="background:#5cb85c;width:44px" title="Early: 22%"></span><span class="pos-bar" style="background:#f0ad4e;width:48px" title="Mid: 24%"></span><span class="pos-bar" style="background:#e67e22;width:38px" title="Late: 19%"></span><span class="pos-bar" style="background:#d9534f;width:40px" title="Final: 20%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-s</span></td><td><span class="v">-󿐊</span></td><td class="freq">290</td><td class="freq">178 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:36px" title="Init: 18%"></span><span class="pos-bar" style="background:#5cb85c;width:46px" title="Early: 23%"></span><span class="pos-bar" style="background:#f0ad4e;width:32px" title="Mid: 16%"></span><span class="pos-bar" style="background:#e67e22;width:44px" title="Late: 22%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-tchy, -kchy, -dal, -keol</span></td><td><span class="v">-󿐣󿐌󿐏󿐗</span> <span class="v">-󿐢󿐌󿐏󿐗</span> <span class="v">-󿐉󿐐󿐚</span> <span class="v">-󿐢󿐆󿐔󿐚</span></td><td class="freq">268</td><td class="freq">65 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:48px" title="Init: 24%"></span><span class="pos-bar" style="background:#5cb85c;width:36px" title="Early: 18%"></span><span class="pos-bar" style="background:#f0ad4e;width:38px" title="Mid: 19%"></span><span class="pos-bar" style="background:#e67e22;width:42px" title="Late: 21%"></span><span class="pos-bar" style="background:#d9534f;width:34px" title="Final: 17%"></span></td></tr>
+</table></div>
+<div class="section lang-b">
+<h3>Ending Clusters — Language B</h3>
+<table><tr><th>Case?</th><th>Endings (EVA)</th><th>Endings (Glyph)</th><th>Freq</th><th>Stems</th><th>Position Profile</th></tr>
+<tr><td><span class="case-label case-loc">LOC?</span></td><td><span class="eva">-y, -dy</span></td><td><span class="v">-󿐗</span> <span class="v">-󿐉󿐗</span></td><td class="freq">14651</td><td class="freq">1691 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:44px" title="Init: 22%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:38px" title="Mid: 19%"></span><span class="pos-bar" style="background:#e67e22;width:38px" title="Late: 19%"></span><span class="pos-bar" style="background:#d9534f;width:38px" title="Final: 19%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-edy, -ey, -eey, -eedy, -ol, -or, -ody, -eol +4</span></td><td><span class="v">-󿐆󿐉󿐗</span> <span class="v">-󿐆󿐗</span> <span class="v">-󿐆󿐆󿐗</span> <span class="v">-󿐆󿐆󿐉󿐗</span> <span class="v">-󿐔󿐚</span> <span class="v">-󿐔󿐃</span> <span class="v">-󿐔󿐉󿐗</span> <span class="v">-󿐆󿐔󿐚</span></td><td class="freq">12241</td><td class="freq">941 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:42px" title="Init: 21%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:38px" title="Final: 19%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-in, -n, -r, -iin</span></td><td><span class="v">-󿐀󿐁</span> <span class="v">-󿐁</span> <span class="v">-󿐃</span> <span class="v">-󿐀󿐀󿐁</span></td><td class="freq">11920</td><td class="freq">1215 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:36px" title="Init: 18%"></span><span class="pos-bar" style="background:#5cb85c;width:38px" title="Early: 19%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:42px" title="Late: 21%"></span><span class="pos-bar" style="background:#d9534f;width:44px" title="Final: 22%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-aiin, -ar, -ain, -al, -am, -chy, -air</span></td><td><span class="v">-󿐐󿐀󿐀󿐁</span> <span class="v">-󿐐󿐃</span> <span class="v">-󿐐󿐀󿐁</span> <span class="v">-󿐐󿐚</span> <span class="v">-󿐐󿐄</span> <span class="v">-󿐌󿐏󿐗</span> <span class="v">-󿐐󿐀󿐃</span></td><td class="freq">5375</td><td class="freq">745 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:38px" title="Init: 19%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-kain, -ky, -keey, -kedy, -ckhy, -dar, -kal, -kar +8</span></td><td><span class="v">-󿐢󿐐󿐀󿐁</span> <span class="v">-󿐢󿐗</span> <span class="v">-󿐢󿐆󿐆󿐗</span> <span class="v">-󿐢󿐆󿐉󿐗</span> <span class="v">-󿐌󿐢󿐏󿐗</span> <span class="v">-󿐉󿐐󿐃</span> <span class="v">-󿐢󿐐󿐚</span> <span class="v">-󿐢󿐐󿐃</span></td><td class="freq">3282</td><td class="freq">287 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:40px" title="Init: 20%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:40px" title="Final: 20%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-hedy, -hy, -hey, -hdy, -hed, -hor</span></td><td><span class="v">-󿐏󿐆󿐉󿐗</span> <span class="v">-󿐏󿐗</span> <span class="v">-󿐏󿐆󿐗</span> <span class="v">-󿐏󿐉󿐗</span> <span class="v">-󿐏󿐆󿐉</span> <span class="v">-󿐏󿐔󿐃</span></td><td class="freq">3115</td><td class="freq">482 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:44px" title="Init: 22%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:42px" title="Mid: 21%"></span><span class="pos-bar" style="background:#e67e22;width:40px" title="Late: 20%"></span><span class="pos-bar" style="background:#d9534f;width:36px" title="Final: 18%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-l, -m</span></td><td><span class="v">-󿐚</span> <span class="v">-󿐄</span></td><td class="freq">3110</td><td class="freq">582 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:36px" title="Init: 18%"></span><span class="pos-bar" style="background:#5cb85c;width:42px" title="Early: 21%"></span><span class="pos-bar" style="background:#f0ad4e;width:42px" title="Mid: 21%"></span><span class="pos-bar" style="background:#e67e22;width:36px" title="Late: 18%"></span><span class="pos-bar" style="background:#d9534f;width:44px" title="Final: 22%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-es, -eor, -dain, -edar, -os, -eeo, -ear, -ees +3</span></td><td><span class="v">-󿐆󿐊</span> <span class="v">-󿐆󿐔󿐃</span> <span class="v">-󿐉󿐐󿐀󿐁</span> <span class="v">-󿐆󿐉󿐐󿐃</span> <span class="v">-󿐔󿐊</span> <span class="v">-󿐆󿐆󿐔</span> <span class="v">-󿐆󿐐󿐃</span> <span class="v">-󿐆󿐆󿐊</span></td><td class="freq">1189</td><td class="freq">233 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:42px" title="Init: 21%"></span><span class="pos-bar" style="background:#5cb85c;width:36px" title="Early: 18%"></span><span class="pos-bar" style="background:#f0ad4e;width:44px" title="Mid: 22%"></span><span class="pos-bar" style="background:#e67e22;width:36px" title="Late: 18%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-s, -d</span></td><td><span class="v">-󿐊</span> <span class="v">-󿐉</span></td><td class="freq">755</td><td class="freq">337 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:46px" title="Init: 23%"></span><span class="pos-bar" style="background:#5cb85c;width:40px" title="Early: 20%"></span><span class="pos-bar" style="background:#f0ad4e;width:36px" title="Mid: 18%"></span><span class="pos-bar" style="background:#e67e22;width:38px" title="Late: 19%"></span><span class="pos-bar" style="background:#d9534f;width:38px" title="Final: 19%"></span></td></tr>
+<tr><td><span class="case-label case-unk">?</span></td><td><span class="eva">-khy, -thy, -khey</span></td><td><span class="v">-󿐢󿐏󿐗</span> <span class="v">-󿐣󿐏󿐗</span> <span class="v">-󿐢󿐏󿐆󿐗</span></td><td class="freq">553</td><td class="freq">55 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:34px" title="Init: 17%"></span><span class="pos-bar" style="background:#5cb85c;width:42px" title="Early: 21%"></span><span class="pos-bar" style="background:#f0ad4e;width:40px" title="Mid: 20%"></span><span class="pos-bar" style="background:#e67e22;width:44px" title="Late: 22%"></span><span class="pos-bar" style="background:#d9534f;width:42px" title="Final: 21%"></span></td></tr>
+<tr><td><span class="case-label case-dat">DAT?</span></td><td><span class="eva">-heey, -heol, -heo, -har, -hal, -hes</span></td><td><span class="v">-󿐏󿐆󿐆󿐗</span> <span class="v">-󿐏󿐆󿐔󿐚</span> <span class="v">-󿐏󿐆󿐔</span> <span class="v">-󿐏󿐐󿐃</span> <span class="v">-󿐏󿐐󿐚</span> <span class="v">-󿐏󿐆󿐊</span></td><td class="freq">385</td><td class="freq">107 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:30px" title="Init: 15%"></span><span class="pos-bar" style="background:#5cb85c;width:38px" title="Early: 19%"></span><span class="pos-bar" style="background:#f0ad4e;width:38px" title="Mid: 19%"></span><span class="pos-bar" style="background:#e67e22;width:54px" title="Late: 27%"></span><span class="pos-bar" style="background:#d9534f;width:40px" title="Final: 20%"></span></td></tr>
+<tr><td><span class="case-label case-nom">NOM?</span></td><td><span class="eva">-chdy, -shy, -shdy</span></td><td><span class="v">-󿐌󿐏󿐉󿐗</span> <span class="v">-󿐊󿐏󿐗</span> <span class="v">-󿐊󿐏󿐉󿐗</span></td><td class="freq">383</td><td class="freq">125 stems</td><td><span class="pos-bar" style="background:#4a90d9;width:52px" title="Init: 26%"></span><span class="pos-bar" style="background:#5cb85c;width:44px" title="Early: 22%"></span><span class="pos-bar" style="background:#f0ad4e;width:38px" title="Mid: 19%"></span><span class="pos-bar" style="background:#e67e22;width:36px" title="Late: 18%"></span><span class="pos-bar" style="background:#d9534f;width:30px" title="Final: 15%"></span></td></tr>
+</table></div>
+</div>
+<h2>2. Paradigm Tables (Top Stems with Multiple Endings)</h2>
+<div class="section lang-a">
+<h3>Top Paradigms — Language A</h3>
+<div class="paradigm-grid">
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐏-</span> <span class="eva">ch-</span> <span class="freq">(1802 occ, 336 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐌󿐏󿐔󿐚</span></td><td><span class="eva">chol</span></td><td class="freq">264</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐌󿐏󿐔󿐃</span></td><td><span class="eva">chor</span></td><td class="freq">168</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐌󿐏󿐗</span></td><td><span class="eva">chy</span></td><td class="freq">88</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐌󿐏󿐆󿐗</span></td><td><span class="eva">chey</span></td><td class="freq">79</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐚</span></td><td><span class="eva">cheol</span></td><td class="freq">66</td></tr>
+<tr><td><span class="eva">-eor</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐃</span></td><td><span class="eva">cheor</span></td><td class="freq">58</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐌󿐏󿐔󿐉󿐗</span></td><td><span class="eva">chody</span></td><td class="freq">41</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐌󿐏󿐔</span></td><td><span class="eva">cho</span></td><td class="freq">38</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐗</span></td><td><span class="eva">cheey</span></td><td class="freq">36</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐌󿐏󿐐󿐀󿐀󿐁</span></td><td><span class="eva">chaiin</span></td><td class="freq">31</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐌󿐏󿐐󿐃</span></td><td><span class="eva">char</span></td><td class="freq">29</td></tr>
+<tr><td><span class="eva">-oky</span></td><td><span class="v">󿐌󿐏󿐔󿐢󿐗</span></td><td><span class="eva">choky</span></td><td class="freq">28</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐉󿐐-</span> <span class="eva">da-</span> <span class="freq">(998 occ, 100 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">daiin</span></td><td class="freq">494</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐉󿐐󿐃</span></td><td><span class="eva">dar</span></td><td class="freq">91</td></tr>
+<tr><td><span class="eva">-l</span></td><td><span class="v">󿐉󿐐󿐚</span></td><td><span class="eva">dal</span></td><td class="freq">85</td></tr>
+<tr><td><span class="eva">-in</span></td><td><span class="v">󿐉󿐐󿐀󿐁</span></td><td><span class="eva">dain</span></td><td class="freq">81</td></tr>
+<tr><td><span class="eva">-m</span></td><td><span class="v">󿐉󿐐󿐄</span></td><td><span class="eva">dam</span></td><td class="freq">46</td></tr>
+<tr><td><span class="eva">-ir</span></td><td><span class="v">󿐉󿐐󿐀󿐃</span></td><td><span class="eva">dair</span></td><td class="freq">38</td></tr>
+<tr><td><span class="eva">-n</span></td><td><span class="v">󿐉󿐐󿐁</span></td><td><span class="eva">dan</span></td><td class="freq">13</td></tr>
+<tr><td><span class="eva">-iiin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐀󿐁</span></td><td><span class="eva">daiiin</span></td><td class="freq">8</td></tr>
+<tr><td><span class="eva">-ldy</span></td><td><span class="v">󿐉󿐐󿐚󿐉󿐗</span></td><td><span class="eva">daldy</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-iir</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐃</span></td><td><span class="eva">daiir</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-ly</span></td><td><span class="v">󿐉󿐐󿐚󿐗</span></td><td><span class="eva">daly</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-ry</span></td><td><span class="v">󿐉󿐐󿐃󿐗</span></td><td><span class="eva">dary</span></td><td class="freq">5</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔-</span> <span class="eva">qo-</span> <span class="freq">(957 occ, 238 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-tchy</span></td><td><span class="v">󿐝󿐔󿐣󿐌󿐏󿐗</span></td><td><span class="eva">qotchy</span></td><td class="freq">51</td></tr>
+<tr><td><span class="eva">-kol</span></td><td><span class="v">󿐝󿐔󿐢󿐔󿐚</span></td><td><span class="eva">qokol</span></td><td class="freq">44</td></tr>
+<tr><td><span class="eva">-keey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">qokeey</span></td><td class="freq">39</td></tr>
+<tr><td><span class="eva">-kchy</span></td><td><span class="v">󿐝󿐔󿐢󿐌󿐏󿐗</span></td><td><span class="eva">qokchy</span></td><td class="freq">38</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐝󿐔󿐢󿐗</span></td><td><span class="eva">qoky</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-keol</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐚</span></td><td><span class="eva">qokeol</span></td><td class="freq">32</td></tr>
+<tr><td><span class="eva">-ty</span></td><td><span class="v">󿐝󿐔󿐣󿐗</span></td><td><span class="eva">qoty</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-kaiin</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">qokaiin</span></td><td class="freq">24</td></tr>
+<tr><td><span class="eva">-tol</span></td><td><span class="v">󿐝󿐔󿐣󿐔󿐚</span></td><td><span class="eva">qotol</span></td><td class="freq">23</td></tr>
+<tr><td><span class="eva">-key</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐗</span></td><td><span class="eva">qokey</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-tor</span></td><td><span class="v">󿐝󿐔󿐣󿐔󿐃</span></td><td><span class="eva">qotor</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-keody</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐉󿐗</span></td><td><span class="eva">qokeody</span></td><td class="freq">16</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐏󿐔-</span> <span class="eva">cho-</span> <span class="freq">(954 occ, 178 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-l</span></td><td><span class="v">󿐌󿐏󿐔󿐚</span></td><td><span class="eva">chol</span></td><td class="freq">264</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐌󿐏󿐔󿐃</span></td><td><span class="eva">chor</span></td><td class="freq">168</td></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐌󿐏󿐔󿐉󿐗</span></td><td><span class="eva">chody</span></td><td class="freq">41</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐌󿐏󿐔󿐢󿐗</span></td><td><span class="eva">choky</span></td><td class="freq">28</td></tr>
+<tr><td><span class="eva">-daiin</span></td><td><span class="v">󿐌󿐏󿐔󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">chodaiin</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-ty</span></td><td><span class="v">󿐌󿐏󿐔󿐣󿐗</span></td><td><span class="eva">choty</span></td><td class="freq">22</td></tr>
+<tr><td><span class="eva">-s</span></td><td><span class="v">󿐌󿐏󿐔󿐊</span></td><td><span class="eva">chos</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-m</span></td><td><span class="v">󿐌󿐏󿐔󿐄</span></td><td><span class="eva">chom</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-ry</span></td><td><span class="v">󿐌󿐏󿐔󿐃󿐗</span></td><td><span class="eva">chory</span></td><td class="freq">13</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="v">󿐌󿐏󿐔󿐀󿐀󿐁</span></td><td><span class="eva">choiin</span></td><td class="freq">13</td></tr>
+<tr><td><span class="eva">-kchy</span></td><td><span class="v">󿐌󿐏󿐔󿐢󿐌󿐏󿐗</span></td><td><span class="eva">chokchy</span></td><td class="freq">12</td></tr>
+<tr><td><span class="eva">-cthy</span></td><td><span class="v">󿐌󿐏󿐔󿐌󿐣󿐏󿐗</span></td><td><span class="eva">chocthy</span></td><td class="freq">11</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐊󿐏-</span> <span class="eva">sh-</span> <span class="freq">(864 occ, 165 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐊󿐏󿐔󿐚</span></td><td><span class="eva">shol</span></td><td class="freq">109</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐊󿐏󿐔</span></td><td><span class="eva">sho</span></td><td class="freq">96</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐊󿐏󿐔󿐃</span></td><td><span class="eva">shor</span></td><td class="freq">65</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐊󿐏󿐗</span></td><td><span class="eva">shy</span></td><td class="freq">58</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐊󿐏󿐆󿐗</span></td><td><span class="eva">shey</span></td><td class="freq">57</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐗</span></td><td><span class="eva">sheey</span></td><td class="freq">37</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐚</span></td><td><span class="eva">sheol</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐊󿐏󿐔󿐉󿐗</span></td><td><span class="eva">shody</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-eor</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐃</span></td><td><span class="eva">sheor</span></td><td class="freq">24</td></tr>
+<tr><td><span class="eva">-eo</span></td><td><span class="v">󿐊󿐏󿐆󿐔</span></td><td><span class="eva">sheo</span></td><td class="freq">21</td></tr>
+<tr><td><span class="eva">-eody</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">sheody</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-e</span></td><td><span class="v">󿐊󿐏󿐆</span></td><td><span class="eva">she</span></td><td class="freq">14</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐉󿐐󿐀-</span> <span class="eva">dai-</span> <span class="freq">(688 occ, 51 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-in</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">daiin</span></td><td class="freq">494</td></tr>
+<tr><td><span class="eva">-n</span></td><td><span class="v">󿐉󿐐󿐀󿐁</span></td><td><span class="eva">dain</span></td><td class="freq">81</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐉󿐐󿐀󿐃</span></td><td><span class="eva">dair</span></td><td class="freq">38</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐀󿐁</span></td><td><span class="eva">daiiin</span></td><td class="freq">8</td></tr>
+<tr><td><span class="eva">-ir</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐃</span></td><td><span class="eva">daiir</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-m</span></td><td><span class="v">󿐉󿐐󿐀󿐄</span></td><td><span class="eva">daim</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-im</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐄</span></td><td><span class="eva">daiim</span></td><td class="freq">4</td></tr>
+<tr><td><span class="eva">-rin</span></td><td><span class="v">󿐉󿐐󿐀󿐃󿐀󿐁</span></td><td><span class="eva">dairin</span></td><td class="freq">3</td></tr>
+<tr><td><span class="eva">-idy</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐉󿐗</span></td><td><span class="eva">daiidy</span></td><td class="freq">3</td></tr>
+<tr><td><span class="eva">-inol</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁󿐔󿐚</span></td><td><span class="eva">daiinol</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-ro</span></td><td><span class="v">󿐉󿐐󿐀󿐃󿐔</span></td><td><span class="eva">dairo</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-rl</span></td><td><span class="v">󿐉󿐐󿐀󿐃󿐚</span></td><td><span class="eva">dairl</span></td><td class="freq">2</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐉󿐐󿐀󿐀-</span> <span class="eva">daii-</span> <span class="freq">(540 occ, 27 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-n</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">daiin</span></td><td class="freq">494</td></tr>
+<tr><td><span class="eva">-in</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐀󿐁</span></td><td><span class="eva">daiiin</span></td><td class="freq">8</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐃</span></td><td><span class="eva">daiir</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-m</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐄</span></td><td><span class="eva">daiim</span></td><td class="freq">4</td></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐉󿐗</span></td><td><span class="eva">daiidy</span></td><td class="freq">3</td></tr>
+<tr><td><span class="eva">-nol</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁󿐔󿐚</span></td><td><span class="eva">daiinol</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-nshol</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁󿐊󿐏󿐔󿐚</span></td><td><span class="eva">daiinshol</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-ndol</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁󿐉󿐔󿐚</span></td><td><span class="eva">daiindol</span></td><td class="freq">1</td></tr>
+<tr><td><span class="eva">-dal</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐉󿐐󿐚</span></td><td><span class="eva">daiidal</span></td><td class="freq">1</td></tr>
+<tr><td><span class="eva">-nsol</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁󿐊󿐔󿐚</span></td><td><span class="eva">daiinsol</span></td><td class="freq">1</td></tr>
+<tr><td><span class="eva">-ty</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐣󿐗</span></td><td><span class="eva">daiity</span></td><td class="freq">1</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐔󿐚</span></td><td><span class="eva">daiiol</span></td><td class="freq">1</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐏󿐆-</span> <span class="eva">che-</span> <span class="freq">(519 occ, 109 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐌󿐏󿐆󿐗</span></td><td><span class="eva">chey</span></td><td class="freq">79</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐚</span></td><td><span class="eva">cheol</span></td><td class="freq">66</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐃</span></td><td><span class="eva">cheor</span></td><td class="freq">58</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐗</span></td><td><span class="eva">cheey</span></td><td class="freq">36</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐌󿐏󿐆󿐔</span></td><td><span class="eva">cheo</span></td><td class="freq">26</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">cheody</span></td><td class="freq">26</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐌󿐏󿐆󿐐󿐃</span></td><td><span class="eva">chear</span></td><td class="freq">18</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐌󿐏󿐆󿐢󿐗</span></td><td><span class="eva">cheky</span></td><td class="freq">12</td></tr>
+<tr><td><span class="eva">-os</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐊</span></td><td><span class="eva">cheos</span></td><td class="freq">12</td></tr>
+<tr><td><span class="eva">-es</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐊</span></td><td><span class="eva">chees</span></td><td class="freq">11</td></tr>
+<tr><td><span class="eva">-eor</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐔󿐃</span></td><td><span class="eva">cheeor</span></td><td class="freq">8</td></tr>
+<tr><td><span class="eva">-ty</span></td><td><span class="v">󿐌󿐏󿐆󿐣󿐗</span></td><td><span class="eva">chety</span></td><td class="freq">7</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐔󿐢-</span> <span class="eva">ok-</span> <span class="freq">(513 occ, 102 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐔󿐢󿐔󿐚</span></td><td><span class="eva">okol</span></td><td class="freq">40</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐔󿐢󿐆󿐔󿐚</span></td><td><span class="eva">okeol</span></td><td class="freq">35</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐔󿐢󿐗</span></td><td><span class="eva">oky</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">okaiin</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">okeey</span></td><td class="freq">33</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐔󿐢󿐐󿐚</span></td><td><span class="eva">okal</span></td><td class="freq">31</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐔󿐢󿐔󿐃</span></td><td><span class="eva">okor</span></td><td class="freq">21</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐔󿐢󿐆󿐗</span></td><td><span class="eva">okey</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-eor</span></td><td><span class="v">󿐔󿐢󿐆󿐔󿐃</span></td><td><span class="eva">okeor</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐔󿐢󿐐󿐃</span></td><td><span class="eva">okar</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-chy</span></td><td><span class="v">󿐔󿐢󿐌󿐏󿐗</span></td><td><span class="eva">okchy</span></td><td class="freq">13</td></tr>
+<tr><td><span class="eva">-chey</span></td><td><span class="v">󿐔󿐢󿐌󿐏󿐆󿐗</span></td><td><span class="eva">okchey</span></td><td class="freq">13</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔󿐢-</span> <span class="eva">qok-</span> <span class="freq">(490 occ, 97 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐝󿐔󿐢󿐔󿐚</span></td><td><span class="eva">qokol</span></td><td class="freq">44</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">qokeey</span></td><td class="freq">39</td></tr>
+<tr><td><span class="eva">-chy</span></td><td><span class="v">󿐝󿐔󿐢󿐌󿐏󿐗</span></td><td><span class="eva">qokchy</span></td><td class="freq">38</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐝󿐔󿐢󿐗</span></td><td><span class="eva">qoky</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐚</span></td><td><span class="eva">qokeol</span></td><td class="freq">32</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">qokaiin</span></td><td class="freq">24</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐗</span></td><td><span class="eva">qokey</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-eody</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐉󿐗</span></td><td><span class="eva">qokeody</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐝󿐔󿐢󿐔󿐃</span></td><td><span class="eva">qokor</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐃</span></td><td><span class="eva">qokar</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐚</span></td><td><span class="eva">qokal</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-chol</span></td><td><span class="v">󿐝󿐔󿐢󿐌󿐏󿐔󿐚</span></td><td><span class="eva">qokchol</span></td><td class="freq">15</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐣󿐏-</span> <span class="eva">cth-</span> <span class="freq">(400 occ, 65 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐌󿐣󿐏󿐗</span></td><td><span class="eva">cthy</span></td><td class="freq">103</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐚</span></td><td><span class="eva">cthol</span></td><td class="freq">54</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐃</span></td><td><span class="eva">cthor</span></td><td class="freq">40</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐗</span></td><td><span class="eva">cthey</span></td><td class="freq">33</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐉󿐗</span></td><td><span class="eva">cthody</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐌󿐣󿐏󿐔</span></td><td><span class="eva">ctho</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐌󿐣󿐏󿐐󿐃</span></td><td><span class="eva">cthar</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐆󿐗</span></td><td><span class="eva">ctheey</span></td><td class="freq">11</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐔󿐚</span></td><td><span class="eva">ctheol</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐌󿐣󿐏󿐐󿐀󿐀󿐁</span></td><td><span class="eva">cthaiin</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-om</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐄</span></td><td><span class="eva">cthom</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-eody</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">ctheody</span></td><td class="freq">6</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐣-</span> <span class="eva">ct-</span> <span class="freq">(400 occ, 65 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-hy</span></td><td><span class="v">󿐌󿐣󿐏󿐗</span></td><td><span class="eva">cthy</span></td><td class="freq">103</td></tr>
+<tr><td><span class="eva">-hol</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐚</span></td><td><span class="eva">cthol</span></td><td class="freq">54</td></tr>
+<tr><td><span class="eva">-hor</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐃</span></td><td><span class="eva">cthor</span></td><td class="freq">40</td></tr>
+<tr><td><span class="eva">-hey</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐗</span></td><td><span class="eva">cthey</span></td><td class="freq">33</td></tr>
+<tr><td><span class="eva">-hody</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐉󿐗</span></td><td><span class="eva">cthody</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-ho</span></td><td><span class="v">󿐌󿐣󿐏󿐔</span></td><td><span class="eva">ctho</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-har</span></td><td><span class="v">󿐌󿐣󿐏󿐐󿐃</span></td><td><span class="eva">cthar</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-heey</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐆󿐗</span></td><td><span class="eva">ctheey</span></td><td class="freq">11</td></tr>
+<tr><td><span class="eva">-heol</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐔󿐚</span></td><td><span class="eva">ctheol</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-haiin</span></td><td><span class="v">󿐌󿐣󿐏󿐐󿐀󿐀󿐁</span></td><td><span class="eva">cthaiin</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-hom</span></td><td><span class="v">󿐌󿐣󿐏󿐔󿐄</span></td><td><span class="eva">cthom</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-heody</span></td><td><span class="v">󿐌󿐣󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">ctheody</span></td><td class="freq">6</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐔󿐣-</span> <span class="eva">ot-</span> <span class="freq">(380 occ, 92 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐔󿐣󿐗</span></td><td><span class="eva">oty</span></td><td class="freq">39</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐔󿐣󿐔󿐚</span></td><td><span class="eva">otol</span></td><td class="freq">35</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐔󿐣󿐐󿐀󿐀󿐁</span></td><td><span class="eva">otaiin</span></td><td class="freq">29</td></tr>
+<tr><td><span class="eva">-chy</span></td><td><span class="v">󿐔󿐣󿐌󿐏󿐗</span></td><td><span class="eva">otchy</span></td><td class="freq">29</td></tr>
+<tr><td><span class="eva">-chol</span></td><td><span class="v">󿐔󿐣󿐌󿐏󿐔󿐚</span></td><td><span class="eva">otchol</span></td><td class="freq">24</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐔󿐣󿐐󿐚</span></td><td><span class="eva">otal</span></td><td class="freq">19</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐔󿐣󿐆󿐔󿐚</span></td><td><span class="eva">oteol</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-chor</span></td><td><span class="v">󿐔󿐣󿐌󿐏󿐔󿐃</span></td><td><span class="eva">otchor</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐔󿐣󿐔󿐃</span></td><td><span class="eva">otor</span></td><td class="freq">12</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐔󿐣󿐆󿐆󿐗</span></td><td><span class="eva">oteey</span></td><td class="freq">11</td></tr>
+<tr><td><span class="eva">-chey</span></td><td><span class="v">󿐔󿐣󿐌󿐏󿐆󿐗</span></td><td><span class="eva">otchey</span></td><td class="freq">11</td></tr>
+<tr><td><span class="eva">-am</span></td><td><span class="v">󿐔󿐣󿐐󿐄</span></td><td><span class="eva">otam</span></td><td class="freq">9</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐊󿐏󿐔-</span> <span class="eva">sho-</span> <span class="freq">(362 occ, 83 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-l</span></td><td><span class="v">󿐊󿐏󿐔󿐚</span></td><td><span class="eva">shol</span></td><td class="freq">109</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐊󿐏󿐔󿐃</span></td><td><span class="eva">shor</span></td><td class="freq">65</td></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐊󿐏󿐔󿐉󿐗</span></td><td><span class="eva">shody</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-daiin</span></td><td><span class="v">󿐊󿐏󿐔󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">shodaiin</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-cthy</span></td><td><span class="v">󿐊󿐏󿐔󿐌󿐣󿐏󿐗</span></td><td><span class="eva">shocthy</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="v">󿐊󿐏󿐔󿐀󿐀󿐁</span></td><td><span class="eva">shoiin</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-ty</span></td><td><span class="v">󿐊󿐏󿐔󿐣󿐗</span></td><td><span class="eva">shoty</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-ry</span></td><td><span class="v">󿐊󿐏󿐔󿐃󿐗</span></td><td><span class="eva">shory</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-s</span></td><td><span class="v">󿐊󿐏󿐔󿐊</span></td><td><span class="eva">shos</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-kchy</span></td><td><span class="v">󿐊󿐏󿐔󿐢󿐌󿐏󿐗</span></td><td><span class="eva">shokchy</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-ldy</span></td><td><span class="v">󿐊󿐏󿐔󿐚󿐉󿐗</span></td><td><span class="eva">sholdy</span></td><td class="freq">4</td></tr>
+<tr><td><span class="eva">-ckhy</span></td><td><span class="v">󿐊󿐏󿐔󿐌󿐢󿐏󿐗</span></td><td><span class="eva">shockhy</span></td><td class="freq">4</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐊󿐏󿐆-</span> <span class="eva">she-</span> <span class="freq">(296 occ, 68 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐊󿐏󿐆󿐗</span></td><td><span class="eva">shey</span></td><td class="freq">57</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐗</span></td><td><span class="eva">sheey</span></td><td class="freq">37</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐚</span></td><td><span class="eva">sheol</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐃</span></td><td><span class="eva">sheor</span></td><td class="freq">24</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐊󿐏󿐆󿐔</span></td><td><span class="eva">sheo</span></td><td class="freq">21</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">sheody</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐊󿐏󿐆󿐐󿐀󿐀󿐁</span></td><td><span class="eva">sheaiin</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐊󿐏󿐆󿐢󿐗</span></td><td><span class="eva">sheky</span></td><td class="freq">6</td></tr>
+<tr><td><span class="eva">-os</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐊</span></td><td><span class="eva">sheos</span></td><td class="freq">6</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐔󿐚</span></td><td><span class="eva">sheeol</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐊󿐏󿐆󿐐󿐃</span></td><td><span class="eva">shear</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-om</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐄</span></td><td><span class="eva">sheom</span></td><td class="freq">4</td></tr>
+</table></div>
+</div></div>
+<div class="section lang-b">
+<h3>Top Paradigms — Language B</h3>
+<div class="paradigm-grid">
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔-</span> <span class="eva">qo-</span> <span class="freq">(3702 occ, 338 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-keedy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qokeedy</span></td><td class="freq">306</td></tr>
+<tr><td><span class="eva">-kain</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐁</span></td><td><span class="eva">qokain</span></td><td class="freq">272</td></tr>
+<tr><td><span class="eva">-keey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">qokeey</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-kedy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐉󿐗</span></td><td><span class="eva">qokedy</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-kaiin</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">qokaiin</span></td><td class="freq">245</td></tr>
+<tr><td><span class="eva">-kal</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐚</span></td><td><span class="eva">qokal</span></td><td class="freq">177</td></tr>
+<tr><td><span class="eva">-l</span></td><td><span class="v">󿐝󿐔󿐚</span></td><td><span class="eva">qol</span></td><td class="freq">147</td></tr>
+<tr><td><span class="eva">-kar</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐃</span></td><td><span class="eva">qokar</span></td><td class="freq">136</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐝󿐔󿐢󿐗</span></td><td><span class="eva">qoky</span></td><td class="freq">112</td></tr>
+<tr><td><span class="eva">-tedy</span></td><td><span class="v">󿐝󿐔󿐣󿐆󿐉󿐗</span></td><td><span class="eva">qotedy</span></td><td class="freq">94</td></tr>
+<tr><td><span class="eva">-key</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐗</span></td><td><span class="eva">qokey</span></td><td class="freq">90</td></tr>
+<tr><td><span class="eva">-teedy</span></td><td><span class="v">󿐝󿐔󿐣󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qoteedy</span></td><td class="freq">73</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐏-</span> <span class="eva">ch-</span> <span class="freq">(3030 occ, 405 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">chedy</span></td><td class="freq">510</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐌󿐏󿐆󿐗</span></td><td><span class="eva">chey</span></td><td class="freq">256</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐗</span></td><td><span class="eva">cheey</span></td><td class="freq">130</td></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐌󿐏󿐉󿐗</span></td><td><span class="eva">chdy</span></td><td class="freq">129</td></tr>
+<tr><td><span class="eva">-ckhy</span></td><td><span class="v">󿐌󿐏󿐌󿐢󿐏󿐗</span></td><td><span class="eva">chckhy</span></td><td class="freq">119</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐌󿐏󿐔󿐚</span></td><td><span class="eva">chol</span></td><td class="freq">101</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐚</span></td><td><span class="eva">cheol</span></td><td class="freq">90</td></tr>
+<tr><td><span class="eva">-cthy</span></td><td><span class="v">󿐌󿐏󿐌󿐣󿐏󿐗</span></td><td><span class="eva">chcthy</span></td><td class="freq">56</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐉󿐗</span></td><td><span class="eva">cheedy</span></td><td class="freq">54</td></tr>
+<tr><td><span class="eva">-eody</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">cheody</span></td><td class="freq">51</td></tr>
+<tr><td><span class="eva">-eckhy</span></td><td><span class="v">󿐌󿐏󿐆󿐌󿐢󿐏󿐗</span></td><td><span class="eva">checkhy</span></td><td class="freq">46</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐌󿐏󿐔󿐉󿐗</span></td><td><span class="eva">chody</span></td><td class="freq">46</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔󿐢-</span> <span class="eva">qok-</span> <span class="freq">(2506 occ, 135 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qokeedy</span></td><td class="freq">306</td></tr>
+<tr><td><span class="eva">-ain</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐁</span></td><td><span class="eva">qokain</span></td><td class="freq">272</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">qokeey</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐉󿐗</span></td><td><span class="eva">qokedy</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">qokaiin</span></td><td class="freq">245</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐚</span></td><td><span class="eva">qokal</span></td><td class="freq">177</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐃</span></td><td><span class="eva">qokar</span></td><td class="freq">136</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐝󿐔󿐢󿐗</span></td><td><span class="eva">qoky</span></td><td class="freq">112</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐗</span></td><td><span class="eva">qokey</span></td><td class="freq">90</td></tr>
+<tr><td><span class="eva">-chdy</span></td><td><span class="v">󿐝󿐔󿐢󿐌󿐏󿐉󿐗</span></td><td><span class="eva">qokchdy</span></td><td class="freq">54</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐝󿐔󿐢󿐔󿐚</span></td><td><span class="eva">qokol</span></td><td class="freq">49</td></tr>
+<tr><td><span class="eva">-chedy</span></td><td><span class="v">󿐝󿐔󿐢󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">qokchedy</span></td><td class="freq">38</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐏󿐆-</span> <span class="eva">che-</span> <span class="freq">(1940 occ, 232 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">chedy</span></td><td class="freq">510</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐌󿐏󿐆󿐗</span></td><td><span class="eva">chey</span></td><td class="freq">256</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐗</span></td><td><span class="eva">cheey</span></td><td class="freq">130</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐚</span></td><td><span class="eva">cheol</span></td><td class="freq">90</td></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐉󿐗</span></td><td><span class="eva">cheedy</span></td><td class="freq">54</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">cheody</span></td><td class="freq">51</td></tr>
+<tr><td><span class="eva">-ckhy</span></td><td><span class="v">󿐌󿐏󿐆󿐌󿐢󿐏󿐗</span></td><td><span class="eva">checkhy</span></td><td class="freq">46</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐌󿐏󿐆󿐢󿐗</span></td><td><span class="eva">cheky</span></td><td class="freq">44</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐌󿐏󿐆󿐔</span></td><td><span class="eva">cheo</span></td><td class="freq">33</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐌󿐏󿐆󿐐󿐃</span></td><td><span class="eva">chear</span></td><td class="freq">30</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐃</span></td><td><span class="eva">cheor</span></td><td class="freq">30</td></tr>
+<tr><td><span class="eva">-dar</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐃</span></td><td><span class="eva">chedar</span></td><td class="freq">29</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐊󿐏-</span> <span class="eva">sh-</span> <span class="freq">(1870 occ, 243 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐊󿐏󿐆󿐉󿐗</span></td><td><span class="eva">shedy</span></td><td class="freq">427</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐊󿐏󿐆󿐗</span></td><td><span class="eva">shey</span></td><td class="freq">202</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐗</span></td><td><span class="eva">sheey</span></td><td class="freq">102</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐉󿐗</span></td><td><span class="eva">sheedy</span></td><td class="freq">82</td></tr>
+<tr><td><span class="eva">-eol</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐚</span></td><td><span class="eva">sheol</span></td><td class="freq">68</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐊󿐏󿐔󿐚</span></td><td><span class="eva">shol</span></td><td class="freq">59</td></tr>
+<tr><td><span class="eva">-ckhy</span></td><td><span class="v">󿐊󿐏󿐌󿐢󿐏󿐗</span></td><td><span class="eva">shckhy</span></td><td class="freq">53</td></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐊󿐏󿐉󿐗</span></td><td><span class="eva">shdy</span></td><td class="freq">43</td></tr>
+<tr><td><span class="eva">-eckhy</span></td><td><span class="v">󿐊󿐏󿐆󿐌󿐢󿐏󿐗</span></td><td><span class="eva">sheckhy</span></td><td class="freq">37</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐊󿐏󿐗</span></td><td><span class="eva">shy</span></td><td class="freq">33</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐊󿐏󿐔󿐉󿐗</span></td><td><span class="eva">shody</span></td><td class="freq">29</td></tr>
+<tr><td><span class="eva">-eky</span></td><td><span class="v">󿐊󿐏󿐆󿐢󿐗</span></td><td><span class="eva">sheky</span></td><td class="freq">29</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐊󿐏󿐆-</span> <span class="eva">she-</span> <span class="freq">(1390 occ, 150 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐊󿐏󿐆󿐉󿐗</span></td><td><span class="eva">shedy</span></td><td class="freq">427</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐊󿐏󿐆󿐗</span></td><td><span class="eva">shey</span></td><td class="freq">202</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐗</span></td><td><span class="eva">sheey</span></td><td class="freq">102</td></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐉󿐗</span></td><td><span class="eva">sheedy</span></td><td class="freq">82</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐚</span></td><td><span class="eva">sheol</span></td><td class="freq">68</td></tr>
+<tr><td><span class="eva">-ckhy</span></td><td><span class="v">󿐊󿐏󿐆󿐌󿐢󿐏󿐗</span></td><td><span class="eva">sheckhy</span></td><td class="freq">37</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐊󿐏󿐆󿐢󿐗</span></td><td><span class="eva">sheky</span></td><td class="freq">29</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐉󿐗</span></td><td><span class="eva">sheody</span></td><td class="freq">27</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐃</span></td><td><span class="eva">sheor</span></td><td class="freq">26</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐊󿐏󿐆󿐔</span></td><td><span class="eva">sheo</span></td><td class="freq">22</td></tr>
+<tr><td><span class="eva">-cthy</span></td><td><span class="v">󿐊󿐏󿐆󿐌󿐣󿐏󿐗</span></td><td><span class="eva">shecthy</span></td><td class="freq">20</td></tr>
+<tr><td><span class="eva">-d</span></td><td><span class="v">󿐊󿐏󿐆󿐉</span></td><td><span class="eva">shed</span></td><td class="freq">18</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐔󿐢-</span> <span class="eva">ok-</span> <span class="freq">(1380 occ, 148 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">okaiin</span></td><td class="freq">172</td></tr>
+<tr><td><span class="eva">-ain</span></td><td><span class="v">󿐔󿐢󿐐󿐀󿐁</span></td><td><span class="eva">okain</span></td><td class="freq">130</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">okeey</span></td><td class="freq">123</td></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐔󿐢󿐆󿐉󿐗</span></td><td><span class="eva">okedy</span></td><td class="freq">112</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="v">󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td><span class="eva">okeedy</span></td><td class="freq">105</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐔󿐢󿐐󿐃</span></td><td><span class="eva">okar</span></td><td class="freq">99</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐔󿐢󿐐󿐚</span></td><td><span class="eva">okal</span></td><td class="freq">96</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐔󿐢󿐗</span></td><td><span class="eva">oky</span></td><td class="freq">49</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐔󿐢󿐆󿐗</span></td><td><span class="eva">okey</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-chedy</span></td><td><span class="v">󿐔󿐢󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">okchedy</span></td><td class="freq">22</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐔󿐢󿐔󿐚</span></td><td><span class="eva">okol</span></td><td class="freq">20</td></tr>
+<tr><td><span class="eva">-am</span></td><td><span class="v">󿐔󿐢󿐐󿐄</span></td><td><span class="eva">okam</span></td><td class="freq">20</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐔󿐣-</span> <span class="eva">ot-</span> <span class="freq">(1343 occ, 164 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐔󿐣󿐆󿐉󿐗</span></td><td><span class="eva">otedy</span></td><td class="freq">142</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐔󿐣󿐐󿐃</span></td><td><span class="eva">otar</span></td><td class="freq">118</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐔󿐣󿐐󿐀󿐀󿐁</span></td><td><span class="eva">otaiin</span></td><td class="freq">108</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐔󿐣󿐐󿐚</span></td><td><span class="eva">otal</span></td><td class="freq">106</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="v">󿐔󿐣󿐆󿐆󿐉󿐗</span></td><td><span class="eva">oteedy</span></td><td class="freq">93</td></tr>
+<tr><td><span class="eva">-ain</span></td><td><span class="v">󿐔󿐣󿐐󿐀󿐁</span></td><td><span class="eva">otain</span></td><td class="freq">92</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐔󿐣󿐆󿐆󿐗</span></td><td><span class="eva">oteey</span></td><td class="freq">89</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐔󿐣󿐗</span></td><td><span class="eva">oty</span></td><td class="freq">64</td></tr>
+<tr><td><span class="eva">-am</span></td><td><span class="v">󿐔󿐣󿐐󿐄</span></td><td><span class="eva">otam</span></td><td class="freq">37</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐔󿐣󿐆󿐗</span></td><td><span class="eva">otey</span></td><td class="freq">35</td></tr>
+<tr><td><span class="eva">-chedy</span></td><td><span class="v">󿐔󿐣󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">otchedy</span></td><td class="freq">30</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐔󿐣󿐔󿐚</span></td><td><span class="eva">otol</span></td><td class="freq">29</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔󿐢󿐆-</span> <span class="eva">qoke-</span> <span class="freq">(1180 occ, 73 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qokeedy</span></td><td class="freq">306</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">qokeey</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐉󿐗</span></td><td><span class="eva">qokedy</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐗</span></td><td><span class="eva">qokey</span></td><td class="freq">90</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐆󿐗</span></td><td><span class="eva">qokeeey</span></td><td class="freq">23</td></tr>
+<tr><td><span class="eva">-eo</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐔</span></td><td><span class="eva">qokeeo</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐚</span></td><td><span class="eva">qokeol</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-ed</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉</span></td><td><span class="eva">qokeed</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐉󿐗</span></td><td><span class="eva">qokeody</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐔󿐃</span></td><td><span class="eva">qokeor</span></td><td class="freq">12</td></tr>
+<tr><td><span class="eva">-chy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐌󿐏󿐗</span></td><td><span class="eva">qokechy</span></td><td class="freq">10</td></tr>
+<tr><td><span class="eva">-eody</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐔󿐉󿐗</span></td><td><span class="eva">qokeeody</span></td><td class="freq">10</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐉󿐐-</span> <span class="eva">da-</span> <span class="freq">(1050 occ, 96 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">daiin</span></td><td class="freq">322</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐉󿐐󿐃</span></td><td><span class="eva">dar</span></td><td class="freq">192</td></tr>
+<tr><td><span class="eva">-l</span></td><td><span class="v">󿐉󿐐󿐚</span></td><td><span class="eva">dal</span></td><td class="freq">145</td></tr>
+<tr><td><span class="eva">-in</span></td><td><span class="v">󿐉󿐐󿐀󿐁</span></td><td><span class="eva">dain</span></td><td class="freq">106</td></tr>
+<tr><td><span class="eva">-m</span></td><td><span class="v">󿐉󿐐󿐄</span></td><td><span class="eva">dam</span></td><td class="freq">49</td></tr>
+<tr><td><span class="eva">-ir</span></td><td><span class="v">󿐉󿐐󿐀󿐃</span></td><td><span class="eva">dair</span></td><td class="freq">48</td></tr>
+<tr><td><span class="eva">-ly</span></td><td><span class="v">󿐉󿐐󿐚󿐗</span></td><td><span class="eva">daly</span></td><td class="freq">19</td></tr>
+<tr><td><span class="eva">-ry</span></td><td><span class="v">󿐉󿐐󿐃󿐗</span></td><td><span class="eva">dary</span></td><td class="freq">15</td></tr>
+<tr><td><span class="eva">-ldy</span></td><td><span class="v">󿐉󿐐󿐚󿐉󿐗</span></td><td><span class="eva">daldy</span></td><td class="freq">8</td></tr>
+<tr><td><span class="eva">-iir</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐃</span></td><td><span class="eva">daiir</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-iiin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐀󿐁</span></td><td><span class="eva">daiiin</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-lol</span></td><td><span class="v">󿐉󿐐󿐚󿐔󿐚</span></td><td><span class="eva">dalol</span></td><td class="freq">5</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔󿐢󿐐-</span> <span class="eva">qoka-</span> <span class="freq">(923 occ, 30 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-in</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐁</span></td><td><span class="eva">qokain</span></td><td class="freq">272</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">qokaiin</span></td><td class="freq">245</td></tr>
+<tr><td><span class="eva">-l</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐚</span></td><td><span class="eva">qokal</span></td><td class="freq">177</td></tr>
+<tr><td><span class="eva">-r</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐃</span></td><td><span class="eva">qokar</span></td><td class="freq">136</td></tr>
+<tr><td><span class="eva">-m</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐄</span></td><td><span class="eva">qokam</span></td><td class="freq">27</td></tr>
+<tr><td><span class="eva">-ir</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐃</span></td><td><span class="eva">qokair</span></td><td class="freq">12</td></tr>
+<tr><td><span class="eva">-ly</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐚󿐗</span></td><td><span class="eva">qokaly</span></td><td class="freq">9</td></tr>
+<tr><td><span class="eva">-n</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐁</span></td><td><span class="eva">qokan</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-ldy</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐚󿐉󿐗</span></td><td><span class="eva">qokaldy</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-iir</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐀󿐀󿐃</span></td><td><span class="eva">qokaiir</span></td><td class="freq">3</td></tr>
+<tr><td><span class="eva">-ram</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐃󿐐󿐄</span></td><td><span class="eva">qokaram</span></td><td class="freq">3</td></tr>
+<tr><td><span class="eva">-s</span></td><td><span class="v">󿐝󿐔󿐢󿐐󿐊</span></td><td><span class="eva">qokas</span></td><td class="freq">3</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔󿐣-</span> <span class="eva">qot-</span> <span class="freq">(794 occ, 98 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐝󿐔󿐣󿐆󿐉󿐗</span></td><td><span class="eva">qotedy</span></td><td class="freq">94</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="v">󿐝󿐔󿐣󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qoteedy</span></td><td class="freq">73</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐝󿐔󿐣󿐐󿐀󿐀󿐁</span></td><td><span class="eva">qotaiin</span></td><td class="freq">66</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐝󿐔󿐣󿐐󿐃</span></td><td><span class="eva">qotar</span></td><td class="freq">65</td></tr>
+<tr><td><span class="eva">-ain</span></td><td><span class="v">󿐝󿐔󿐣󿐐󿐀󿐁</span></td><td><span class="eva">qotain</span></td><td class="freq">61</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐝󿐔󿐣󿐗</span></td><td><span class="eva">qoty</span></td><td class="freq">57</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐝󿐔󿐣󿐐󿐚</span></td><td><span class="eva">qotal</span></td><td class="freq">54</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="v">󿐝󿐔󿐣󿐆󿐆󿐗</span></td><td><span class="eva">qoteey</span></td><td class="freq">32</td></tr>
+<tr><td><span class="eva">-chedy</span></td><td><span class="v">󿐝󿐔󿐣󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">qotchedy</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐝󿐔󿐣󿐔󿐚</span></td><td><span class="eva">qotol</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐝󿐔󿐣󿐆󿐗</span></td><td><span class="eva">qotey</span></td><td class="freq">21</td></tr>
+<tr><td><span class="eva">-chdy</span></td><td><span class="v">󿐝󿐔󿐣󿐌󿐏󿐉󿐗</span></td><td><span class="eva">qotchdy</span></td><td class="freq">21</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐔󿐚-</span> <span class="eva">ol-</span> <span class="freq">(785 occ, 158 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐔󿐚󿐗</span></td><td><span class="eva">oly</span></td><td class="freq">52</td></tr>
+<tr><td><span class="eva">-keedy</span></td><td><span class="v">󿐔󿐚󿐢󿐆󿐆󿐉󿐗</span></td><td><span class="eva">olkeedy</span></td><td class="freq">41</td></tr>
+<tr><td><span class="eva">-keey</span></td><td><span class="v">󿐔󿐚󿐢󿐆󿐆󿐗</span></td><td><span class="eva">olkeey</span></td><td class="freq">40</td></tr>
+<tr><td><span class="eva">-chedy</span></td><td><span class="v">󿐔󿐚󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">olchedy</span></td><td class="freq">35</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐔󿐚󿐐󿐀󿐀󿐁</span></td><td><span class="eva">olaiin</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-kain</span></td><td><span class="v">󿐔󿐚󿐢󿐐󿐀󿐁</span></td><td><span class="eva">olkain</span></td><td class="freq">34</td></tr>
+<tr><td><span class="eva">-kaiin</span></td><td><span class="v">󿐔󿐚󿐢󿐐󿐀󿐀󿐁</span></td><td><span class="eva">olkaiin</span></td><td class="freq">33</td></tr>
+<tr><td><span class="eva">-kedy</span></td><td><span class="v">󿐔󿐚󿐢󿐆󿐉󿐗</span></td><td><span class="eva">olkedy</span></td><td class="freq">30</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐔󿐚󿐔󿐃</span></td><td><span class="eva">olor</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-chey</span></td><td><span class="v">󿐔󿐚󿐌󿐏󿐆󿐗</span></td><td><span class="eva">olchey</span></td><td class="freq">25</td></tr>
+<tr><td><span class="eva">-shedy</span></td><td><span class="v">󿐔󿐚󿐊󿐏󿐆󿐉󿐗</span></td><td><span class="eva">olshedy</span></td><td class="freq">22</td></tr>
+<tr><td><span class="eva">-ky</span></td><td><span class="v">󿐔󿐚󿐢󿐗</span></td><td><span class="eva">olky</span></td><td class="freq">22</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐝󿐔󿐢󿐆󿐆-</span> <span class="eva">qokee-</span> <span class="freq">(698 occ, 33 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-dy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qokeedy</span></td><td class="freq">306</td></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td><span class="eva">qokeey</span></td><td class="freq">267</td></tr>
+<tr><td><span class="eva">-ey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐆󿐗</span></td><td><span class="eva">qokeeey</span></td><td class="freq">23</td></tr>
+<tr><td><span class="eva">-o</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐔</span></td><td><span class="eva">qokeeo</span></td><td class="freq">17</td></tr>
+<tr><td><span class="eva">-d</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉</span></td><td><span class="eva">qokeed</span></td><td class="freq">14</td></tr>
+<tr><td><span class="eva">-ody</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐔󿐉󿐗</span></td><td><span class="eva">qokeeody</span></td><td class="freq">10</td></tr>
+<tr><td><span class="eva">-s</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐊</span></td><td><span class="eva">qokees</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐔󿐃</span></td><td><span class="eva">qokeeor</span></td><td class="freq">6</td></tr>
+<tr><td><span class="eva">-dar</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉󿐐󿐃</span></td><td><span class="eva">qokeedar</span></td><td class="freq">6</td></tr>
+<tr><td><span class="eva">-chy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐌󿐏󿐗</span></td><td><span class="eva">qokeechy</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐔󿐚</span></td><td><span class="eva">qokeeol</span></td><td class="freq">5</td></tr>
+<tr><td><span class="eva">-edy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐆󿐉󿐗</span></td><td><span class="eva">qokeeedy</span></td><td class="freq">4</td></tr>
+</table></div>
+<div class="paradigm-card">
+<h4><span class="v">󿐌󿐏󿐆󿐉-</span> <span class="eva">ched-</span> <span class="freq">(651 occ, 36 endings)</span></h4>
+<table><tr><th>Ending</th><th>Glyph</th><th>Full Word</th><th>Freq</th></tr>
+<tr><td><span class="eva">-y</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐗</span></td><td><span class="eva">chedy</span></td><td class="freq">510</td></tr>
+<tr><td><span class="eva">-ar</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐃</span></td><td><span class="eva">chedar</span></td><td class="freq">29</td></tr>
+<tr><td><span class="eva">-aiin</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐀󿐀󿐁</span></td><td><span class="eva">chedaiin</span></td><td class="freq">28</td></tr>
+<tr><td><span class="eva">-al</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐚</span></td><td><span class="eva">chedal</span></td><td class="freq">21</td></tr>
+<tr><td><span class="eva">-ain</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐀󿐁</span></td><td><span class="eva">chedain</span></td><td class="freq">16</td></tr>
+<tr><td><span class="eva">-am</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐄</span></td><td><span class="eva">chedam</span></td><td class="freq">7</td></tr>
+<tr><td><span class="eva">-ol</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐔󿐚</span></td><td><span class="eva">chedol</span></td><td class="freq">6</td></tr>
+<tr><td><span class="eva">-or</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐔󿐃</span></td><td><span class="eva">chedor</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-aiiin</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐐󿐀󿐀󿐀󿐁</span></td><td><span class="eva">chedaiiin</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-yor</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐗󿐔󿐃</span></td><td><span class="eva">chedyor</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-chey</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐌󿐏󿐆󿐗</span></td><td><span class="eva">chedchey</span></td><td class="freq">2</td></tr>
+<tr><td><span class="eva">-yr</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐗󿐃</span></td><td><span class="eva">chedyr</span></td><td class="freq">2</td></tr>
+</table></div>
+</div></div>
+<h2>3. Cross-Language Ending Comparison</h2>
+<div class="note">
+    The same stems appear in both languages but with systematically different ending
+    preferences. This table shows shared stems and how their endings diverge — evidence
+    for two dialects of a single declined language rather than two separate systems.
+    </div>
+<table><tr><th>Stem</th><th>Glyph</th><th>Language A endings</th><th>Language B endings</th><th>Overlap</th></tr>
+<tr><td><span class="eva">qot-</span></td><td><span class="v">󿐝󿐔󿐣</span></td><td>-chy <span class="freq">(51)</span>, -y <span class="freq">(25)</span>, -ol <span class="freq">(23)</span>, -or <span class="freq">(17)</span>, -chor <span class="freq">(15)</span>, -chol <span class="freq">(13)</span></td><td>-edy <span class="freq">(94)</span>, -eedy <span class="freq">(73)</span>, -aiin <span class="freq">(66)</span>, -ar <span class="freq">(65)</span>, -ain <span class="freq">(61)</span>, -y <span class="freq">(57)</span></td><td class="freq">0/5</td></tr>
+<tr><td><span class="eva">ch-</span></td><td><span class="v">󿐌󿐏</span></td><td>-ol <span class="freq">(264)</span>, -or <span class="freq">(168)</span>, -y <span class="freq">(88)</span>, -ey <span class="freq">(79)</span>, -eol <span class="freq">(66)</span>, -eor <span class="freq">(58)</span></td><td>-edy <span class="freq">(510)</span>, -ey <span class="freq">(256)</span>, -eey <span class="freq">(130)</span>, -dy <span class="freq">(129)</span>, -ckhy <span class="freq">(119)</span>, -ol <span class="freq">(101)</span></td><td class="freq">1/5</td></tr>
+<tr><td><span class="eva">qo-</span></td><td><span class="v">󿐝󿐔</span></td><td>-tchy <span class="freq">(51)</span>, -kol <span class="freq">(44)</span>, -keey <span class="freq">(39)</span>, -kchy <span class="freq">(38)</span>, -ky <span class="freq">(34)</span>, -keol <span class="freq">(32)</span></td><td>-keedy <span class="freq">(306)</span>, -kain <span class="freq">(272)</span>, -keey <span class="freq">(267)</span>, -kedy <span class="freq">(267)</span>, -kaiin <span class="freq">(245)</span>, -kal <span class="freq">(177)</span></td><td class="freq">1/5</td></tr>
+<tr><td><span class="eva">qok-</span></td><td><span class="v">󿐝󿐔󿐢</span></td><td>-ol <span class="freq">(44)</span>, -eey <span class="freq">(39)</span>, -chy <span class="freq">(38)</span>, -y <span class="freq">(34)</span>, -eol <span class="freq">(32)</span>, -aiin <span class="freq">(24)</span></td><td>-eedy <span class="freq">(306)</span>, -ain <span class="freq">(272)</span>, -eey <span class="freq">(267)</span>, -edy <span class="freq">(267)</span>, -aiin <span class="freq">(245)</span>, -al <span class="freq">(177)</span></td><td class="freq">1/5</td></tr>
+<tr><td><span class="eva">sh-</span></td><td><span class="v">󿐊󿐏</span></td><td>-ol <span class="freq">(109)</span>, -o <span class="freq">(96)</span>, -or <span class="freq">(65)</span>, -y <span class="freq">(58)</span>, -ey <span class="freq">(57)</span>, -eey <span class="freq">(37)</span></td><td>-edy <span class="freq">(427)</span>, -ey <span class="freq">(202)</span>, -eey <span class="freq">(102)</span>, -eedy <span class="freq">(82)</span>, -eol <span class="freq">(68)</span>, -ol <span class="freq">(59)</span></td><td class="freq">1/5</td></tr>
+<tr><td><span class="eva">ot-</span></td><td><span class="v">󿐔󿐣</span></td><td>-y <span class="freq">(39)</span>, -ol <span class="freq">(35)</span>, -aiin <span class="freq">(29)</span>, -chy <span class="freq">(29)</span>, -chol <span class="freq">(24)</span>, -al <span class="freq">(19)</span></td><td>-edy <span class="freq">(142)</span>, -ar <span class="freq">(118)</span>, -aiin <span class="freq">(108)</span>, -al <span class="freq">(106)</span>, -eedy <span class="freq">(93)</span>, -ain <span class="freq">(92)</span></td><td class="freq">1/5</td></tr>
+<tr><td><span class="eva">yt-</span></td><td><span class="v">󿐗󿐣</span></td><td>-chy <span class="freq">(13)</span>, -y <span class="freq">(12)</span>, -aiin <span class="freq">(12)</span>, -or <span class="freq">(10)</span>, -ol <span class="freq">(8)</span>, -chor <span class="freq">(8)</span></td><td>-aiin <span class="freq">(29)</span>, -eedy <span class="freq">(26)</span>, -eey <span class="freq">(22)</span>, -edy <span class="freq">(21)</span>, -ar <span class="freq">(19)</span>, -chedy <span class="freq">(10)</span></td><td class="freq">1/5</td></tr>
+<tr><td><span class="eva">ok-</span></td><td><span class="v">󿐔󿐢</span></td><td>-ol <span class="freq">(40)</span>, -eol <span class="freq">(35)</span>, -y <span class="freq">(34)</span>, -aiin <span class="freq">(34)</span>, -eey <span class="freq">(33)</span>, -al <span class="freq">(31)</span></td><td>-aiin <span class="freq">(172)</span>, -ain <span class="freq">(130)</span>, -eey <span class="freq">(123)</span>, -edy <span class="freq">(112)</span>, -eedy <span class="freq">(105)</span>, -ar <span class="freq">(99)</span></td><td class="freq">2/5</td></tr>
+<tr><td><span class="eva">qoke-</span></td><td><span class="v">󿐝󿐔󿐢󿐆</span></td><td>-ey <span class="freq">(39)</span>, -ol <span class="freq">(32)</span>, -y <span class="freq">(17)</span>, -ody <span class="freq">(16)</span>, -or <span class="freq">(12)</span>, -eo <span class="freq">(6)</span></td><td>-edy <span class="freq">(306)</span>, -ey <span class="freq">(267)</span>, -dy <span class="freq">(267)</span>, -y <span class="freq">(90)</span>, -eey <span class="freq">(23)</span>, -eo <span class="freq">(17)</span></td><td class="freq">2/5</td></tr>
+<tr><td><span class="eva">ol-</span></td><td><span class="v">󿐔󿐚</span></td><td>-aiin <span class="freq">(11)</span>, -s <span class="freq">(9)</span>, -dy <span class="freq">(7)</span>, -y <span class="freq">(7)</span>, -ol <span class="freq">(7)</span>, -chey <span class="freq">(5)</span></td><td>-y <span class="freq">(52)</span>, -keedy <span class="freq">(41)</span>, -keey <span class="freq">(40)</span>, -chedy <span class="freq">(35)</span>, -aiin <span class="freq">(34)</span>, -kain <span class="freq">(34)</span></td><td class="freq">2/5</td></tr>
+<tr><td><span class="eva">yk-</span></td><td><span class="v">󿐗󿐢</span></td><td>-eey <span class="freq">(22)</span>, -chy <span class="freq">(16)</span>, -aiin <span class="freq">(14)</span>, -y <span class="freq">(12)</span>, -eol <span class="freq">(8)</span>, -ol <span class="freq">(8)</span></td><td>-aiin <span class="freq">(33)</span>, -eey <span class="freq">(26)</span>, -ar <span class="freq">(26)</span>, -eedy <span class="freq">(25)</span>, -edy <span class="freq">(18)</span>, -ain <span class="freq">(10)</span></td><td class="freq">2/5</td></tr>
+<tr><td><span class="eva">ke-</span></td><td><span class="v">󿐢󿐆</span></td><td>-ey <span class="freq">(18)</span>, -ol <span class="freq">(11)</span>, -or <span class="freq">(7)</span>, -y <span class="freq">(7)</span>, -eo <span class="freq">(6)</span>, -eol <span class="freq">(5)</span></td><td>-edy <span class="freq">(54)</span>, -dy <span class="freq">(46)</span>, -ey <span class="freq">(23)</span>, -ody <span class="freq">(15)</span>, -ol <span class="freq">(8)</span>, -y <span class="freq">(7)</span></td><td class="freq">2/5</td></tr>
+<tr><td><span class="eva">che-</span></td><td><span class="v">󿐌󿐏󿐆</span></td><td>-y <span class="freq">(79)</span>, -ol <span class="freq">(66)</span>, -or <span class="freq">(58)</span>, -ey <span class="freq">(36)</span>, -o <span class="freq">(26)</span>, -ody <span class="freq">(26)</span></td><td>-dy <span class="freq">(510)</span>, -y <span class="freq">(256)</span>, -ey <span class="freq">(130)</span>, -ol <span class="freq">(90)</span>, -edy <span class="freq">(54)</span>, -ody <span class="freq">(51)</span></td><td class="freq">3/5</td></tr>
+<tr><td><span class="eva">she-</span></td><td><span class="v">󿐊󿐏󿐆</span></td><td>-y <span class="freq">(57)</span>, -ey <span class="freq">(37)</span>, -ol <span class="freq">(34)</span>, -or <span class="freq">(24)</span>, -o <span class="freq">(21)</span>, -ody <span class="freq">(15)</span></td><td>-dy <span class="freq">(427)</span>, -y <span class="freq">(202)</span>, -ey <span class="freq">(102)</span>, -edy <span class="freq">(82)</span>, -ol <span class="freq">(68)</span>, -ckhy <span class="freq">(37)</span></td><td class="freq">3/5</td></tr>
+<tr><td><span class="eva">oke-</span></td><td><span class="v">󿐔󿐢󿐆</span></td><td>-ol <span class="freq">(35)</span>, -ey <span class="freq">(33)</span>, -y <span class="freq">(16)</span>, -or <span class="freq">(14)</span>, -eol <span class="freq">(8)</span>, -ody <span class="freq">(8)</span></td><td>-ey <span class="freq">(123)</span>, -dy <span class="freq">(112)</span>, -edy <span class="freq">(105)</span>, -y <span class="freq">(34)</span>, -ol <span class="freq">(18)</span>, -eey <span class="freq">(18)</span></td><td class="freq">3/5</td></tr>
+<tr><td><span class="eva">cho-</span></td><td><span class="v">󿐌󿐏󿐔</span></td><td>-l <span class="freq">(264)</span>, -r <span class="freq">(168)</span>, -dy <span class="freq">(41)</span>, -ky <span class="freq">(28)</span>, -daiin <span class="freq">(25)</span>, -ty <span class="freq">(22)</span></td><td>-l <span class="freq">(101)</span>, -dy <span class="freq">(46)</span>, -r <span class="freq">(33)</span>, -daiin <span class="freq">(15)</span>, -ty <span class="freq">(13)</span>, -s <span class="freq">(12)</span></td><td class="freq">4/5</td></tr>
+<tr><td><span class="eva">daii-</span></td><td><span class="v">󿐉󿐐󿐀󿐀</span></td><td>-n <span class="freq">(494)</span>, -in <span class="freq">(8)</span>, -r <span class="freq">(7)</span>, -m <span class="freq">(4)</span>, -dy <span class="freq">(3)</span>, -nol <span class="freq">(2)</span></td><td>-n <span class="freq">(322)</span>, -r <span class="freq">(7)</span>, -in <span class="freq">(7)</span>, -dy <span class="freq">(3)</span>, -s <span class="freq">(3)</span>, -ral <span class="freq">(2)</span></td><td class="freq">4/5</td></tr>
+<tr><td><span class="eva">ai-</span></td><td><span class="v">󿐐󿐀</span></td><td>-in <span class="freq">(65)</span>, -r <span class="freq">(9)</span>, -n <span class="freq">(7)</span>, -iin <span class="freq">(4)</span>, -m <span class="freq">(3)</span>, -ioly <span class="freq">(2)</span></td><td>-in <span class="freq">(346)</span>, -n <span class="freq">(84)</span>, -r <span class="freq">(44)</span>, -iin <span class="freq">(37)</span>, -ir <span class="freq">(17)</span>, -l <span class="freq">(5)</span></td><td class="freq">4/5</td></tr>
+<tr><td><span class="eva">cheo-</span></td><td><span class="v">󿐌󿐏󿐆󿐔</span></td><td>-l <span class="freq">(66)</span>, -r <span class="freq">(58)</span>, -dy <span class="freq">(26)</span>, -s <span class="freq">(12)</span>, -m <span class="freq">(7)</span>, -daiin <span class="freq">(6)</span></td><td>-l <span class="freq">(90)</span>, -dy <span class="freq">(51)</span>, -r <span class="freq">(30)</span>, -s <span class="freq">(16)</span>, -daiin <span class="freq">(5)</span>, -dain <span class="freq">(5)</span></td><td class="freq">4/5</td></tr>
+<tr><td><span class="eva">sa-</span></td><td><span class="v">󿐊󿐐</span></td><td>-iin <span class="freq">(39)</span>, -l <span class="freq">(20)</span>, -r <span class="freq">(20)</span>, -in <span class="freq">(8)</span>, -m <span class="freq">(6)</span>, -ir <span class="freq">(3)</span></td><td>-iin <span class="freq">(106)</span>, -in <span class="freq">(60)</span>, -r <span class="freq">(47)</span>, -l <span class="freq">(33)</span>, -ir <span class="freq">(20)</span>, -rol <span class="freq">(4)</span></td><td class="freq">4/5</td></tr>
+<tr><td><span class="eva">da-</span></td><td><span class="v">󿐉󿐐</span></td><td>-iin <span class="freq">(494)</span>, -r <span class="freq">(91)</span>, -l <span class="freq">(85)</span>, -in <span class="freq">(81)</span>, -m <span class="freq">(46)</span>, -ir <span class="freq">(38)</span></td><td>-iin <span class="freq">(322)</span>, -r <span class="freq">(192)</span>, -l <span class="freq">(145)</span>, -in <span class="freq">(106)</span>, -m <span class="freq">(49)</span>, -ir <span class="freq">(48)</span></td><td class="freq">5/5</td></tr>
+<tr><td><span class="eva">dai-</span></td><td><span class="v">󿐉󿐐󿐀</span></td><td>-in <span class="freq">(494)</span>, -n <span class="freq">(81)</span>, -r <span class="freq">(38)</span>, -iin <span class="freq">(8)</span>, -ir <span class="freq">(7)</span>, -m <span class="freq">(5)</span></td><td>-in <span class="freq">(322)</span>, -n <span class="freq">(106)</span>, -r <span class="freq">(48)</span>, -ir <span class="freq">(7)</span>, -iin <span class="freq">(7)</span>, -m <span class="freq">(4)</span></td><td class="freq">5/5</td></tr>
+<tr><td><span class="eva">oka-</span></td><td><span class="v">󿐔󿐢󿐐</span></td><td>-iin <span class="freq">(34)</span>, -l <span class="freq">(31)</span>, -r <span class="freq">(14)</span>, -in <span class="freq">(7)</span>, -m <span class="freq">(6)</span>, -ly <span class="freq">(6)</span></td><td>-iin <span class="freq">(172)</span>, -in <span class="freq">(130)</span>, -r <span class="freq">(99)</span>, -l <span class="freq">(96)</span>, -m <span class="freq">(20)</span>, -ir <span class="freq">(17)</span></td><td class="freq">5/5</td></tr>
+<tr><td><span class="eva">ota-</span></td><td><span class="v">󿐔󿐣󿐐</span></td><td>-iin <span class="freq">(29)</span>, -l <span class="freq">(19)</span>, -m <span class="freq">(9)</span>, -r <span class="freq">(9)</span>, -in <span class="freq">(3)</span>, -ly <span class="freq">(3)</span></td><td>-r <span class="freq">(118)</span>, -iin <span class="freq">(108)</span>, -l <span class="freq">(106)</span>, -in <span class="freq">(92)</span>, -m <span class="freq">(37)</span>, -ir <span class="freq">(18)</span></td><td class="freq">5/5</td></tr>
+</table>
+<h2>4. Vowel Doubling as Inflection</h2>
+<div class="note">
+    Words with single vs doubled vowels (i/ii/iii, e/ee/eee) show different syntactic
+    contexts, functioning as distinct inflectional forms of the same stem. This table
+    presents the key alternation pairs with their contextual evidence.
+    </div>
+<h3>i-doubling</h3>
+<table><tr><th>Stem</th><th>Glyph</th><th>Ending</th><th>Full Word</th><th>Glyph</th><th>Total</th><th>Lang A</th><th>Lang B</th></tr>
+<tr><td rowspan="3"><span class="eva">da-</span></td><td rowspan="3"><span class="v">󿐉󿐐</span></td><td><span class="eva">-in</span></td><td><span class="eva">dain</span></td><td><span class="v">󿐉󿐐󿐀󿐁</span></td><td>189</td><td>81</td><td>106</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="eva">daiin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐁</span></td><td>829</td><td>494</td><td>322</td></tr>
+<tr><td><span class="eva">-iiin</span></td><td><span class="eva">daiiin</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐀󿐁</span></td><td>15</td><td>8</td><td>7</td></tr>
+<tr><td rowspan="3"><span class="eva">a-</span></td><td rowspan="3"><span class="v">󿐐</span></td><td><span class="eva">-in</span></td><td><span class="eva">ain</span></td><td><span class="v">󿐐󿐀󿐁</span></td><td>92</td><td>7</td><td>84</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="eva">aiin</span></td><td><span class="v">󿐐󿐀󿐀󿐁</span></td><td>418</td><td>65</td><td>346</td></tr>
+<tr><td><span class="eva">-iiin</span></td><td><span class="eva">aiiin</span></td><td><span class="v">󿐐󿐀󿐀󿐀󿐁</span></td><td>41</td><td>4</td><td>37</td></tr>
+<tr><td rowspan="3"><span class="eva">oka-</span></td><td rowspan="3"><span class="v">󿐔󿐢󿐐</span></td><td><span class="eva">-in</span></td><td><span class="eva">okain</span></td><td><span class="v">󿐔󿐢󿐐󿐀󿐁</span></td><td>137</td><td>7</td><td>130</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="eva">okaiin</span></td><td><span class="v">󿐔󿐢󿐐󿐀󿐀󿐁</span></td><td>209</td><td>34</td><td>172</td></tr>
+<tr><td><span class="eva">-iiin</span></td><td><span class="eva">okaiiin</span></td><td><span class="v">󿐔󿐢󿐐󿐀󿐀󿐀󿐁</span></td><td>4</td><td>0</td><td>4</td></tr>
+<tr><td rowspan="2"><span class="eva">ota-</span></td><td rowspan="2"><span class="v">󿐔󿐣󿐐</span></td><td><span class="eva">-in</span></td><td><span class="eva">otain</span></td><td><span class="v">󿐔󿐣󿐐󿐀󿐁</span></td><td>95</td><td>3</td><td>92</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="eva">otaiin</span></td><td><span class="v">󿐔󿐣󿐐󿐀󿐀󿐁</span></td><td>138</td><td>29</td><td>108</td></tr>
+<tr><td rowspan="2"><span class="eva">sa-</span></td><td rowspan="2"><span class="v">󿐊󿐐</span></td><td><span class="eva">-in</span></td><td><span class="eva">sain</span></td><td><span class="v">󿐊󿐐󿐀󿐁</span></td><td>68</td><td>8</td><td>60</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="eva">saiin</span></td><td><span class="v">󿐊󿐐󿐀󿐀󿐁</span></td><td>146</td><td>39</td><td>106</td></tr>
+<tr><td rowspan="2"><span class="eva">ka-</span></td><td rowspan="2"><span class="v">󿐢󿐐</span></td><td><span class="eva">-in</span></td><td><span class="eva">kain</span></td><td><span class="v">󿐢󿐐󿐀󿐁</span></td><td>46</td><td>0</td><td>46</td></tr>
+<tr><td><span class="eva">-iin</span></td><td><span class="eva">kaiin</span></td><td><span class="v">󿐢󿐐󿐀󿐀󿐁</span></td><td>66</td><td>17</td><td>49</td></tr>
+<tr><td rowspan="2"><span class="eva">da-</span></td><td rowspan="2"><span class="v">󿐉󿐐</span></td><td><span class="eva">-ir</span></td><td><span class="eva">dair</span></td><td><span class="v">󿐉󿐐󿐀󿐃</span></td><td>88</td><td>38</td><td>48</td></tr>
+<tr><td><span class="eva">-iir</span></td><td><span class="eva">daiir</span></td><td><span class="v">󿐉󿐐󿐀󿐀󿐃</span></td><td>15</td><td>7</td><td>7</td></tr>
+</table>
+<h3>e-doubling</h3>
+<table><tr><th>Stem</th><th>Glyph</th><th>Ending</th><th>Full Word</th><th>Glyph</th><th>Total</th><th>Lang A</th><th>Lang B</th></tr>
+<tr><td rowspan="2"><span class="eva">ch-</span></td><td rowspan="2"><span class="v">󿐌󿐏</span></td><td><span class="eva">-edy</span></td><td><span class="eva">chedy</span></td><td><span class="v">󿐌󿐏󿐆󿐉󿐗</span></td><td>513</td><td>2</td><td>510</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="eva">cheedy</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐉󿐗</span></td><td>56</td><td>2</td><td>54</td></tr>
+<tr><td rowspan="2"><span class="eva">sh-</span></td><td rowspan="2"><span class="v">󿐊󿐏</span></td><td><span class="eva">-edy</span></td><td><span class="eva">shedy</span></td><td><span class="v">󿐊󿐏󿐆󿐉󿐗</span></td><td>429</td><td>2</td><td>427</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="eva">sheedy</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐉󿐗</span></td><td>83</td><td>1</td><td>82</td></tr>
+<tr><td rowspan="3"><span class="eva">ch-</span></td><td rowspan="3"><span class="v">󿐌󿐏</span></td><td><span class="eva">-ey</span></td><td><span class="eva">chey</span></td><td><span class="v">󿐌󿐏󿐆󿐗</span></td><td>338</td><td>79</td><td>256</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="eva">cheey</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐗</span></td><td>170</td><td>36</td><td>130</td></tr>
+<tr><td><span class="eva">-eeey</span></td><td><span class="eva">cheeey</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐆󿐗</span></td><td>8</td><td>2</td><td>6</td></tr>
+<tr><td rowspan="3"><span class="eva">sh-</span></td><td rowspan="3"><span class="v">󿐊󿐏</span></td><td><span class="eva">-ey</span></td><td><span class="eva">shey</span></td><td><span class="v">󿐊󿐏󿐆󿐗</span></td><td>268</td><td>57</td><td>202</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="eva">sheey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐗</span></td><td>142</td><td>37</td><td>102</td></tr>
+<tr><td><span class="eva">-eeey</span></td><td><span class="eva">sheeey</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐆󿐗</span></td><td>5</td><td>0</td><td>5</td></tr>
+<tr><td rowspan="3"><span class="eva">qok-</span></td><td rowspan="3"><span class="v">󿐝󿐔󿐢</span></td><td><span class="eva">-edy</span></td><td><span class="eva">qokedy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐉󿐗</span></td><td>268</td><td>1</td><td>267</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="eva">qokeedy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td>306</td><td>0</td><td>306</td></tr>
+<tr><td><span class="eva">-eeedy</span></td><td><span class="eva">qokeeedy</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐆󿐉󿐗</span></td><td>5</td><td>0</td><td>4</td></tr>
+<tr><td rowspan="3"><span class="eva">qok-</span></td><td rowspan="3"><span class="v">󿐝󿐔󿐢</span></td><td><span class="eva">-ey</span></td><td><span class="eva">qokey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐗</span></td><td>108</td><td>17</td><td>90</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="eva">qokeey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐗</span></td><td>308</td><td>39</td><td>267</td></tr>
+<tr><td><span class="eva">-eeey</span></td><td><span class="eva">qokeeey</span></td><td><span class="v">󿐝󿐔󿐢󿐆󿐆󿐆󿐗</span></td><td>26</td><td>3</td><td>23</td></tr>
+<tr><td rowspan="2"><span class="eva">ok-</span></td><td rowspan="2"><span class="v">󿐔󿐢</span></td><td><span class="eva">-edy</span></td><td><span class="eva">okedy</span></td><td><span class="v">󿐔󿐢󿐆󿐉󿐗</span></td><td>112</td><td>0</td><td>112</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="eva">okeedy</span></td><td><span class="v">󿐔󿐢󿐆󿐆󿐉󿐗</span></td><td>105</td><td>0</td><td>105</td></tr>
+<tr><td rowspan="3"><span class="eva">ok-</span></td><td rowspan="3"><span class="v">󿐔󿐢</span></td><td><span class="eva">-ey</span></td><td><span class="eva">okey</span></td><td><span class="v">󿐔󿐢󿐆󿐗</span></td><td>54</td><td>16</td><td>34</td></tr>
+<tr><td><span class="eva">-eey</span></td><td><span class="eva">okeey</span></td><td><span class="v">󿐔󿐢󿐆󿐆󿐗</span></td><td>159</td><td>33</td><td>123</td></tr>
+<tr><td><span class="eva">-eeey</span></td><td><span class="eva">okeeey</span></td><td><span class="v">󿐔󿐢󿐆󿐆󿐆󿐗</span></td><td>25</td><td>7</td><td>18</td></tr>
+<tr><td rowspan="2"><span class="eva">ot-</span></td><td rowspan="2"><span class="v">󿐔󿐣</span></td><td><span class="eva">-edy</span></td><td><span class="eva">otedy</span></td><td><span class="v">󿐔󿐣󿐆󿐉󿐗</span></td><td>142</td><td>0</td><td>142</td></tr>
+<tr><td><span class="eva">-eedy</span></td><td><span class="eva">oteedy</span></td><td><span class="v">󿐔󿐣󿐆󿐆󿐉󿐗</span></td><td>94</td><td>1</td><td>93</td></tr>
+<tr><td rowspan="2"><span class="eva">ch-</span></td><td rowspan="2"><span class="v">󿐌󿐏</span></td><td><span class="eva">-eol</span></td><td><span class="eva">cheol</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐚</span></td><td>156</td><td>66</td><td>90</td></tr>
+<tr><td><span class="eva">-eeol</span></td><td><span class="eva">cheeol</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐔󿐚</span></td><td>9</td><td>3</td><td>6</td></tr>
+<tr><td rowspan="2"><span class="eva">sh-</span></td><td rowspan="2"><span class="v">󿐊󿐏</span></td><td><span class="eva">-eol</span></td><td><span class="eva">sheol</span></td><td><span class="v">󿐊󿐏󿐆󿐔󿐚</span></td><td>104</td><td>34</td><td>68</td></tr>
+<tr><td><span class="eva">-eeol</span></td><td><span class="eva">sheeol</span></td><td><span class="v">󿐊󿐏󿐆󿐆󿐔󿐚</span></td><td>14</td><td>5</td><td>9</td></tr>
+<tr><td rowspan="2"><span class="eva">ch-</span></td><td rowspan="2"><span class="v">󿐌󿐏</span></td><td><span class="eva">-eor</span></td><td><span class="eva">cheor</span></td><td><span class="v">󿐌󿐏󿐆󿐔󿐃</span></td><td>90</td><td>58</td><td>30</td></tr>
+<tr><td><span class="eva">-eeor</span></td><td><span class="eva">cheeor</span></td><td><span class="v">󿐌󿐏󿐆󿐆󿐔󿐃</span></td><td>13</td><td>8</td><td>5</td></tr>
+</table>
+<h2>5. Summary Statistics</h2>
+
+    <table>
+    <tr><th></th><th>Language A</th><th>Language B</th></tr>
+    <tr><td>Paragraph sentences</td><td>132</td><td>108</td></tr>
+    <tr><td>Total tokens</td>
+        <td>10949</td>
+        <td>23460</td></tr>
+    <tr><td>Unique types</td>
+        <td>3499</td>
+        <td>4952</td></tr>
+    <tr><td>Paradigms (stem+3 endings, freq≥20)</td>
+        <td>202</td><td>379</td></tr>
+    <tr><td>Ending clusters</td>
+        <td>20</td>
+        <td>20</td></tr>
+    </table>
+    
+
+<h2>6. Interpretation Notes</h2>
+<div class="note">
+<p><strong>Evidence for declension:</strong></p>
+<ul>
+<li>Adjacent-word suffix agreement is 1.4–2.0× above chance (2-char and 3-char endings)</li>
+<li>71–76% of frequent words show free positional distribution (high entropy)</li>
+<li>Vowel doubling (i/ii, e/ee) produces forms with <em>different syntactic contexts</em>,
+    not random variation — collocation Jaccard often &lt;0.2</li>
+<li>Same stems appear in both Currier languages with systematically different ending
+    preferences, consistent with two dialects sharing a morphological system</li>
+<li>The number of productive paradigms (200–400 stems × 3+ endings) is consistent
+    with an agglutinative or fusional language</li>
+</ul>
+<p><strong>Caveats:</strong></p>
+<ul>
+<li>Case labels (NOM?, ACC?, etc.) are purely positional heuristics — true
+    identification requires semantic decipherment</li>
+<li>"Stems" and "endings" are statistical artifacts until the script is decoded;
+    the real morpheme boundaries may differ</li>
+<li>The high hapax rate (68% of types) could indicate productive morphology
+    <em>or</em> a cipher with variable encoding</li>
+</ul>
+</div>
+</body></html>

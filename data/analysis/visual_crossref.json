@@ -1,0 +1,1687 @@
+{
+  "feature_enrichment": {
+    "pools_water": {
+      "description": "Pools, bathtubs, water features",
+      "n_folios": 15,
+      "n_words": 4915,
+      "top_enriched": [
+        {
+          "word": "qoly",
+          "feat_count": 7,
+          "feat_rate": 1.4242115971515767,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 6.419312554670605,
+          "total": 7,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "rshedy",
+          "feat_count": 7,
+          "feat_rate": 1.4242115971515767,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 6.419312554670605,
+          "total": 7,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oroly",
+          "feat_count": 6,
+          "feat_rate": 1.2207527975584944,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 6.1969201333341575,
+          "total": 6,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "olshdy",
+          "feat_count": 4,
+          "feat_rate": 0.8138351983723295,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 5.611957632613001,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "solchey",
+          "feat_count": 4,
+          "feat_rate": 0.8138351983723295,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 5.611957632613001,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "lshdy",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 5.1969201333341575,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "lcheckhy",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 5.1969201333341575,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oroiiin",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 5.1969201333341575,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "qokydy",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.016640596398974937,
+          "log_odds": 5.1969201333341575,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "yshedy",
+          "feat_count": 8,
+          "feat_rate": 1.627670396744659,
+          "bg_rate": 0.06656238559589975,
+          "log_odds": 4.611957632613001,
+          "total": 10,
+          "pct_in_feat": 80.0
+        },
+        {
+          "word": "rchey",
+          "feat_count": 7,
+          "feat_rate": 1.4242115971515767,
+          "bg_rate": 0.06656238559589975,
+          "log_odds": 4.419312554670605,
+          "total": 9,
+          "pct_in_feat": 77.77777777777777
+        },
+        {
+          "word": "olkain",
+          "feat_count": 26,
+          "feat_rate": 5.289928789420142,
+          "bg_rate": 0.266249542383599,
+          "log_odds": 4.312397350754093,
+          "total": 34,
+          "pct_in_feat": 76.47058823529412
+        },
+        {
+          "word": "ly",
+          "feat_count": 9,
+          "feat_rate": 1.8311291963377416,
+          "bg_rate": 0.09984357839384964,
+          "log_odds": 4.1969201333341575,
+          "total": 12,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "keeedy",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.033281192797949874,
+          "log_odds": 4.1969201333341575,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "aror",
+          "feat_count": 5,
+          "feat_rate": 1.0172939979654119,
+          "bg_rate": 0.06656238559589975,
+          "log_odds": 3.9338857275003636,
+          "total": 7,
+          "pct_in_feat": 71.42857142857143
+        },
+        {
+          "word": "olshey",
+          "feat_count": 9,
+          "feat_rate": 1.8311291963377416,
+          "bg_rate": 0.16640596398974938,
+          "log_odds": 3.459954539167951,
+          "total": 14,
+          "pct_in_feat": 64.28571428571429
+        },
+        {
+          "word": "orol",
+          "feat_count": 7,
+          "feat_rate": 1.4242115971515767,
+          "bg_rate": 0.1331247711917995,
+          "log_odds": 3.4193125546706056,
+          "total": 11,
+          "pct_in_feat": 63.63636363636363
+        },
+        {
+          "word": "rol",
+          "feat_count": 13,
+          "feat_rate": 2.644964394710071,
+          "bg_rate": 0.266249542383599,
+          "log_odds": 3.3123973507540936,
+          "total": 21,
+          "pct_in_feat": 61.904761904761905
+        },
+        {
+          "word": "koldy",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.06656238559589975,
+          "log_odds": 3.1969201333341575,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "qolkeey",
+          "feat_count": 3,
+          "feat_rate": 0.6103763987792472,
+          "bg_rate": 0.06656238559589975,
+          "log_odds": 3.1969201333341575,
+          "total": 5,
+          "pct_in_feat": 60.0
+        }
+      ]
+    },
+    "nymphs": {
+      "description": "Nymph/human figures (bath section)",
+      "n_folios": 32,
+      "n_words": 7177,
+      "top_enriched": [
+        {
+          "word": "qolchedy",
+          "feat_count": 11,
+          "feat_rate": 1.5326738191444893,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 6.4122850331032675,
+          "total": 11,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "loly",
+          "feat_count": 10,
+          "feat_rate": 1.3933398355858995,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 6.274781509353333,
+          "total": 10,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "qoly",
+          "feat_count": 7,
+          "feat_rate": 0.9753378849101296,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 5.760208336523575,
+          "total": 7,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "rshedy",
+          "feat_count": 7,
+          "feat_rate": 0.9753378849101296,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 5.760208336523575,
+          "total": 7,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "shckhedy",
+          "feat_count": 6,
+          "feat_rate": 0.8360039013515396,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 5.537815915187127,
+          "total": 6,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oroly",
+          "feat_count": 6,
+          "feat_rate": 0.8360039013515396,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 5.537815915187127,
+          "total": 6,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "qolchey",
+          "feat_count": 10,
+          "feat_rate": 1.3933398355858995,
+          "bg_rate": 0.03599064243296742,
+          "log_odds": 5.274781509353333,
+          "total": 11,
+          "pct_in_feat": 90.9090909090909
+        },
+        {
+          "word": "qolky",
+          "feat_count": 4,
+          "feat_rate": 0.5573359342343598,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.95285341446597,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "olshdy",
+          "feat_count": 4,
+          "feat_rate": 0.5573359342343598,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.95285341446597,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "solchey",
+          "feat_count": 4,
+          "feat_rate": 0.5573359342343598,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.95285341446597,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "qolkeedy",
+          "feat_count": 7,
+          "feat_rate": 0.9753378849101296,
+          "bg_rate": 0.03599064243296742,
+          "log_odds": 4.760208336523575,
+          "total": 8,
+          "pct_in_feat": 87.5
+        },
+        {
+          "word": "lshdy",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "lcheckhy",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "sheety",
+          "feat_count": 6,
+          "feat_rate": 0.8360039013515396,
+          "bg_rate": 0.03599064243296742,
+          "log_odds": 4.537815915187127,
+          "total": 7,
+          "pct_in_feat": 85.71428571428571
+        },
+        {
+          "word": "rsheedy",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "otshdy",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "solchedy",
+          "feat_count": 6,
+          "feat_rate": 0.8360039013515396,
+          "bg_rate": 0.03599064243296742,
+          "log_odds": 4.537815915187127,
+          "total": 7,
+          "pct_in_feat": 85.71428571428571
+        },
+        {
+          "word": "sokeedy",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "solkeey",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "rched",
+          "feat_count": 3,
+          "feat_rate": 0.4180019506757698,
+          "bg_rate": 0.01799532121648371,
+          "log_odds": 4.537815915187127,
+          "total": 3,
+          "pct_in_feat": 100.0
+        }
+      ]
+    },
+    "tubes_pipes": {
+      "description": "Tubes, pipes, organ-like structures",
+      "n_folios": 18,
+      "n_words": 5704,
+      "top_enriched": [
+        {
+          "word": "qoly",
+          "feat_count": 7,
+          "feat_rate": 1.2272089761570828,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 6.1661401891679875,
+          "total": 7,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oroly",
+          "feat_count": 6,
+          "feat_rate": 1.0518934081346423,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 5.943747767831539,
+          "total": 6,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "loly",
+          "feat_count": 9,
+          "feat_rate": 1.5778401122019634,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 5.528710268552695,
+          "total": 10,
+          "pct_in_feat": 90.0
+        },
+        {
+          "word": "olshdy",
+          "feat_count": 4,
+          "feat_rate": 0.7012622720897616,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 5.358785267110383,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "solchey",
+          "feat_count": 4,
+          "feat_rate": 0.7012622720897616,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 5.358785267110383,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "rshedy",
+          "feat_count": 6,
+          "feat_rate": 1.0518934081346423,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 4.943747767831539,
+          "total": 7,
+          "pct_in_feat": 85.71428571428571
+        },
+        {
+          "word": "lshdy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "lcheckhy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oroiiin",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "solchedy",
+          "feat_count": 6,
+          "feat_rate": 1.0518934081346423,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 4.943747767831539,
+          "total": 7,
+          "pct_in_feat": 85.71428571428571
+        },
+        {
+          "word": "qokydy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "otshdy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "rsheedy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "dalo",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "rched",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.017089343085651788,
+          "log_odds": 4.943747767831539,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "shckhedy",
+          "feat_count": 5,
+          "feat_rate": 0.876577840112202,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 4.6807133619977455,
+          "total": 6,
+          "pct_in_feat": 83.33333333333333
+        },
+        {
+          "word": "qolkain",
+          "feat_count": 4,
+          "feat_rate": 0.7012622720897616,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 4.358785267110383,
+          "total": 5,
+          "pct_in_feat": 80.0
+        },
+        {
+          "word": "rchey",
+          "feat_count": 7,
+          "feat_rate": 1.2272089761570828,
+          "bg_rate": 0.06835737234260715,
+          "log_odds": 4.1661401891679875,
+          "total": 9,
+          "pct_in_feat": 77.77777777777777
+        },
+        {
+          "word": "qopshedy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 3.9437477678315394,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "sheckhedy",
+          "feat_count": 3,
+          "feat_rate": 0.5259467040673211,
+          "bg_rate": 0.034178686171303575,
+          "log_odds": 3.9437477678315394,
+          "total": 4,
+          "pct_in_feat": 75.0
+        }
+      ]
+    },
+    "stars_celestial": {
+      "description": "Stars, sun, moon (astronomical)",
+      "n_folios": 33,
+      "n_words": 5173,
+      "top_enriched": [
+        {
+          "word": "lkair",
+          "feat_count": 4,
+          "feat_rate": 0.7732456988208003,
+          "bg_rate": 0.016784719191647923,
+          "log_odds": 5.52570659728373,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "airod",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.016784719191647923,
+          "log_odds": 5.110669098004887,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "adam",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.016784719191647923,
+          "log_odds": 5.110669098004887,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oteal",
+          "feat_count": 5,
+          "feat_rate": 0.9665571235260003,
+          "bg_rate": 0.033569438383295847,
+          "log_odds": 4.847634692171092,
+          "total": 6,
+          "pct_in_feat": 83.33333333333333
+        },
+        {
+          "word": "loty",
+          "feat_count": 4,
+          "feat_rate": 0.7732456988208003,
+          "bg_rate": 0.033569438383295847,
+          "log_odds": 4.52570659728373,
+          "total": 5,
+          "pct_in_feat": 80.0
+        },
+        {
+          "word": "qokeechy",
+          "feat_count": 4,
+          "feat_rate": 0.7732456988208003,
+          "bg_rate": 0.033569438383295847,
+          "log_odds": 4.52570659728373,
+          "total": 5,
+          "pct_in_feat": 80.0
+        },
+        {
+          "word": "??",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.033569438383295847,
+          "log_odds": 4.110669098004887,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "opair",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.033569438383295847,
+          "log_odds": 4.110669098004887,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "tedam",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.033569438383295847,
+          "log_odds": 4.110669098004887,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "qochey",
+          "feat_count": 4,
+          "feat_rate": 0.7732456988208003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.5257065972837296,
+          "total": 6,
+          "pct_in_feat": 66.66666666666667
+        },
+        {
+          "word": "shekeey",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "qokchd",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "okeeody",
+          "feat_count": 6,
+          "feat_rate": 1.1598685482312006,
+          "bg_rate": 0.13427775353318339,
+          "log_odds": 3.110669098004886,
+          "total": 10,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "cheokeey",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "ail",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "lkeol",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "pcheor",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "pchedal",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "sheeey",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "ykchey",
+          "feat_count": 3,
+          "feat_rate": 0.5799342741156003,
+          "bg_rate": 0.06713887676659169,
+          "log_odds": 3.110669098004886,
+          "total": 5,
+          "pct_in_feat": 60.0
+        }
+      ]
+    },
+    "margin_stars": {
+      "description": "Marginal stars (recipe/stars section)",
+      "n_folios": 11,
+      "n_words": 4739,
+      "top_enriched": [
+        {
+          "word": "lkair",
+          "feat_count": 4,
+          "feat_rate": 0.8440599282549061,
+          "bg_rate": 0.016543691890282236,
+          "log_odds": 5.672992306540968,
+          "total": 4,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "adam",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.016543691890282236,
+          "log_odds": 5.2579548072621245,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "airod",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.016543691890282236,
+          "log_odds": 5.2579548072621245,
+          "total": 3,
+          "pct_in_feat": 100.0
+        },
+        {
+          "word": "oteal",
+          "feat_count": 5,
+          "feat_rate": 1.0550749103186325,
+          "bg_rate": 0.03308738378056447,
+          "log_odds": 4.994920401428331,
+          "total": 6,
+          "pct_in_feat": 83.33333333333333
+        },
+        {
+          "word": "qokeechy",
+          "feat_count": 4,
+          "feat_rate": 0.8440599282549061,
+          "bg_rate": 0.03308738378056447,
+          "log_odds": 4.672992306540968,
+          "total": 5,
+          "pct_in_feat": 80.0
+        },
+        {
+          "word": "loty",
+          "feat_count": 4,
+          "feat_rate": 0.8440599282549061,
+          "bg_rate": 0.03308738378056447,
+          "log_odds": 4.672992306540968,
+          "total": 5,
+          "pct_in_feat": 80.0
+        },
+        {
+          "word": "opair",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.03308738378056447,
+          "log_odds": 4.2579548072621245,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "tedam",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.03308738378056447,
+          "log_odds": 4.2579548072621245,
+          "total": 4,
+          "pct_in_feat": 75.0
+        },
+        {
+          "word": "qochey",
+          "feat_count": 4,
+          "feat_rate": 0.8440599282549061,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.672992306540968,
+          "total": 6,
+          "pct_in_feat": 66.66666666666667
+        },
+        {
+          "word": "pcheor",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "lkeol",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "ail",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "qokchd",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "cheokeey",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "sheeey",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "pchedal",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "cheoly",
+          "feat_count": 3,
+          "feat_rate": 0.6330449461911796,
+          "bg_rate": 0.06617476756112894,
+          "log_odds": 3.2579548072621245,
+          "total": 5,
+          "pct_in_feat": 60.0
+        },
+        {
+          "word": "yteeody",
+          "feat_count": 4,
+          "feat_rate": 0.8440599282549061,
+          "bg_rate": 0.0992621513416934,
+          "log_odds": 3.0880298058198123,
+          "total": 7,
+          "pct_in_feat": 57.142857142857146
+        },
+        {
+          "word": "lcheedy",
+          "feat_count": 5,
+          "feat_rate": 1.0550749103186325,
+          "bg_rate": 0.1323495351222579,
+          "log_odds": 2.9949204014283306,
+          "total": 9,
+          "pct_in_feat": 55.55555555555556
+        },
+        {
+          "word": "okeeo",
+          "feat_count": 6,
+          "feat_rate": 1.2660898923823591,
+          "bg_rate": 0.16543691890282236,
+          "log_odds": 2.9360267123747623,
+          "total": 11,
+          "pct_in_feat": 54.54545454545455
+        }
+      ]
+    },
+    "zodiac_animals": {
+      "description": "Zodiac animal figures",
+      "n_folios": 13,
+      "n_words": 376,
+      "top_enriched": [
+        {
+          "word": "aror",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 0.11565373272422368,
+          "log_odds": 6.108274198884994,
+          "total": 7,
+          "pct_in_feat": 42.857142857142854
+        },
+        {
+          "word": "teey",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 0.40478806453478283,
+          "log_odds": 4.30091927682739,
+          "total": 17,
+          "pct_in_feat": 17.647058823529413
+        },
+        {
+          "word": "sheky",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 0.9252298617937894,
+          "log_odds": 3.1082741988849936,
+          "total": 35,
+          "pct_in_feat": 8.571428571428571
+        },
+        {
+          "word": "o",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 1.040883594518013,
+          "log_odds": 2.9383491974426814,
+          "total": 39,
+          "pct_in_feat": 7.6923076923076925
+        },
+        {
+          "word": "olkeey",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 1.127623894061181,
+          "log_odds": 2.8228719800227453,
+          "total": 42,
+          "pct_in_feat": 7.142857142857143
+        },
+        {
+          "word": "lol",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 1.3300179263285723,
+          "log_odds": 2.584712242827981,
+          "total": 49,
+          "pct_in_feat": 6.122448979591836
+        },
+        {
+          "word": "oteedy",
+          "feat_count": 5,
+          "feat_rate": 13.297872340425531,
+          "bg_rate": 2.5732955531139767,
+          "log_odds": 2.369506362084802,
+          "total": 94,
+          "pct_in_feat": 5.319148936170213
+        },
+        {
+          "word": "oly",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 1.6480656913201872,
+          "log_odds": 2.275384184720252,
+          "total": 60,
+          "pct_in_feat": 5.0
+        },
+        {
+          "word": "sheedy",
+          "feat_count": 4,
+          "feat_rate": 10.638297872340425,
+          "bg_rate": 2.2841612213034175,
+          "log_odds": 2.219530949986735,
+          "total": 83,
+          "pct_in_feat": 4.819277108433735
+        },
+        {
+          "word": "qotain",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 1.7348059908633553,
+          "log_odds": 2.201383603276475,
+          "total": 63,
+          "pct_in_feat": 4.761904761904762
+        },
+        {
+          "word": "qokeedy",
+          "feat_count": 14,
+          "feat_rate": 37.234042553191486,
+          "bg_rate": 8.442722488868327,
+          "log_odds": 2.1408420613414245,
+          "total": 306,
+          "pct_in_feat": 4.57516339869281
+        },
+        {
+          "word": "qokain",
+          "feat_count": 12,
+          "feat_rate": 31.914893617021274,
+          "bg_rate": 7.604232926617707,
+          "log_odds": 2.069355209592691,
+          "total": 275,
+          "pct_in_feat": 4.363636363636363
+        },
+        {
+          "word": "otain",
+          "feat_count": 4,
+          "feat_rate": 10.638297872340425,
+          "bg_rate": 2.6311224194760885,
+          "log_odds": 2.0155170579651416,
+          "total": 95,
+          "pct_in_feat": 4.2105263157894735
+        },
+        {
+          "word": "qoteedy",
+          "feat_count": 3,
+          "feat_rate": 7.978723404255319,
+          "bg_rate": 2.0239403226739143,
+          "log_odds": 1.9789911819400274,
+          "total": 73,
+          "pct_in_feat": 4.109589041095891
+        },
+        {
+          "word": "okeedy",
+          "feat_count": 4,
+          "feat_rate": 10.638297872340425,
+          "bg_rate": 2.9202567512866477,
+          "log_odds": 1.8651002154120429,
+          "total": 105,
+          "pct_in_feat": 3.8095238095238093
+        },
+        {
+          "word": "okain",
+          "feat_count": 5,
+          "feat_rate": 13.297872340425531,
+          "bg_rate": 3.816573179899381,
+          "log_odds": 1.8008456736927465,
+          "total": 137,
+          "pct_in_feat": 3.6496350364963503
+        },
+        {
+          "word": "qokeey",
+          "feat_count": 11,
+          "feat_rate": 29.25531914893617,
+          "bg_rate": 8.587289654773608,
+          "log_odds": 1.768424196000369,
+          "total": 308,
+          "pct_in_feat": 3.5714285714285716
+        },
+        {
+          "word": "sheey",
+          "feat_count": 5,
+          "feat_rate": 13.297872340425531,
+          "bg_rate": 3.9611403458046612,
+          "log_odds": 1.747207710090673,
+          "total": 142,
+          "pct_in_feat": 3.5211267605633805
+        },
+        {
+          "word": "qoky",
+          "feat_count": 5,
+          "feat_rate": 13.297872340425531,
+          "bg_rate": 4.076794078528884,
+          "log_odds": 1.7056884406524064,
+          "total": 146,
+          "pct_in_feat": 3.4246575342465753
+        },
+        {
+          "word": "qokedy",
+          "feat_count": 9,
+          "feat_rate": 23.93617021276596,
+          "bg_rate": 7.488579193893483,
+          "log_odds": 1.676428411919596,
+          "total": 268,
+          "pct_in_feat": 3.3582089552238807
+        }
+      ]
+    },
+    "jars_containers": {
+      "description": "Pharmaceutical jars/containers",
+      "n_folios": 8,
+      "n_words": 1398,
+      "top_enriched": [
+        {
+          "word": "oroly",
+          "feat_count": 4,
+          "feat_rate": 2.8612303290414878,
+          "bg_rate": 0.059587653438207606,
+          "log_odds": 5.585478393821911,
+          "total": 6,
+          "pct_in_feat": 66.66666666666667
+        },
+        {
+          "word": "cheom",
+          "feat_count": 4,
+          "feat_rate": 2.8612303290414878,
+          "bg_rate": 0.1787629603146228,
+          "log_odds": 4.000515893100755,
+          "total": 10,
+          "pct_in_feat": 40.0
+        },
+        {
+          "word": "qoor",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.148969133595519,
+          "log_odds": 3.8485127996557056,
+          "total": 8,
+          "pct_in_feat": 37.5
+        },
+        {
+          "word": "cheoky",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.1787629603146228,
+          "log_odds": 3.5854783938219112,
+          "total": 9,
+          "pct_in_feat": 33.333333333333336
+        },
+        {
+          "word": "choldy",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.1787629603146228,
+          "log_odds": 3.5854783938219112,
+          "total": 9,
+          "pct_in_feat": 33.333333333333336
+        },
+        {
+          "word": "daim",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.1787629603146228,
+          "log_odds": 3.5854783938219112,
+          "total": 9,
+          "pct_in_feat": 33.333333333333336
+        },
+        {
+          "word": "qokeody",
+          "feat_count": 9,
+          "feat_rate": 6.437768240343348,
+          "bg_rate": 0.6256703611011798,
+          "log_odds": 3.3630859724854636,
+          "total": 30,
+          "pct_in_feat": 30.0
+        },
+        {
+          "word": "qokeeol",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.20855678703372663,
+          "log_odds": 3.3630859724854636,
+          "total": 10,
+          "pct_in_feat": 30.0
+        },
+        {
+          "word": "olkey",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.2681444404719342,
+          "log_odds": 3.0005158931007556,
+          "total": 12,
+          "pct_in_feat": 25.0
+        },
+        {
+          "word": "qoeey",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.32773209391014185,
+          "log_odds": 2.7110092759057705,
+          "total": 14,
+          "pct_in_feat": 21.428571428571427
+        },
+        {
+          "word": "sheos",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.3575259206292456,
+          "log_odds": 2.5854783938219112,
+          "total": 15,
+          "pct_in_feat": 20.0
+        },
+        {
+          "word": "chom",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.38731974734834945,
+          "log_odds": 2.470001176401975,
+          "total": 16,
+          "pct_in_feat": 18.75
+        },
+        {
+          "word": "cthody",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.41711357406745325,
+          "log_odds": 2.3630859724854636,
+          "total": 17,
+          "pct_in_feat": 17.647058823529413
+        },
+        {
+          "word": "qockhy",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.446907400786557,
+          "log_odds": 2.263550298934549,
+          "total": 18,
+          "pct_in_feat": 16.666666666666668
+        },
+        {
+          "word": "sheor",
+          "feat_count": 8,
+          "feat_rate": 5.7224606580829755,
+          "bg_rate": 1.2513407222023596,
+          "log_odds": 2.193160971043151,
+          "total": 50,
+          "pct_in_feat": 16.0
+        },
+        {
+          "word": "ykeedy",
+          "feat_count": 4,
+          "feat_rate": 2.8612303290414878,
+          "bg_rate": 0.6554641878202837,
+          "log_odds": 2.1260467751846144,
+          "total": 26,
+          "pct_in_feat": 15.384615384615385
+        },
+        {
+          "word": "cheody",
+          "feat_count": 11,
+          "feat_rate": 7.868383404864091,
+          "bg_rate": 1.9961863901799548,
+          "log_odds": 1.978820822001436,
+          "total": 78,
+          "pct_in_feat": 14.102564102564102
+        },
+        {
+          "word": "cheos",
+          "feat_count": 4,
+          "feat_rate": 2.8612303290414878,
+          "bg_rate": 0.7448456679775951,
+          "log_odds": 1.9416222040471867,
+          "total": 29,
+          "pct_in_feat": 13.793103448275861
+        },
+        {
+          "word": "olky",
+          "feat_count": 3,
+          "feat_rate": 2.1459227467811157,
+          "bg_rate": 0.5660827076629723,
+          "log_odds": 1.922513381099482,
+          "total": 22,
+          "pct_in_feat": 13.636363636363637
+        },
+        {
+          "word": "cheor",
+          "feat_count": 12,
+          "feat_rate": 8.583690987124463,
+          "bg_rate": 2.3239184840900964,
+          "log_odds": 1.8850386756808193,
+          "total": 90,
+          "pct_in_feat": 13.333333333333334
+        }
+      ]
+    },
+    "plant_fragments": {
+      "description": "Plant fragments in pharmaceutical pages",
+      "n_folios": 6,
+      "n_words": 921,
+      "top_enriched": [
+        {
+          "word": "cheom",
+          "feat_count": 4,
+          "feat_rate": 4.3431053203040175,
+          "bg_rate": 0.17625804177315588,
+          "log_odds": 4.62296595148381,
+          "total": 10,
+          "pct_in_feat": 40.0
+        },
+        {
+          "word": "qoor",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.1468817014776299,
+          "log_odds": 4.47096285803876,
+          "total": 8,
+          "pct_in_feat": 37.5
+        },
+        {
+          "word": "cheoky",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.17625804177315588,
+          "log_odds": 4.207928452204967,
+          "total": 9,
+          "pct_in_feat": 33.333333333333336
+        },
+        {
+          "word": "choldy",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.17625804177315588,
+          "log_odds": 4.207928452204967,
+          "total": 9,
+          "pct_in_feat": 33.333333333333336
+        },
+        {
+          "word": "daim",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.17625804177315588,
+          "log_odds": 4.207928452204967,
+          "total": 9,
+          "pct_in_feat": 33.333333333333336
+        },
+        {
+          "word": "qokeeol",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.20563438206868187,
+          "log_odds": 3.9855360308685186,
+          "total": 10,
+          "pct_in_feat": 30.0
+        },
+        {
+          "word": "qokeody",
+          "feat_count": 8,
+          "feat_rate": 8.686210640608035,
+          "bg_rate": 0.6462794865015716,
+          "log_odds": 3.7484968335676694,
+          "total": 30,
+          "pct_in_feat": 26.666666666666668
+        },
+        {
+          "word": "qoeey",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.3231397432507858,
+          "log_odds": 3.3334593342888255,
+          "total": 14,
+          "pct_in_feat": 21.428571428571427
+        },
+        {
+          "word": "chom",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.38189242384183775,
+          "log_odds": 3.09245123478503,
+          "total": 16,
+          "pct_in_feat": 18.75
+        },
+        {
+          "word": "cthody",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.41126876413736374,
+          "log_odds": 2.9855360308685186,
+          "total": 17,
+          "pct_in_feat": 17.647058823529413
+        },
+        {
+          "word": "qockhy",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.44064510443288973,
+          "log_odds": 2.886000357317604,
+          "total": 18,
+          "pct_in_feat": 16.666666666666668
+        },
+        {
+          "word": "cheody",
+          "feat_count": 11,
+          "feat_rate": 11.943539630836048,
+          "bg_rate": 1.968214799800241,
+          "log_odds": 2.601270880384491,
+          "total": 78,
+          "pct_in_feat": 14.102564102564102
+        },
+        {
+          "word": "sheor",
+          "feat_count": 7,
+          "feat_rate": 7.60043431053203,
+          "bg_rate": 1.2631826327076172,
+          "log_odds": 2.5890186195604725,
+          "total": 50,
+          "pct_in_feat": 14.0
+        },
+        {
+          "word": "cheos",
+          "feat_count": 4,
+          "feat_rate": 4.3431053203040175,
+          "bg_rate": 0.7344085073881496,
+          "log_odds": 2.564072262430242,
+          "total": 29,
+          "pct_in_feat": 13.793103448275861
+        },
+        {
+          "word": "qoaiin",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.5875268059105196,
+          "log_odds": 2.47096285803876,
+          "total": 23,
+          "pct_in_feat": 13.043478260869565
+        },
+        {
+          "word": "om",
+          "feat_count": 3,
+          "feat_rate": 3.257328990228013,
+          "bg_rate": 0.6169031462060457,
+          "log_odds": 2.400573530147362,
+          "total": 24,
+          "pct_in_feat": 12.5
+        },
+        {
+          "word": "qokeol",
+          "feat_count": 6,
+          "feat_rate": 6.514657980456026,
+          "bg_rate": 1.2631826327076172,
+          "log_odds": 2.3666261982240244,
+          "total": 49,
+          "pct_in_feat": 12.244897959183673
+        },
+        {
+          "word": "cheor",
+          "feat_count": 11,
+          "feat_rate": 11.943539630836048,
+          "bg_rate": 2.3207308833465525,
+          "log_odds": 2.3635793226651605,
+          "total": 90,
+          "pct_in_feat": 12.222222222222221
+        },
+        {
+          "word": "ckhey",
+          "feat_count": 4,
+          "feat_rate": 4.3431053203040175,
+          "bg_rate": 0.8812902088657795,
+          "log_odds": 2.301037856596448,
+          "total": 34,
+          "pct_in_feat": 11.764705882352942
+        },
+        {
+          "word": "qokol",
+          "feat_count": 11,
+          "feat_rate": 11.943539630836048,
+          "bg_rate": 2.4676125848241828,
+          "log_odds": 2.2750426480635033,
+          "total": 95,
+          "pct_in_feat": 11.578947368421053
+        }
+      ]
+    },
+    "globes_structures": {
+      "description": "Green globes, complex structures (bio section)",
+      "n_folios": 2,
+      "n_words": 635,
+      "top_enriched": [
+        {
+          "word": "oroly",
+          "feat_count": 4,
+          "feat_rate": 6.299212598425196,
+          "bg_rate": 0.058263174760392694,
+          "log_odds": 6.75644337670437,
+          "total": 6,
+          "pct_in_feat": 66.66666666666667
+        },
+        {
+          "word": "olain",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 0.3787106359425525,
+          "log_odds": 3.640966159284434,
+          "total": 16,
+          "pct_in_feat": 18.75
+        },
+        {
+          "word": "olky",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 0.5535001602237306,
+          "log_odds": 3.0934783639819408,
+          "total": 22,
+          "pct_in_feat": 13.636363636363637
+        },
+        {
+          "word": "olkedy",
+          "feat_count": 4,
+          "feat_rate": 6.299212598425196,
+          "bg_rate": 0.757421271885105,
+          "log_odds": 3.056003658563278,
+          "total": 30,
+          "pct_in_feat": 13.333333333333334
+        },
+        {
+          "word": "tedy",
+          "feat_count": 6,
+          "feat_rate": 9.448818897637794,
+          "bg_rate": 1.1652634952078538,
+          "log_odds": 3.0194777825381642,
+          "total": 46,
+          "pct_in_feat": 13.043478260869565
+        },
+        {
+          "word": "shckhy",
+          "feat_count": 7,
+          "feat_rate": 11.023622047244094,
+          "bg_rate": 1.427447781629621,
+          "log_odds": 2.949088454646766,
+          "total": 56,
+          "pct_in_feat": 12.5
+        },
+        {
+          "word": "qokeor",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 0.6117633349841233,
+          "log_odds": 2.9490884546467657,
+          "total": 24,
+          "pct_in_feat": 12.5
+        },
+        {
+          "word": "opchey",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 0.7282896845049087,
+          "log_odds": 2.697549687650801,
+          "total": 28,
+          "pct_in_feat": 10.714285714285714
+        },
+        {
+          "word": "qotedy",
+          "feat_count": 9,
+          "feat_rate": 14.173228346456693,
+          "bg_rate": 2.476184927316689,
+          "log_odds": 2.5169774420089808,
+          "total": 94,
+          "pct_in_feat": 9.574468085106384
+        },
+        {
+          "word": "qokal",
+          "feat_count": 18,
+          "feat_rate": 28.346456692913385,
+          "bg_rate": 5.214554141055147,
+          "log_odds": 2.4425526008824257,
+          "total": 197,
+          "pct_in_feat": 9.137055837563452
+        },
+        {
+          "word": "shcthy",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 0.8739476214058904,
+          "log_odds": 2.4345152818170077,
+          "total": 33,
+          "pct_in_feat": 9.090909090909092
+        },
+        {
+          "word": "oly",
+          "feat_count": 5,
+          "feat_rate": 7.874015748031496,
+          "bg_rate": 1.602237305910799,
+          "log_odds": 2.2970117580670726,
+          "total": 60,
+          "pct_in_feat": 8.333333333333334
+        },
+        {
+          "word": "shedy",
+          "feat_count": 35,
+          "feat_rate": 55.118110236220474,
+          "bg_rate": 11.47784542779736,
+          "log_odds": 2.2636745741929603,
+          "total": 429,
+          "pct_in_feat": 8.158508158508159
+        },
+        {
+          "word": "olkeedy",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 1.1070003204474612,
+          "log_odds": 2.0934783639819408,
+          "total": 41,
+          "pct_in_feat": 7.317073170731708
+        },
+        {
+          "word": "qol",
+          "feat_count": 11,
+          "feat_rate": 17.322834645669293,
+          "bg_rate": 4.107553820607685,
+          "log_odds": 2.0763236429428735,
+          "total": 152,
+          "pct_in_feat": 7.2368421052631575
+        },
+        {
+          "word": "qokeedy",
+          "feat_count": 20,
+          "feat_rate": 31.496062992125985,
+          "bg_rate": 8.331633990736156,
+          "log_odds": 1.9185001348133428,
+          "total": 306,
+          "pct_in_feat": 6.5359477124183005
+        },
+        {
+          "word": "sor",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 1.3691846068692284,
+          "log_odds": 1.7868170257478886,
+          "total": 50,
+          "pct_in_feat": 6.0
+        },
+        {
+          "word": "qokedy",
+          "feat_count": 15,
+          "feat_rate": 23.62204724409449,
+          "bg_rate": 7.370291607189675,
+          "log_odds": 1.6803403976185785,
+          "total": 268,
+          "pct_in_feat": 5.597014925373134
+        },
+        {
+          "word": "okedy",
+          "feat_count": 6,
+          "feat_rate": 9.448818897637794,
+          "bg_rate": 3.0879482623008125,
+          "log_odds": 1.613485422862327,
+          "total": 112,
+          "pct_in_feat": 5.357142857142857
+        },
+        {
+          "word": "cheedy",
+          "feat_count": 3,
+          "feat_rate": 4.724409448818897,
+          "bg_rate": 1.5439741311504063,
+          "log_odds": 1.613485422862327,
+          "total": 56,
+          "pct_in_feat": 5.357142857142857
+        }
+      ]
+    }
+  }
+}

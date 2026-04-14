@@ -1,0 +1,593 @@
+{
+  "title": "Voynich Manuscript Preliminary Lexicon",
+  "date": "2026-04-13",
+  "methodology": "Compiled from: (1) distributional word vectors (PPMI+SVD, 50d), (2) visual cross-referencing against illustrated content, (3) structural tokenization removing Latin alphabetic bias, (4) declension/paradigm analysis, (5) plant feature enrichment analysis, (6) label network cross-referencing across sections. Phonetic values are NOT assigned; all analysis is structural/distributional.",
+  "entries": [
+    {
+      "eva": "daiin",
+      "glyph": "󿐉󿐐󿐀󿐀󿐁",
+      "category": "function word",
+      "meaning": "Most common word; likely preposition, copula, or demonstrative (\"this\", \"the\", \"is\", \"in\")",
+      "confidence": "A",
+      "evidence": "Highest frequency (829). Appears in all sections. Head of the da- paradigm with 7+ declined forms. Dominates herbal section (54%) suggesting it introduces/connects descriptions.",
+      "paradigm": [
+        "daiin",
+        "dain",
+        "dair",
+        "dar",
+        "dal",
+        "dam",
+        "dan"
+      ],
+      "frequency": 829,
+      "section_profile": "H:54% S:16% P:13% B:11%",
+      "see_also": []
+    },
+    {
+      "eva": "or",
+      "glyph": "󿐔󿐃",
+      "category": "function word",
+      "meaning": "Declined form of ol/or/ar/al paradigm",
+      "confidence": "A",
+      "evidence": "Vector analogy ol:or::al:ar confirmed (cosine 0.72). Same paradigm as ol.",
+      "paradigm": [
+        "ol",
+        "or",
+        "al",
+        "ar",
+        "am"
+      ],
+      "frequency": 341,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "ar",
+      "glyph": "󿐐󿐃",
+      "category": "function word",
+      "meaning": "Declined form of ol/or/ar/al paradigm",
+      "confidence": "A",
+      "evidence": "Stars-heavy (48%). Vector analogy confirmed.",
+      "paradigm": [
+        "ol",
+        "or",
+        "al",
+        "ar",
+        "am"
+      ],
+      "frequency": 297,
+      "section_profile": "S:48%",
+      "see_also": []
+    },
+    {
+      "eva": "al",
+      "glyph": "󿐐󿐚",
+      "category": "function word",
+      "meaning": "Declined form of ol/or/ar/al paradigm",
+      "confidence": "A",
+      "evidence": "Stars-heavy (63%). Strongly enriched on astronomical pages.",
+      "paradigm": [
+        "ol",
+        "or",
+        "al",
+        "ar",
+        "am"
+      ],
+      "frequency": 220,
+      "section_profile": "S:63%",
+      "see_also": []
+    },
+    {
+      "eva": "y",
+      "glyph": "󿐗",
+      "category": "particle/suffix",
+      "meaning": "Common word-final token; vowel or grammatical suffix",
+      "confidence": "A",
+      "evidence": "Token Y has mean position 0.879 (strongly word-final). 11.9% of all tokens.",
+      "paradigm": [],
+      "frequency": 123,
+      "section_profile": "all sections",
+      "see_also": []
+    },
+    {
+      "eva": "otol",
+      "glyph": "󿐔󿐣󿐔󿐚",
+      "category": "label (cross-ref)",
+      "meaning": "Label appearing across Astro/Bio/Pharma/Zodiac; a key cross-reference term linking star diagrams to bath procedures to recipes",
+      "confidence": "A",
+      "evidence": "The most connected label: f68r1 (star label), f71r (zodiac), f77r+f77v (bath tubes), f102v2 (pharma fragment). Four-way section bridge.",
+      "paradigm": [],
+      "frequency": 65,
+      "section_profile": "",
+      "see_also": [
+        "otoldy",
+        "otoly"
+      ]
+    },
+    {
+      "eva": "otaly",
+      "glyph": "󿐔󿐣󿐐󿐚󿐗",
+      "category": "label (plant name?)",
+      "meaning": "Name of a brown multi-fingered root plant; visually confirmed across pharma pages. Cross-references zodiac (Scorpio?) and bath section.",
+      "confidence": "A",
+      "evidence": "Visual verification: f88r and f99v both show brown multi-fingered root fragments. f73r labels nymph on Scorpio zodiac page. f84r labels bath flow. Complete pharma reference chain: zodiac timing → bath procedure → recipe ingredient.",
+      "paradigm": [],
+      "frequency": 11,
+      "section_profile": "",
+      "see_also": [
+        "otal",
+        "otaldy",
+        "otalchy"
+      ]
+    },
+    {
+      "eva": "otoldy",
+      "glyph": "󿐔󿐣󿐔󿐚󿐉󿐗",
+      "category": "label (cross-ref)",
+      "meaning": "Declined form of otol; labels bath tube (f82v) and pharma fragments (f89r1, f89r2, f99r, f99v)",
+      "confidence": "A",
+      "evidence": "Strongest Bio↔Pharma bridge (5 folios). Appears as both container label and fragment label.",
+      "paradigm": [],
+      "frequency": 5,
+      "section_profile": "",
+      "see_also": [
+        "otol",
+        "otoly"
+      ]
+    },
+    {
+      "eva": "qo-",
+      "glyph": "󿐝󿐔-",
+      "category": "prefix/determiner",
+      "meaning": "Word-initial prefix; determiner, relative pronoun, or definite article",
+      "confidence": "A",
+      "evidence": "Token QO has positional entropy 0.098 (virtually always word-initial). 97.6% q+o co-occurrence. Attaches to stems from all domains (qokedy=Bio, qoor=Pharma, qokedaiin=Stars). Forms the most productive prefix paradigm in the manuscript.",
+      "paradigm": [],
+      "frequency": 0,
+      "section_profile": "all sections",
+      "see_also": []
+    },
+    {
+      "eva": "-aiin/-ain",
+      "glyph": "-󿐐󿐀󿐀󿐁/-󿐐󿐀󿐁",
+      "category": "suffix",
+      "meaning": "Case/declension ending; short vs long vowel marks grammatical distinction (possibly nominative vs accusative, or definite vs indefinite)",
+      "confidence": "A",
+      "evidence": "AII+N has positional entropy 0.217 (virtually always word-final). PMI 4.89. daiin/dain differ in collocation (Jaccard <0.2 in Lang A). 4.64x within-family vector similarity vs random baseline.",
+      "paradigm": [
+        "daiin/dain",
+        "okaiin/okain",
+        "aiin/ain",
+        "saiin/sain",
+        "otaiin/otain"
+      ],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "-edy/-eedy",
+      "glyph": "-󿐆󿐉󿐗/-󿐆󿐆󿐉󿐗",
+      "category": "suffix",
+      "meaning": "Case/declension ending; Language B dominant suffix. Vowel length (ee vs e) marks grammatical distinction",
+      "confidence": "A",
+      "evidence": "chedy/cheedy, shedy/sheedy, qokedy/qokeedy all show different collocations. -edy is the signature morpheme of Currier Language B.",
+      "paradigm": [
+        "chedy/cheedy",
+        "shedy/sheedy",
+        "qokedy/qokeedy",
+        "otedy/oteedy"
+      ],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "-ey/-eey",
+      "glyph": "-󿐆󿐗/-󿐆󿐆󿐗",
+      "category": "suffix",
+      "meaning": "Case/declension ending; related to -edy system",
+      "confidence": "A",
+      "evidence": "chey/cheey, shey/sheey show systematic paradigmatic behavior.",
+      "paradigm": [
+        "chey/cheey",
+        "shey/sheey",
+        "qokey/qokeey",
+        "okey/okeey"
+      ],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "-ol/-or/-al/-ar/-am",
+      "glyph": "-󿐔󿐚/-󿐔󿐃/-󿐐󿐚/-󿐐󿐃/-󿐐󿐄",
+      "category": "suffix set",
+      "meaning": "Five-way case ending system on stems; the core declension paradigm",
+      "confidence": "A",
+      "evidence": "Vector analogy ol:or::al:ar confirmed. Five endings attach to all major stems: ch-ol/-or, sh-ol/-or, ok-al/-ar/-am, ot-al/-ar. Suffix agreement ratio 1.70x (Lang A).",
+      "paradigm": [
+        "chol/chor",
+        "shol/shor",
+        "okal/okar/okam",
+        "otal/otar"
+      ],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "lk-",
+      "glyph": "󿐚󿐢-",
+      "category": "stem (astronomical)",
+      "meaning": "Astronomical domain marker; possibly \"star\", \"constellation\", or \"celestial body\"",
+      "confidence": "A",
+      "evidence": "Almost exclusively on Stars section pages (lkaiin: 45 astro / 5 other). Takes full declension endings (-aiin, -eey, -am, -al, -chdy). Too frequent for a proper noun; likely a common noun.",
+      "paradigm": [
+        "lkaiin",
+        "lkeey",
+        "lkeeey",
+        "lkam",
+        "lkal",
+        "lkchdy",
+        "lkshedy"
+      ],
+      "frequency": 0,
+      "section_profile": "Stars: 90%+",
+      "see_also": []
+    },
+    {
+      "eva": "c (EVA)",
+      "glyph": "󿐌 (EVA)",
+      "category": "structural",
+      "meaning": "NOT a phoneme. Structural left-bracket of the ch ligature and gallows cartouche. 99.8% followed by h/t/k/p/f.",
+      "confidence": "A",
+      "evidence": "Only 29/12645 instances of c not followed by h/t/k/p/f. Functions as glyph connector.",
+      "paradigm": [],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "ch (EVA)",
+      "glyph": "󿐌󿐏 (EVA)",
+      "category": "glyph unit",
+      "meaning": "Single consonant unit (ligated cc). The most common consonant in the script.",
+      "confidence": "A",
+      "evidence": "10412 occurrences. Takes gallows modifiers: cth, ckh, cph, cfh. Position: mean 0.211 (word-initial tendency).",
+      "paradigm": [],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "ol",
+      "glyph": "󿐔󿐚",
+      "category": "function word",
+      "meaning": "Common function word; possibly \"water\", \"of\", or a case marker",
+      "confidence": "B",
+      "evidence": "Second most common (534). Appears as prefix in water-page compounds (olkain, olshey, orol). Bio/bath section enriched (48%). Forms word-initial element in pool/water vocabulary.",
+      "paradigm": [
+        "ol",
+        "or",
+        "al",
+        "ar",
+        "am"
+      ],
+      "frequency": 534,
+      "section_profile": "B:48% S:21% H:15%",
+      "see_also": [
+        "or",
+        "ar",
+        "al"
+      ]
+    },
+    {
+      "eva": "dy",
+      "glyph": "󿐉󿐗",
+      "category": "suffix/particle",
+      "meaning": "Common word-final element; possibly locative case marker (\"in/at\") or verbal suffix",
+      "confidence": "B",
+      "evidence": "Appears in all sections. Sentence-initial clustering in Language B (chi2=75.3). As suffix: -dy/-edy/-eedy form the dominant Language B ending pattern.",
+      "paradigm": [],
+      "frequency": 238,
+      "section_profile": "H:53% B:24%",
+      "see_also": []
+    },
+    {
+      "eva": "s",
+      "glyph": "󿐊",
+      "category": "particle",
+      "meaning": "Short function word; possibly conjunction (\"and\") or sentence particle",
+      "confidence": "B",
+      "evidence": "Appears in all 7 section types. High frequency (191). Herbal-enriched (67%).",
+      "paradigm": [],
+      "frequency": 191,
+      "section_profile": "H:67%",
+      "see_also": []
+    },
+    {
+      "eva": "cheol",
+      "glyph": "󿐌󿐏󿐆󿐔󿐚",
+      "category": "content word",
+      "meaning": "Pharma-enriched word (24%). Possibly names a container type, preparation method, or ingredient category",
+      "confidence": "B",
+      "evidence": "Appears on jar-illustration pages. Related to cheor (also pharma-enriched). The -eol ending may mark pharma-specific vocabulary.",
+      "paradigm": [],
+      "frequency": 156,
+      "section_profile": "P:24%, H:19%",
+      "see_also": [
+        "cheor",
+        "okeol",
+        "sheol"
+      ]
+    },
+    {
+      "eva": "qol",
+      "glyph": "󿐝󿐔󿐚",
+      "category": "content word",
+      "meaning": "Bio/bath section word (78% bio). Likely relates to bath/water procedure or nymph-associated concept",
+      "confidence": "B",
+      "evidence": "Strongly enriched on pool/nymph pages. Nearest neighbors: qokain, chedy, ly, oly — all bio-section words.",
+      "paradigm": [],
+      "frequency": 152,
+      "section_profile": "B:78%",
+      "see_also": []
+    },
+    {
+      "eva": "cthy",
+      "glyph": "󿐌󿐣󿐏󿐗",
+      "category": "content word",
+      "meaning": "Herbal-exclusive word (88% herbal). Likely describes a plant property or processing step",
+      "confidence": "B",
+      "evidence": "Appears on 44 herbal folios. Nearest neighbors: daiin, chor, tchol, qotchy, chol — all herbal vocabulary.",
+      "paradigm": [],
+      "frequency": 111,
+      "section_profile": "H:88%",
+      "see_also": []
+    },
+    {
+      "eva": "am",
+      "glyph": "󿐐󿐄",
+      "category": "label modifier",
+      "meaning": "Appears as second word in compound labels (okain am, otor am, sar am); possibly a unit marker, quantity, or temporal modifier",
+      "confidence": "B",
+      "evidence": "Bridges Astro/Pharma/Zodiac. On zodiac pages appears with sign labels (otalchy tar am dy). On pharma pages modifies fragment labels.",
+      "paradigm": [],
+      "frequency": 96,
+      "section_profile": "Astro, Zodiac, Pharma labels",
+      "see_also": []
+    },
+    {
+      "eva": "okeol",
+      "glyph": "󿐔󿐢󿐆󿐔󿐚",
+      "category": "content word",
+      "meaning": "Strongly pharma-associated (52%). Likely names a specific preparation or container contents",
+      "confidence": "B",
+      "evidence": "Nearest neighbor: qockheol (0.77). The -eol ending cluster is pharma-specific.",
+      "paradigm": [],
+      "frequency": 54,
+      "section_profile": "P:52%",
+      "see_also": [
+        "cheol",
+        "qokeol",
+        "okeeol"
+      ]
+    },
+    {
+      "eva": "ctho",
+      "glyph": "󿐌󿐣󿐏󿐔",
+      "category": "herbal vocabulary",
+      "meaning": "Herbal exclusive (100%). Likely describes a plant property, processing step, or part name",
+      "confidence": "B",
+      "evidence": "16 occurrences, all herbal. Never in other sections.",
+      "paradigm": [],
+      "frequency": 16,
+      "section_profile": "H:100%",
+      "see_also": []
+    },
+    {
+      "eva": "qolchedy",
+      "glyph": "󿐝󿐔󿐚󿐌󿐏󿐆󿐉󿐗",
+      "category": "bath vocabulary",
+      "meaning": "Bio/bath exclusive (100%). Labels or describes something specific to the bath/nymph illustrations",
+      "confidence": "B",
+      "evidence": "11 occurrences, all on Bio pages. Never in herbal or stars.",
+      "paradigm": [],
+      "frequency": 11,
+      "section_profile": "B:100%",
+      "see_also": []
+    },
+    {
+      "eva": "shedain",
+      "glyph": "󿐊󿐏󿐆󿐉󿐐󿐀󿐁",
+      "category": "stellar vocabulary",
+      "meaning": "Stars exclusive (100%). Likely a stellar/astronomical term",
+      "confidence": "B",
+      "evidence": "10 occurrences, all on Stars pages.",
+      "paradigm": [],
+      "frequency": 10,
+      "section_profile": "S:100%",
+      "see_also": []
+    },
+    {
+      "eva": "oroly",
+      "glyph": "󿐔󿐃󿐔󿐚󿐗",
+      "category": "bath vocabulary",
+      "meaning": "Bath/water exclusive (100%). Contains ol- prefix. Likely water/pool-related",
+      "confidence": "B",
+      "evidence": "6 occurrences, all on pool/water pages.",
+      "paradigm": [],
+      "frequency": 6,
+      "section_profile": "B:100% (water pages)",
+      "see_also": []
+    },
+    {
+      "eva": "o-",
+      "glyph": "󿐔-",
+      "category": "prefix",
+      "meaning": "Word-initial element on labels; possibly Arabic definite article al- or a general determiner",
+      "confidence": "B",
+      "evidence": "67% of star labels and 90%+ of zodiac labels begin with o-. Arabic star names universally begin with al-. May be the same element as standalone \"ol/or/al/ar\" in declined form.",
+      "paradigm": [],
+      "frequency": 0,
+      "section_profile": "labels: Astro, Zodiac, Bio, Pharma",
+      "see_also": []
+    },
+    {
+      "eva": "ch-",
+      "glyph": "󿐌󿐏-",
+      "category": "stem",
+      "meaning": "Major content stem; takes all declension endings. Herbal and Bio sections. Possibly a general botanical term or common noun",
+      "confidence": "B",
+      "evidence": "Second largest paradigm (585 endings, 5004 occurrences). CHol, CHor, CHey, CHedy are among the most common words.",
+      "paradigm": [
+        "chol",
+        "chor",
+        "chey",
+        "cheey",
+        "chedy",
+        "cheedy",
+        "cheol",
+        "cheor"
+      ],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "sh-",
+      "glyph": "󿐊󿐏-",
+      "category": "stem",
+      "meaning": "Major content stem parallel to ch-; same endings. Bio section enriched (60% for shedy)",
+      "confidence": "B",
+      "evidence": "Third largest paradigm. SH- and CH- behave as parallel stems (vector analogy chol:chor::shol:shor confirmed). May be two related nouns or a grammatical alternation.",
+      "paradigm": [
+        "shol",
+        "shor",
+        "shey",
+        "sheey",
+        "shedy",
+        "sheedy",
+        "sheol"
+      ],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "gallows (t,k,p,f)",
+      "glyph": "󿐋󿐐󿐚󿐚󿐔w󿐊 (󿐣,󿐢,󿐡,󿐠)",
+      "category": "modifiers",
+      "meaning": "Not standalone consonants but modifiers of adjacent characters. Create the cartouche construct c-gallows-h. May encode aspiration, emphasis, or phonological features.",
+      "confidence": "B",
+      "evidence": "63% of t preceded by o. 48% of p followed by c (→pch compound). True consonant inventory is ~8 base consonants with modifier variants.",
+      "paradigm": [],
+      "frequency": 0,
+      "section_profile": "",
+      "see_also": []
+    },
+    {
+      "eva": "okedy",
+      "glyph": "󿐔󿐢󿐆󿐉󿐗",
+      "category": "adjective?",
+      "meaning": "Enriched on brown-root plant pages; candidate for \"brown\" or \"dark\"",
+      "confidence": "C",
+      "evidence": "Log-odds 3.63 for brown_root feature.",
+      "paradigm": [],
+      "frequency": 112,
+      "section_profile": "H (brown root pages)",
+      "see_also": []
+    },
+    {
+      "eva": "okol",
+      "glyph": "󿐔󿐢󿐔󿐚",
+      "category": "adjective?",
+      "meaning": "Enriched on single-flower plant pages; candidate for \"single\" or \"one\"",
+      "confidence": "C",
+      "evidence": "Log-odds 3.42 for single_flower feature. Also appears as zodiac/pharma label.",
+      "paradigm": [],
+      "frequency": 63,
+      "section_profile": "H (single flower), Z, P",
+      "see_also": []
+    },
+    {
+      "eva": "shed",
+      "glyph": "󿐊󿐏󿐆󿐉",
+      "category": "adjective?",
+      "meaning": "Enriched on calyx-type flower pages; candidate for \"cup-shaped\" or descriptor of calyx structure",
+      "confidence": "C",
+      "evidence": "Log-odds 5.08 for calyx feature.",
+      "paradigm": [],
+      "frequency": 18,
+      "section_profile": "H (calyx pages)",
+      "see_also": []
+    },
+    {
+      "eva": "yky",
+      "glyph": "󿐗󿐢󿐗",
+      "category": "adjective?",
+      "meaning": "Enriched on seed-bearing plant pages; candidate for \"seed\" or \"grain\"",
+      "confidence": "C",
+      "evidence": "Log-odds 3.46 for seeds feature.",
+      "paradigm": [],
+      "frequency": 17,
+      "section_profile": "H (seed pages)",
+      "see_also": []
+    },
+    {
+      "eva": "key",
+      "glyph": "󿐢󿐆󿐗",
+      "category": "adjective?",
+      "meaning": "Enriched exclusively on blue-flower plant pages; short word, strong color term candidate for \"blue\"",
+      "confidence": "C",
+      "evidence": "Log-odds 4.31 for blue_flowers feature. 3 occurrences, all on blue-flower pages.",
+      "paradigm": [],
+      "frequency": 15,
+      "section_profile": "H (blue flower pages)",
+      "see_also": []
+    },
+    {
+      "eva": "chkar",
+      "glyph": "󿐌󿐏󿐢󿐐󿐃",
+      "category": "adjective?",
+      "meaning": "Enriched exclusively on flat-topped-root pages; candidate for \"flat\" or \"truncated\"",
+      "confidence": "C",
+      "evidence": "Log-odds 5.29 for flat_topped_root. 4 occurrences, all on flat-root pages.",
+      "paradigm": [],
+      "frequency": 11,
+      "section_profile": "H (flat root pages)",
+      "see_also": []
+    },
+    {
+      "eva": "shee",
+      "glyph": "󿐊󿐏󿐆󿐆",
+      "category": "adjective?",
+      "meaning": "Enriched on root-platform plant pages; candidate for \"platform\", \"base\", or \"earth\"",
+      "confidence": "C",
+      "evidence": "Log-odds 6.34 for root_platform feature. 4 occurrences, all on platform-root pages.",
+      "paradigm": [],
+      "frequency": 11,
+      "section_profile": "H (root platform pages)",
+      "see_also": []
+    },
+    {
+      "eva": "okchol",
+      "glyph": "󿐔󿐢󿐌󿐏󿐔󿐚",
+      "category": "adjective?",
+      "meaning": "Enriched exclusively on blue-flower plant pages; candidate for color term \"blue\"",
+      "confidence": "C",
+      "evidence": "Log-odds 4.73 for blue_flowers feature. Appears only on folios with blue-flowered plants.",
+      "paradigm": [],
+      "frequency": 10,
+      "section_profile": "H (blue flower pages)",
+      "see_also": []
+    }
+  ],
+  "statistics": {
+    "total_entries": 40,
+    "confidence_A": 16,
+    "confidence_B": 16,
+    "confidence_C": 8
+  }
+}

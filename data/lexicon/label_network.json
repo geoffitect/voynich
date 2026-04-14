@@ -1,0 +1,5270 @@
+{
+  "folios": {
+    "f1r": {
+      "section": "T",
+      "section_name": "Text",
+      "labels": [
+        {
+          "line": 29,
+          "unit": "Lx",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Lx",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "Lx",
+          "text": "g",
+          "words": [
+            "g"
+          ]
+        }
+      ]
+    },
+    "f2r": {
+      "section": "H",
+      "section_name": "Herbal",
+      "labels": [
+        {
+          "line": 14,
+          "unit": "Lp",
+          "text": "ytoain",
+          "words": [
+            "ytoain"
+          ]
+        }
+      ]
+    },
+    "f41v": {
+      "section": "H",
+      "section_name": "Herbal",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lp",
+          "text": "keerodal",
+          "words": [
+            "keerodal"
+          ]
+        }
+      ]
+    },
+    "f49v": {
+      "section": "H",
+      "section_name": "Herbal",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "L0",
+          "text": "f",
+          "words": [
+            "f"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "L0",
+          "text": "e",
+          "words": [
+            "e"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "L0",
+          "text": "k",
+          "words": [
+            "k"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "L0",
+          "text": "p",
+          "words": [
+            "p"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "L0",
+          "text": "e",
+          "words": [
+            "e"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "L0",
+          "text": "p",
+          "words": [
+            "p"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 39,
+          "unit": "L0",
+          "text": "e",
+          "words": [
+            "e"
+          ]
+        },
+        {
+          "line": 43,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 49,
+          "unit": "L0",
+          "text": "k",
+          "words": [
+            "k"
+          ]
+        },
+        {
+          "line": 51,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        }
+      ]
+    },
+    "f57v": {
+      "section": "C",
+      "section_name": "Cosmo",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "L0",
+          "text": "dairol",
+          "words": [
+            "dairol"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "L0",
+          "text": "otodarod",
+          "words": [
+            "otodarod"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "L0",
+          "text": "oparairdly",
+          "words": [
+            "oparairdly"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "L0",
+          "text": "olkchdal",
+          "words": [
+            "olkchdal"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "L0",
+          "text": "otardaly",
+          "words": [
+            "otardaly"
+          ]
+        }
+      ]
+    },
+    "f65r": {
+      "section": "H",
+      "section_name": "Herbal",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lp",
+          "text": "otaim dam alam",
+          "words": [
+            "otaim",
+            "dam",
+            "alam"
+          ]
+        }
+      ]
+    },
+    "f66r": {
+      "section": "T",
+      "section_name": "Text",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "L0",
+          "text": "rary",
+          "words": [
+            "rary"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "L0",
+          "text": "rals",
+          "words": [
+            "rals"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "L0",
+          "text": "qor",
+          "words": [
+            "qor"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "L0",
+          "text": "dara",
+          "words": [
+            "dara"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "L0",
+          "text": "ykcol",
+          "words": [
+            "ykcol"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "L0",
+          "text": "syly",
+          "words": [
+            "syly"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "L0",
+          "text": "salf",
+          "words": [
+            "salf"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "L0",
+          "text": "fary",
+          "words": [
+            "fary"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "L0",
+          "text": "qotesy",
+          "words": [
+            "qotesy"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "L0",
+          "text": "ykaly",
+          "words": [
+            "ykaly"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "L0",
+          "text": "daoly",
+          "words": [
+            "daoly"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "L0",
+          "text": "raiin",
+          "words": [
+            "raiin"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "L0",
+          "text": "qokal",
+          "words": [
+            "qokal"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "L0",
+          "text": "qolsa",
+          "words": [
+            "qolsa"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "L0",
+          "text": "raral",
+          "words": [
+            "raral"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "L0",
+          "text": "sh",
+          "words": [
+            "sh"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "L0",
+          "text": "f",
+          "words": [
+            "f"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "L0",
+          "text": "x",
+          "words": [
+            "x"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "L0",
+          "text": "air",
+          "words": [
+            "air"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "L0",
+          "text": "sh",
+          "words": [
+            "sh"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "L0",
+          "text": "f",
+          "words": [
+            "f"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "L0",
+          "text": "f",
+          "words": [
+            "f"
+          ]
+        },
+        {
+          "line": 32,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 36,
+          "unit": "L0",
+          "text": "f",
+          "words": [
+            "f"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "L0",
+          "text": "c",
+          "words": [
+            "c"
+          ]
+        },
+        {
+          "line": 38,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 39,
+          "unit": "L0",
+          "text": "x",
+          "words": [
+            "x"
+          ]
+        },
+        {
+          "line": 40,
+          "unit": "L0",
+          "text": "t",
+          "words": [
+            "t"
+          ]
+        },
+        {
+          "line": 41,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 42,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 43,
+          "unit": "L0",
+          "text": "l",
+          "words": [
+            "l"
+          ]
+        },
+        {
+          "line": 44,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "L0",
+          "text": "t",
+          "words": [
+            "t"
+          ]
+        },
+        {
+          "line": 46,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "L0",
+          "text": "x",
+          "words": [
+            "x"
+          ]
+        },
+        {
+          "line": 48,
+          "unit": "L0",
+          "text": "p",
+          "words": [
+            "p"
+          ]
+        },
+        {
+          "line": 49,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 82,
+          "unit": "Lx",
+          "text": "otcheo chty ykchscheg",
+          "words": [
+            "otcheo",
+            "chty",
+            "ykchscheg"
+          ]
+        }
+      ]
+    },
+    "f67r2": {
+      "section": "A",
+      "section_name": "Astro",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "L0",
+          "text": "ykchyr aram",
+          "words": [
+            "ykchyr",
+            "aram"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "L0",
+          "text": "dylchsody",
+          "words": [
+            "dylchsody"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "L0",
+          "text": "okal",
+          "words": [
+            "okal"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "L0",
+          "text": "okain am",
+          "words": [
+            "okain",
+            "am"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "L0",
+          "text": "opcholdy",
+          "words": [
+            "opcholdy"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "L0",
+          "text": "dfar oeoldan",
+          "words": [
+            "dfar",
+            "oeoldan"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "L0",
+          "text": "ytoaiin",
+          "words": [
+            "ytoaiin"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "L0",
+          "text": "yfain",
+          "words": [
+            "yfain"
+          ]
+        },
+        {
+          "line": 52,
+          "unit": "Ls",
+          "text": "qotoear",
+          "words": [
+            "qotoear"
+          ]
+        },
+        {
+          "line": 64,
+          "unit": "L0",
+          "text": "s air",
+          "words": [
+            "s",
+            "air"
+          ]
+        }
+      ]
+    },
+    "f67v1": {
+      "section": "A",
+      "section_name": "Astro",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "L0",
+          "text": "damamm",
+          "words": [
+            "damamm"
+          ]
+        }
+      ]
+    },
+    "f67v2": {
+      "section": "C",
+      "section_name": "Cosmo",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "La",
+          "text": "otararain",
+          "words": [
+            "otararain"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "La",
+          "text": "soaiindalam",
+          "words": [
+            "soaiindalam"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "La",
+          "text": "soryokoral",
+          "words": [
+            "soryokoral"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "La",
+          "text": "okchosam",
+          "words": [
+            "okchosam"
+          ]
+        }
+      ]
+    },
+    "f68r1": {
+      "section": "A",
+      "section_name": "Astro",
+      "labels": [
+        {
+          "line": 8,
+          "unit": "Ls",
+          "text": "okodaly",
+          "words": [
+            "okodaly"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Ls",
+          "text": "odchecthy",
+          "words": [
+            "odchecthy"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Ls",
+          "text": "otcheody",
+          "words": [
+            "otcheody"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Ls",
+          "text": "okoaly",
+          "words": [
+            "okoaly"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Ls",
+          "text": "chocphy",
+          "words": [
+            "chocphy"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Ls",
+          "text": "octhey",
+          "words": [
+            "octhey"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Ls",
+          "text": "otcsey",
+          "words": [
+            "otcsey"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Ls",
+          "text": "otydy",
+          "words": [
+            "otydy"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Ls",
+          "text": "okeor",
+          "words": [
+            "okeor"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Ls",
+          "text": "cphocthy",
+          "words": [
+            "cphocthy"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Ls",
+          "text": "ytchody",
+          "words": [
+            "ytchody"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Ls",
+          "text": "otys",
+          "words": [
+            "otys"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Ls",
+          "text": "olor",
+          "words": [
+            "olor"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Ls",
+          "text": "ockhy",
+          "words": [
+            "ockhy"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Ls",
+          "text": "ofcheor",
+          "words": [
+            "ofcheor"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Ls",
+          "text": "otcsdo",
+          "words": [
+            "otcsdo"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Ls",
+          "text": "otykchs",
+          "words": [
+            "otykchs"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Ls",
+          "text": "otol",
+          "words": [
+            "otol"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Ls",
+          "text": "otor",
+          "words": [
+            "otor"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Ls",
+          "text": "oiinar",
+          "words": [
+            "oiinar"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Ls",
+          "text": "okoldy",
+          "words": [
+            "okoldy"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Ls",
+          "text": "ykchdy",
+          "words": [
+            "ykchdy"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Ls",
+          "text": "toeeodcthy",
+          "words": [
+            "toeeodcthy"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "Ls",
+          "text": "ocphy",
+          "words": [
+            "ocphy"
+          ]
+        },
+        {
+          "line": 32,
+          "unit": "Ls",
+          "text": "okeeodal",
+          "words": [
+            "okeeodal"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "Ls",
+          "text": "okshor",
+          "words": [
+            "okshor"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "Ls",
+          "text": "ordaiin",
+          "words": [
+            "ordaiin"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "Ls",
+          "text": "otochedy",
+          "words": [
+            "otochedy"
+          ]
+        },
+        {
+          "line": 36,
+          "unit": "Ls",
+          "text": "dolchedy",
+          "words": [
+            "dolchedy"
+          ]
+        }
+      ]
+    },
+    "f68r2": {
+      "section": "A",
+      "section_name": "Astro",
+      "labels": [
+        {
+          "line": 7,
+          "unit": "Ls",
+          "text": "otolchcthy",
+          "words": [
+            "otolchcthy"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Ls",
+          "text": "cheorol",
+          "words": [
+            "cheorol"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Ls",
+          "text": "odaiin",
+          "words": [
+            "odaiin"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Ls",
+          "text": "ochory",
+          "words": [
+            "ochory"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Ls",
+          "text": "shdar",
+          "words": [
+            "shdar"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Ls",
+          "text": "dchol",
+          "words": [
+            "dchol"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Ls",
+          "text": "todaraiily",
+          "words": [
+            "todaraiily"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Ls",
+          "text": "olcheesey",
+          "words": [
+            "olcheesey"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Ls",
+          "text": "okchor",
+          "words": [
+            "okchor"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Ls",
+          "text": "oteool",
+          "words": [
+            "oteool"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Ls",
+          "text": "oydchy",
+          "words": [
+            "oydchy"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Ls",
+          "text": "okcheody",
+          "words": [
+            "okcheody"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Ls",
+          "text": "cholar",
+          "words": [
+            "cholar"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Ls",
+          "text": "dcheoldy",
+          "words": [
+            "dcheoldy"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Ls",
+          "text": "oteeeor",
+          "words": [
+            "oteeeor"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Ls",
+          "text": "etocho",
+          "words": [
+            "etocho"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Ls",
+          "text": "ofchsody",
+          "words": [
+            "ofchsody"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Ls",
+          "text": "otcheodar",
+          "words": [
+            "otcheodar"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Ls",
+          "text": "odair chol",
+          "words": [
+            "odair",
+            "chol"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Ls",
+          "text": "opocphor",
+          "words": [
+            "opocphor"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Ls",
+          "text": "otoshol",
+          "words": [
+            "otoshol"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Ls",
+          "text": "chodar",
+          "words": [
+            "chodar"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Ls",
+          "text": "shchy",
+          "words": [
+            "shchy"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Ls",
+          "text": "okeechor",
+          "words": [
+            "okeechor"
+          ]
+        }
+      ]
+    },
+    "f68r3": {
+      "section": "A",
+      "section_name": "Astro",
+      "labels": [
+        {
+          "line": 10,
+          "unit": "Ls",
+          "text": "dchol dal",
+          "words": [
+            "dchol",
+            "dal"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Ls",
+          "text": "doaro",
+          "words": [
+            "doaro"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "La",
+          "text": "oalcheol",
+          "words": [
+            "oalcheol"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Ls",
+          "text": "okos",
+          "words": [
+            "okos"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Ls",
+          "text": "otory",
+          "words": [
+            "otory"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Ls",
+          "text": "chdy yky",
+          "words": [
+            "chdy",
+            "yky"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Ls",
+          "text": "a cphy",
+          "words": [
+            "a",
+            "cphy"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Ls",
+          "text": "okolchy",
+          "words": [
+            "okolchy"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Ls",
+          "text": "o cthyd",
+          "words": [
+            "o",
+            "cthyd"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Ls",
+          "text": "otydm",
+          "words": [
+            "otydm"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Ls",
+          "text": "darall",
+          "words": [
+            "darall"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Ls",
+          "text": "okchoda",
+          "words": [
+            "okchoda"
+          ]
+        }
+      ]
+    },
+    "f68v3": {
+      "section": "C",
+      "section_name": "Cosmo",
+      "labels": [
+        {
+          "line": 15,
+          "unit": "L0",
+          "text": "otodol",
+          "words": [
+            "otodol"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "L0",
+          "text": "opcholdg",
+          "words": [
+            "opcholdg"
+          ]
+        }
+      ]
+    },
+    "f69r": {
+      "section": "C",
+      "section_name": "Cosmo",
+      "labels": [
+        {
+          "line": 5,
+          "unit": "L0",
+          "text": "oteos chop otaky",
+          "words": [
+            "oteos",
+            "chop",
+            "otaky"
+          ]
+        },
+        {
+          "line": 44,
+          "unit": "L0",
+          "text": "y",
+          "words": [
+            "y"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 46,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "L0",
+          "text": "l",
+          "words": [
+            "l"
+          ]
+        },
+        {
+          "line": 48,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 49,
+          "unit": "L0",
+          "text": "em",
+          "words": [
+            "em"
+          ]
+        }
+      ]
+    },
+    "f70v1": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "otalchy tar am dy",
+          "words": [
+            "otalchy",
+            "tar",
+            "am",
+            "dy"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lz",
+          "text": "okoly",
+          "words": [
+            "okoly"
+          ]
+        }
+      ]
+    },
+    "f70v2": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "otalalg",
+          "words": [
+            "otalalg"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Lz",
+          "text": "sar am",
+          "words": [
+            "sar",
+            "am"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "Lz",
+          "text": "otylal",
+          "words": [
+            "otylal"
+          ]
+        }
+      ]
+    },
+    "f71r": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "oteos arar",
+          "words": [
+            "oteos",
+            "arar"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lz",
+          "text": "otol chdy",
+          "words": [
+            "otol",
+            "chdy"
+          ]
+        }
+      ]
+    },
+    "f71v": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "char orom",
+          "words": [
+            "char",
+            "orom"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lz",
+          "text": "ofacfom",
+          "words": [
+            "ofacfom"
+          ]
+        }
+      ]
+    },
+    "f72r1": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "oshodody",
+          "words": [
+            "oshodody"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lz",
+          "text": "ofaralar",
+          "words": [
+            "ofaralar"
+          ]
+        }
+      ]
+    },
+    "f72r2": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lz",
+          "text": "ofchdady",
+          "words": [
+            "ofchdady"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lz",
+          "text": "otaraldy",
+          "words": [
+            "otaraldy"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lz",
+          "text": "otal",
+          "words": [
+            "otal"
+          ]
+        }
+      ]
+    },
+    "f72r3": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "olkalaiin",
+          "words": [
+            "olkalaiin"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Lz",
+          "text": "or alkam",
+          "words": [
+            "or",
+            "alkam"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lz",
+          "text": "opalal",
+          "words": [
+            "opalal"
+          ]
+        }
+      ]
+    },
+    "f72v1": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "oeeoty",
+          "words": [
+            "oeeoty"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lz",
+          "text": "oeeoly",
+          "words": [
+            "oeeoly"
+          ]
+        }
+      ]
+    },
+    "f72v2": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "oeedey",
+          "words": [
+            "oeedey"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lz",
+          "text": "okaiin",
+          "words": [
+            "okaiin"
+          ]
+        }
+      ]
+    },
+    "f72v3": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "Lz",
+          "text": "ogeom",
+          "words": [
+            "ogeom"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lz",
+          "text": "sholeey",
+          "words": [
+            "sholeey"
+          ]
+        }
+      ]
+    },
+    "f73r": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lz",
+          "text": "otoly",
+          "words": [
+            "otoly"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lz",
+          "text": "otaly",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lz",
+          "text": "okary",
+          "words": [
+            "okary"
+          ]
+        }
+      ]
+    },
+    "f73v": {
+      "section": "Z",
+      "section_name": "Zodiac",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lz",
+          "text": "okol",
+          "words": [
+            "okol"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lz",
+          "text": "okeody",
+          "words": [
+            "okeody"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lz",
+          "text": "otedy",
+          "words": [
+            "otedy"
+          ]
+        }
+      ]
+    },
+    "f75v": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 2,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "L0",
+          "text": "l",
+          "words": [
+            "l"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "L0",
+          "text": "l",
+          "words": [
+            "l"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Ln",
+          "text": "okshy",
+          "words": [
+            "okshy"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Ln",
+          "text": "saral",
+          "words": [
+            "saral"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Ln",
+          "text": "dokal",
+          "words": [
+            "dokal"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Ln",
+          "text": "darol",
+          "words": [
+            "darol"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Ln",
+          "text": "dal dy",
+          "words": [
+            "dal",
+            "dy"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Ln",
+          "text": "dal shd",
+          "words": [
+            "dal",
+            "shd"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Ln",
+          "text": "dalkar",
+          "words": [
+            "dalkar"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Ln",
+          "text": "qokal",
+          "words": [
+            "qokal"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Ln",
+          "text": "dly",
+          "words": [
+            "dly"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Ln",
+          "text": "ory",
+          "words": [
+            "ory"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Ln",
+          "text": "oty",
+          "words": [
+            "oty"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Ln",
+          "text": "lchy",
+          "words": [
+            "lchy"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Ln",
+          "text": "dary",
+          "words": [
+            "dary"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "Ln",
+          "text": "dal",
+          "words": [
+            "dal"
+          ]
+        },
+        {
+          "line": 32,
+          "unit": "Ln",
+          "text": "daldy",
+          "words": [
+            "daldy"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "Ln",
+          "text": "qoted",
+          "words": [
+            "qoted"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "Ln",
+          "text": "rkal",
+          "words": [
+            "rkal"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "Ln",
+          "text": "ykedy",
+          "words": [
+            "ykedy"
+          ]
+        },
+        {
+          "line": 36,
+          "unit": "Ln",
+          "text": "olkchy",
+          "words": [
+            "olkchy"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "Ln",
+          "text": "otoly",
+          "words": [
+            "otoly"
+          ]
+        },
+        {
+          "line": 50,
+          "unit": "Lt",
+          "text": "otal opal",
+          "words": [
+            "otal",
+            "opal"
+          ]
+        },
+        {
+          "line": 51,
+          "unit": "Lt",
+          "text": "okeey lol",
+          "words": [
+            "okeey",
+            "lol"
+          ]
+        },
+        {
+          "line": 52,
+          "unit": "Lt",
+          "text": "olol",
+          "words": [
+            "olol"
+          ]
+        },
+        {
+          "line": 53,
+          "unit": "Lt",
+          "text": "ytedy",
+          "words": [
+            "ytedy"
+          ]
+        },
+        {
+          "line": 54,
+          "unit": "Lt",
+          "text": "otedy",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "line": 55,
+          "unit": "Lt",
+          "text": "oteey",
+          "words": [
+            "oteey"
+          ]
+        },
+        {
+          "line": 56,
+          "unit": "Lt",
+          "text": "qotedy",
+          "words": [
+            "qotedy"
+          ]
+        }
+      ]
+    },
+    "f76r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 4,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "L0",
+          "text": "d",
+          "words": [
+            "d"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "L0",
+          "text": "q",
+          "words": [
+            "q"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "L0",
+          "text": "o",
+          "words": [
+            "o"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "L0",
+          "text": "l",
+          "words": [
+            "l"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "L0",
+          "text": "k",
+          "words": [
+            "k"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "L0",
+          "text": "r",
+          "words": [
+            "r"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "L0",
+          "text": "s",
+          "words": [
+            "s"
+          ]
+        }
+      ]
+    },
+    "f77r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Ln",
+          "text": "darchdar",
+          "words": [
+            "darchdar"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lt",
+          "text": "olkchs",
+          "words": [
+            "olkchs"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lt",
+          "text": "otedy",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lt",
+          "text": "otol",
+          "words": [
+            "otol"
+          ]
+        },
+        {
+          "line": 49,
+          "unit": "Ln",
+          "text": "otchdy",
+          "words": [
+            "otchdy"
+          ]
+        },
+        {
+          "line": 50,
+          "unit": "Lt",
+          "text": "otolaiino",
+          "words": [
+            "otolaiino"
+          ]
+        }
+      ]
+    },
+    "f77v": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lt",
+          "text": "okain ykal",
+          "words": [
+            "okain",
+            "ykal"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lt",
+          "text": "otol shedy",
+          "words": [
+            "otol",
+            "shedy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lt",
+          "text": "olkeedal",
+          "words": [
+            "olkeedal"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lt",
+          "text": "otolor",
+          "words": [
+            "otolor"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lt",
+          "text": "orchedal",
+          "words": [
+            "orchedal"
+          ]
+        },
+        {
+          "line": 43,
+          "unit": "Ln",
+          "text": "sosoral",
+          "words": [
+            "sosoral"
+          ]
+        },
+        {
+          "line": 44,
+          "unit": "Lt",
+          "text": "okalo",
+          "words": [
+            "okalo"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "Ln",
+          "text": "oleoeder",
+          "words": [
+            "oleoeder"
+          ]
+        }
+      ]
+    },
+    "f78r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lt",
+          "text": "okchdldlo",
+          "words": [
+            "okchdldlo"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lt",
+          "text": "okchdy",
+          "words": [
+            "okchdy"
+          ]
+        },
+        {
+          "line": 44,
+          "unit": "Lt",
+          "text": "daraloikhy",
+          "words": [
+            "daraloikhy"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "Lt",
+          "text": "dchedaly",
+          "words": [
+            "dchedaly"
+          ]
+        },
+        {
+          "line": 46,
+          "unit": "Lt",
+          "text": "otasodloryorory",
+          "words": [
+            "otasodloryorory"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "Lt",
+          "text": "okaral",
+          "words": [
+            "okaral"
+          ]
+        }
+      ]
+    },
+    "f80r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Ln",
+          "text": "yoraly",
+          "words": [
+            "yoraly"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Ln",
+          "text": "olchdy",
+          "words": [
+            "olchdy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Ln",
+          "text": "okaly",
+          "words": [
+            "okaly"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Ln",
+          "text": "okolo",
+          "words": [
+            "okolo"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Ln",
+          "text": "okory",
+          "words": [
+            "okory"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Ln",
+          "text": "opor",
+          "words": [
+            "opor"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Ln",
+          "text": "otalshedy",
+          "words": [
+            "otalshedy"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Ln",
+          "text": "otan",
+          "words": [
+            "otan"
+          ]
+        }
+      ]
+    },
+    "f81v": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 28,
+          "unit": "Lt",
+          "text": "otoin olkol",
+          "words": [
+            "otoin",
+            "olkol"
+          ]
+        }
+      ]
+    },
+    "f82r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 10,
+          "unit": "Lt",
+          "text": "orol dain",
+          "words": [
+            "orol",
+            "dain"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "Ln",
+          "text": "okar",
+          "words": [
+            "okar"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "Lt",
+          "text": "darol",
+          "words": [
+            "darol"
+          ]
+        },
+        {
+          "line": 36,
+          "unit": "Ln",
+          "text": "okal",
+          "words": [
+            "okal"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "Ln",
+          "text": "okoldy",
+          "words": [
+            "okoldy"
+          ]
+        },
+        {
+          "line": 38,
+          "unit": "Lt",
+          "text": "daryry",
+          "words": [
+            "daryry"
+          ]
+        },
+        {
+          "line": 39,
+          "unit": "Ln",
+          "text": "okairady",
+          "words": [
+            "okairady"
+          ]
+        },
+        {
+          "line": 40,
+          "unit": "Ln",
+          "text": "sororl",
+          "words": [
+            "sororl"
+          ]
+        },
+        {
+          "line": 41,
+          "unit": "Ln",
+          "text": "olko ky",
+          "words": [
+            "olko",
+            "ky"
+          ]
+        },
+        {
+          "line": 42,
+          "unit": "Ln",
+          "text": "sokoly",
+          "words": [
+            "sokoly"
+          ]
+        },
+        {
+          "line": 43,
+          "unit": "Ln",
+          "text": "dolol",
+          "words": [
+            "dolol"
+          ]
+        },
+        {
+          "line": 44,
+          "unit": "Ln",
+          "text": "olaiin",
+          "words": [
+            "olaiin"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "Ln",
+          "text": "okeeor",
+          "words": [
+            "okeeor"
+          ]
+        }
+      ]
+    },
+    "f82v": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Ln",
+          "text": "otechdy",
+          "words": [
+            "otechdy"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Ln",
+          "text": "otedy",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lt",
+          "text": "daiin oty",
+          "words": [
+            "daiin",
+            "oty"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lt",
+          "text": "otedal",
+          "words": [
+            "otedal"
+          ]
+        },
+        {
+          "line": 39,
+          "unit": "Ln",
+          "text": "olkeedy",
+          "words": [
+            "olkeedy"
+          ]
+        },
+        {
+          "line": 40,
+          "unit": "Ln",
+          "text": "okalchy",
+          "words": [
+            "okalchy"
+          ]
+        },
+        {
+          "line": 41,
+          "unit": "Ln",
+          "text": "okain",
+          "words": [
+            "okain"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "Lt",
+          "text": "otoldy",
+          "words": [
+            "otoldy"
+          ]
+        },
+        {
+          "line": 46,
+          "unit": "Lt",
+          "text": "olkol",
+          "words": [
+            "olkol"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "Lt",
+          "text": "otedol",
+          "words": [
+            "otedol"
+          ]
+        },
+        {
+          "line": 48,
+          "unit": "Lt",
+          "text": "oteedy",
+          "words": [
+            "oteedy"
+          ]
+        }
+      ]
+    },
+    "f83r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 45,
+          "unit": "Lt",
+          "text": "chtorol",
+          "words": [
+            "chtorol"
+          ]
+        },
+        {
+          "line": 46,
+          "unit": "Lt",
+          "text": "olsaiin",
+          "words": [
+            "olsaiin"
+          ]
+        },
+        {
+          "line": 50,
+          "unit": "Lt",
+          "text": "saroldal",
+          "words": [
+            "saroldal"
+          ]
+        },
+        {
+          "line": 51,
+          "unit": "Lt",
+          "text": "darolsy",
+          "words": [
+            "darolsy"
+          ]
+        }
+      ]
+    },
+    "f83v": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 9,
+          "unit": "Lt",
+          "text": "ololary",
+          "words": [
+            "ololary"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lt",
+          "text": "okarchy",
+          "words": [
+            "okarchy"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "Ln",
+          "text": "okchdy",
+          "words": [
+            "okchdy"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "Lt",
+          "text": "okaiin",
+          "words": [
+            "okaiin"
+          ]
+        }
+      ]
+    },
+    "f84r": {
+      "section": "B",
+      "section_name": "Bio",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lt",
+          "text": "lmyl",
+          "words": [
+            "lmyl"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Ln",
+          "text": "or shekar",
+          "words": [
+            "or",
+            "shekar"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Ln",
+          "text": "ydy",
+          "words": [
+            "ydy"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Ln",
+          "text": "okedy",
+          "words": [
+            "okedy"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Ln",
+          "text": "oloy",
+          "words": [
+            "oloy"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Ln",
+          "text": "doiis",
+          "words": [
+            "doiis"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Ln",
+          "text": "ol shy",
+          "words": [
+            "ol",
+            "shy"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Ln",
+          "text": "otedy",
+          "words": [
+            "otedy"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Ln",
+          "text": "lkol",
+          "words": [
+            "lkol"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Ln",
+          "text": "okolshy",
+          "words": [
+            "okolshy"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Ln",
+          "text": "otoly",
+          "words": [
+            "otoly"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Ln",
+          "text": "dshedy",
+          "words": [
+            "dshedy"
+          ]
+        },
+        {
+          "line": 47,
+          "unit": "Lt",
+          "text": "otaly",
+          "words": [
+            "otaly"
+          ]
+        }
+      ]
+    },
+    "f88r": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "otorchety",
+          "words": [
+            "otorchety"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "oral",
+          "words": [
+            "oral"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "orald",
+          "words": [
+            "orald"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "oldar",
+          "words": [
+            "oldar"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "otoky",
+          "words": [
+            "otoky"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "otaly",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lc",
+          "text": "otaldy",
+          "words": [
+            "otaldy"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "oram",
+          "words": [
+            "oram"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "dary",
+          "words": [
+            "dary"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Lf",
+          "text": "okol",
+          "words": [
+            "okol"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lf",
+          "text": "sorory",
+          "words": [
+            "sorory"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Lf",
+          "text": "otyda",
+          "words": [
+            "otyda"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lc",
+          "text": "ofyskydal",
+          "words": [
+            "ofyskydal"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Lf",
+          "text": "otor am",
+          "words": [
+            "otor",
+            "am"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Lf",
+          "text": "ofaldo",
+          "words": [
+            "ofaldo"
+          ]
+        }
+      ]
+    },
+    "f88v": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "okolyd",
+          "words": [
+            "okolyd"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "cheocthy",
+          "words": [
+            "cheocthy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "cpheor",
+          "words": [
+            "cpheor"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "otar arody",
+          "words": [
+            "otar",
+            "arody"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "otokol",
+          "words": [
+            "otokol"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lc",
+          "text": "otoram",
+          "words": [
+            "otoram"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "otory",
+          "words": [
+            "otory"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "cheosdy",
+          "words": [
+            "cheosdy"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "okaiin",
+          "words": [
+            "okaiin"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lc",
+          "text": "daramdal",
+          "words": [
+            "daramdal"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Lf",
+          "text": "otydary",
+          "words": [
+            "otydary"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Lf",
+          "text": "otdordy",
+          "words": [
+            "otdordy"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Lf",
+          "text": "dararda",
+          "words": [
+            "dararda"
+          ]
+        }
+      ]
+    },
+    "f89r1": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "okchshy",
+          "words": [
+            "okchshy"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "qkol",
+          "words": [
+            "qkol"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "oldam",
+          "words": [
+            "oldam"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "otoldy",
+          "words": [
+            "otoldy"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "ararchodaiin",
+          "words": [
+            "ararchodaiin"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lc",
+          "text": "ykyd",
+          "words": [
+            "ykyd"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "chol ches",
+          "words": [
+            "chol",
+            "ches"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "otorain",
+          "words": [
+            "otorain"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "okaiin dan",
+          "words": [
+            "okaiin",
+            "dan"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Lc",
+          "text": "ykocfhy",
+          "words": [
+            "ykocfhy"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Lf",
+          "text": "saldam",
+          "words": [
+            "saldam"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Lf",
+          "text": "sydarary",
+          "words": [
+            "sydarary"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lf",
+          "text": "ydcphdy",
+          "words": [
+            "ydcphdy"
+          ]
+        }
+      ]
+    },
+    "f89r2": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "odory",
+          "words": [
+            "odory"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "doly",
+          "words": [
+            "doly"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "opchosam",
+          "words": [
+            "opchosam"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "saloiin sheol",
+          "words": [
+            "saloiin",
+            "sheol"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "opcheor",
+          "words": [
+            "opcheor"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lc",
+          "text": "otoldy",
+          "words": [
+            "otoldy"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lf",
+          "text": "okol shol dy",
+          "words": [
+            "okol",
+            "shol",
+            "dy"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lf",
+          "text": "opcharoiin",
+          "words": [
+            "opcharoiin"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lc",
+          "text": "korain y",
+          "words": [
+            "korain",
+            "y"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Lf",
+          "text": "sodar",
+          "words": [
+            "sodar"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Lf",
+          "text": "cheys",
+          "words": [
+            "cheys"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Lf",
+          "text": "cheody",
+          "words": [
+            "cheody"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Lf",
+          "text": "oforain",
+          "words": [
+            "oforain"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lf",
+          "text": "okshd chos",
+          "words": [
+            "okshd",
+            "chos"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Lc",
+          "text": "okain",
+          "words": [
+            "okain"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Lc",
+          "text": "yorain",
+          "words": [
+            "yorain"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "Lf",
+          "text": "ofakal",
+          "words": [
+            "ofakal"
+          ]
+        },
+        {
+          "line": 32,
+          "unit": "Lf",
+          "text": "otalsy",
+          "words": [
+            "otalsy"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "Lf",
+          "text": "ytarem",
+          "words": [
+            "ytarem"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "Lf",
+          "text": "otolarol",
+          "words": [
+            "otolarol"
+          ]
+        }
+      ]
+    },
+    "f89v1": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "okoraldy",
+          "words": [
+            "okoraldy"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "otoikhy",
+          "words": [
+            "otoikhy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "otchar",
+          "words": [
+            "otchar"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "darshody",
+          "words": [
+            "darshody"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lc",
+          "text": "koeeorain",
+          "words": [
+            "koeeorain"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Lf",
+          "text": "otor chos",
+          "words": [
+            "otor",
+            "chos"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lf",
+          "text": "opol olaiin",
+          "words": [
+            "opol",
+            "olaiin"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Lf",
+          "text": "opal daiin",
+          "words": [
+            "opal",
+            "daiin"
+          ]
+        }
+      ]
+    },
+    "f89v2": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "choeesy",
+          "words": [
+            "choeesy"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "okam",
+          "words": [
+            "okam"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "darcheos",
+          "words": [
+            "darcheos"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "chokaro",
+          "words": [
+            "chokaro"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "sheol",
+          "words": [
+            "sheol"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "chokam",
+          "words": [
+            "chokam"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lc",
+          "text": "okory",
+          "words": [
+            "okory"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "otair chody",
+          "words": [
+            "otair",
+            "chody"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "dydariin",
+          "words": [
+            "dydariin"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "opcheedoy",
+          "words": [
+            "opcheedoy"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lc",
+          "text": "opaloiiry",
+          "words": [
+            "opaloiiry"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Lf",
+          "text": "otaram",
+          "words": [
+            "otaram"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Lf",
+          "text": "chtody",
+          "words": [
+            "chtody"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Lf",
+          "text": "?ds??o",
+          "words": [
+            "?ds??o"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lf",
+          "text": "rady",
+          "words": [
+            "rady"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Lf",
+          "text": "dareky",
+          "words": [
+            "dareky"
+          ]
+        }
+      ]
+    },
+    "f99r": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "okoramog",
+          "words": [
+            "okoramog"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "okary",
+          "words": [
+            "okary"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "darar",
+          "words": [
+            "darar"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "oky",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "salo",
+          "words": [
+            "salo"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "oro",
+          "words": [
+            "oro"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lf",
+          "text": "ain",
+          "words": [
+            "ain"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Lf",
+          "text": "okor",
+          "words": [
+            "okor"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lf",
+          "text": "salol",
+          "words": [
+            "salol"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lf",
+          "text": "skeeal",
+          "words": [
+            "skeeal"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lf",
+          "text": "okary",
+          "words": [
+            "okary"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "okolo",
+          "words": [
+            "okolo"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "otalam",
+          "words": [
+            "otalam"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "otoldy",
+          "words": [
+            "otoldy"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Lc",
+          "text": "oparal",
+          "words": [
+            "oparal"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Lf",
+          "text": "oaro",
+          "words": [
+            "oaro"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lf",
+          "text": "aloly",
+          "words": [
+            "aloly"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Lf",
+          "text": "ooror",
+          "words": [
+            "ooror"
+          ]
+        },
+        {
+          "line": 23,
+          "unit": "Lf",
+          "text": "choky",
+          "words": [
+            "choky"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Lf",
+          "text": "oky",
+          "words": [
+            "oky"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Lf",
+          "text": "okeoly",
+          "words": [
+            "okeoly"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Lf",
+          "text": "yteold",
+          "words": [
+            "yteold"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lf",
+          "text": "cheotchy",
+          "words": [
+            "cheotchy"
+          ]
+        },
+        {
+          "line": 32,
+          "unit": "Lc",
+          "text": "tsholdy",
+          "words": [
+            "tsholdy"
+          ]
+        },
+        {
+          "line": 33,
+          "unit": "Lf",
+          "text": "okos",
+          "words": [
+            "okos"
+          ]
+        },
+        {
+          "line": 34,
+          "unit": "Lf",
+          "text": "oekey",
+          "words": [
+            "oekey"
+          ]
+        },
+        {
+          "line": 35,
+          "unit": "Lf",
+          "text": "dor",
+          "words": [
+            "dor"
+          ]
+        },
+        {
+          "line": 36,
+          "unit": "Lf",
+          "text": "chockhhy",
+          "words": [
+            "chockhhy"
+          ]
+        },
+        {
+          "line": 37,
+          "unit": "Lf",
+          "text": "rchey ot",
+          "words": [
+            "rchey",
+            "ot"
+          ]
+        },
+        {
+          "line": 38,
+          "unit": "Lf",
+          "text": "saiiny",
+          "words": [
+            "saiiny"
+          ]
+        },
+        {
+          "line": 39,
+          "unit": "Lf",
+          "text": "rory",
+          "words": [
+            "rory"
+          ]
+        },
+        {
+          "line": 40,
+          "unit": "Lf",
+          "text": "dam",
+          "words": [
+            "dam"
+          ]
+        },
+        {
+          "line": 45,
+          "unit": "Lc",
+          "text": "yteoldy",
+          "words": [
+            "yteoldy"
+          ]
+        },
+        {
+          "line": 46,
+          "unit": "Lf",
+          "text": "tolsasy",
+          "words": [
+            "tolsasy"
+          ]
+        }
+      ]
+    },
+    "f99v": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "otaramy",
+          "words": [
+            "otaramy"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "otoldy",
+          "words": [
+            "otoldy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "otorchy",
+          "words": [
+            "otorchy"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "oldy",
+          "words": [
+            "oldy"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "darary",
+          "words": [
+            "darary"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "otaly",
+          "words": [
+            "otaly"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lf",
+          "text": "olsy",
+          "words": [
+            "olsy"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Lf",
+          "text": "arol",
+          "words": [
+            "arol"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lf",
+          "text": "otoky",
+          "words": [
+            "otoky"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lc",
+          "text": "okoldody",
+          "words": [
+            "okoldody"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Lf",
+          "text": "oeeesary",
+          "words": [
+            "oeeesary"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lf",
+          "text": "daiiine",
+          "words": [
+            "daiiine"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Lf",
+          "text": "sory",
+          "words": [
+            "sory"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Lf",
+          "text": "saiino",
+          "words": [
+            "saiino"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Lf",
+          "text": "otolsar",
+          "words": [
+            "otolsar"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Lf",
+          "text": "osary",
+          "words": [
+            "osary"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Lc",
+          "text": "darolaly",
+          "words": [
+            "darolaly"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Lf",
+          "text": "okechy",
+          "words": [
+            "okechy"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lf",
+          "text": "otal",
+          "words": [
+            "otal"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Lf",
+          "text": "chor olekor",
+          "words": [
+            "chor",
+            "olekor"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Lf",
+          "text": "okeodor",
+          "words": [
+            "okeodor"
+          ]
+        },
+        {
+          "line": 30,
+          "unit": "Lf",
+          "text": "olky",
+          "words": [
+            "olky"
+          ]
+        },
+        {
+          "line": 31,
+          "unit": "Lf",
+          "text": "doldam",
+          "words": [
+            "doldam"
+          ]
+        },
+        {
+          "line": 36,
+          "unit": "Lc",
+          "text": "dralas",
+          "words": [
+            "dralas"
+          ]
+        },
+        {
+          "line": 44,
+          "unit": "Lf",
+          "text": "koleearol",
+          "words": [
+            "koleearol"
+          ]
+        }
+      ]
+    },
+    "f100r": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lf",
+          "text": "chosaroshol",
+          "words": [
+            "chosaroshol"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "sochorcfhy",
+          "words": [
+            "sochorcfhy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "otear",
+          "words": [
+            "otear"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "chofary",
+          "words": [
+            "chofary"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "sar chardaiindy",
+          "words": [
+            "sar",
+            "chardaiindy"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "osaro",
+          "words": [
+            "osaro"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lf",
+          "text": "chalsain",
+          "words": [
+            "chalsain"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Lf",
+          "text": "soity",
+          "words": [
+            "soity"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lf",
+          "text": "sosam",
+          "words": [
+            "sosam"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lf",
+          "text": "dakocth",
+          "words": [
+            "dakocth"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lf",
+          "text": "sofal",
+          "words": [
+            "sofal"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lf",
+          "text": "okeeos",
+          "words": [
+            "okeeos"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Lf",
+          "text": "shockhey",
+          "words": [
+            "shockhey"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Lf",
+          "text": "orol",
+          "words": [
+            "orol"
+          ]
+        },
+        {
+          "line": 19,
+          "unit": "Lf",
+          "text": "olcheom",
+          "words": [
+            "olcheom"
+          ]
+        },
+        {
+          "line": 20,
+          "unit": "Lf",
+          "text": "oteol",
+          "words": [
+            "oteol"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lf",
+          "text": "okols",
+          "words": [
+            "okols"
+          ]
+        }
+      ]
+    },
+    "f100v": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lf",
+          "text": "tolchd",
+          "words": [
+            "tolchd"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "chols",
+          "words": [
+            "chols"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "opchor",
+          "words": [
+            "opchor"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "rolsy",
+          "words": [
+            "rolsy"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "sol eesos",
+          "words": [
+            "sol",
+            "eesos"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "ykchochdy",
+          "words": [
+            "ykchochdy"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lf",
+          "text": "ykchdy",
+          "words": [
+            "ykchdy"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Lf",
+          "text": "dchdy",
+          "words": [
+            "dchdy"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lf",
+          "text": "dalsy",
+          "words": [
+            "dalsy"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lf",
+          "text": "okcheor",
+          "words": [
+            "okcheor"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lf",
+          "text": "ytchol",
+          "words": [
+            "ytchol"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "dykchal",
+          "words": [
+            "dykchal"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "chos cthoral",
+          "words": [
+            "chos",
+            "cthoral"
+          ]
+        }
+      ]
+    },
+    "f101v": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lf",
+          "text": "sairaly",
+          "words": [
+            "sairaly"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "otaldy",
+          "words": [
+            "otaldy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "otal",
+          "words": [
+            "otal"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "yta",
+          "words": [
+            "yta"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "dokor",
+          "words": [
+            "dokor"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "orar",
+          "words": [
+            "orar"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lf",
+          "text": "otorar",
+          "words": [
+            "otorar"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Lf",
+          "text": "otala",
+          "words": [
+            "otala"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lf",
+          "text": "soraly",
+          "words": [
+            "soraly"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lf",
+          "text": "okol",
+          "words": [
+            "okol"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lf",
+          "text": "arom",
+          "words": [
+            "arom"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "orar am",
+          "words": [
+            "orar",
+            "am"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "or?",
+          "words": [
+            "or?"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "dytoly",
+          "words": [
+            "dytoly"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Lf",
+          "text": "olkor",
+          "words": [
+            "olkor"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lf",
+          "text": "dolary",
+          "words": [
+            "dolary"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Lf",
+          "text": "odor",
+          "words": [
+            "odor"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Lf",
+          "text": "olaran",
+          "words": [
+            "olaran"
+          ]
+        }
+      ]
+    },
+    "f102r1": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "dordod",
+          "words": [
+            "dordod"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "otodeeodor",
+          "words": [
+            "otodeeodor"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lc",
+          "text": "orolaly",
+          "words": [
+            "orolaly"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lc",
+          "text": "dardsh",
+          "words": [
+            "dardsh"
+          ]
+        }
+      ]
+    },
+    "f102r2": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "de?d?loy",
+          "words": [
+            "de?d?loy"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lc",
+          "text": "?o??sal",
+          "words": [
+            "?o??sal"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lc",
+          "text": "ra??l?r?",
+          "words": [
+            "ra??l?r?"
+          ]
+        },
+        {
+          "line": 21,
+          "unit": "Lf",
+          "text": "koldarod",
+          "words": [
+            "koldarod"
+          ]
+        },
+        {
+          "line": 22,
+          "unit": "Lf",
+          "text": "odalydary",
+          "words": [
+            "odalydary"
+          ]
+        }
+      ]
+    },
+    "f102v1": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "ker ron??",
+          "words": [
+            "ker",
+            "ron??"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lf",
+          "text": "ykeody",
+          "words": [
+            "ykeody"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "okeody",
+          "words": [
+            "okeody"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "doiisaly",
+          "words": [
+            "doiisaly"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "ypory",
+          "words": [
+            "ypory"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "opchytcy",
+          "words": [
+            "opchytcy"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lf",
+          "text": "ypcholdy",
+          "words": [
+            "ypcholdy"
+          ]
+        },
+        {
+          "line": 17,
+          "unit": "Lf",
+          "text": "loralody",
+          "words": [
+            "loralody"
+          ]
+        },
+        {
+          "line": 18,
+          "unit": "Lf",
+          "text": "opchdard",
+          "words": [
+            "opchdard"
+          ]
+        }
+      ]
+    },
+    "f102v2": {
+      "section": "P",
+      "section_name": "Pharma",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lc",
+          "text": "porshols",
+          "words": [
+            "porshols"
+          ]
+        },
+        {
+          "line": 2,
+          "unit": "Lc",
+          "text": "soe dy",
+          "words": [
+            "soe",
+            "dy"
+          ]
+        },
+        {
+          "line": 3,
+          "unit": "Lf",
+          "text": "oror",
+          "words": [
+            "oror"
+          ]
+        },
+        {
+          "line": 4,
+          "unit": "Lf",
+          "text": "eeor",
+          "words": [
+            "eeor"
+          ]
+        },
+        {
+          "line": 5,
+          "unit": "Lf",
+          "text": "sachy",
+          "words": [
+            "sachy"
+          ]
+        },
+        {
+          "line": 6,
+          "unit": "Lf",
+          "text": "okeos",
+          "words": [
+            "okeos"
+          ]
+        },
+        {
+          "line": 7,
+          "unit": "Lf",
+          "text": "otol",
+          "words": [
+            "otol"
+          ]
+        },
+        {
+          "line": 8,
+          "unit": "Lf",
+          "text": "otory",
+          "words": [
+            "otory"
+          ]
+        },
+        {
+          "line": 9,
+          "unit": "Lf",
+          "text": "ok??",
+          "words": [
+            "ok??"
+          ]
+        },
+        {
+          "line": 10,
+          "unit": "Lf",
+          "text": "okody",
+          "words": [
+            "okody"
+          ]
+        },
+        {
+          "line": 11,
+          "unit": "Lf",
+          "text": "cheor",
+          "words": [
+            "cheor"
+          ]
+        },
+        {
+          "line": 12,
+          "unit": "Lf",
+          "text": "okoroeey",
+          "words": [
+            "okoroeey"
+          ]
+        },
+        {
+          "line": 13,
+          "unit": "Lf",
+          "text": "opchy",
+          "words": [
+            "opchy"
+          ]
+        },
+        {
+          "line": 14,
+          "unit": "Lf",
+          "text": "sarol",
+          "words": [
+            "sarol"
+          ]
+        },
+        {
+          "line": 15,
+          "unit": "Lf",
+          "text": "olrodar",
+          "words": [
+            "olrodar"
+          ]
+        },
+        {
+          "line": 16,
+          "unit": "Lf",
+          "text": "tod?",
+          "words": [
+            "tod?"
+          ]
+        },
+        {
+          "line": 24,
+          "unit": "Lc",
+          "text": "otolky",
+          "words": [
+            "otolky"
+          ]
+        },
+        {
+          "line": 25,
+          "unit": "Lf",
+          "text": "oran",
+          "words": [
+            "oran"
+          ]
+        },
+        {
+          "line": 26,
+          "unit": "Lf",
+          "text": "oika",
+          "words": [
+            "oika"
+          ]
+        },
+        {
+          "line": 27,
+          "unit": "Lf",
+          "text": "okeeoraiin",
+          "words": [
+            "okeeoraiin"
+          ]
+        },
+        {
+          "line": 28,
+          "unit": "Lf",
+          "text": "okockhy",
+          "words": [
+            "okockhy"
+          ]
+        },
+        {
+          "line": 29,
+          "unit": "Lf",
+          "text": "e???ddy",
+          "words": [
+            "e???ddy"
+          ]
+        }
+      ]
+    },
+    "f116v": {
+      "section": "S",
+      "section_name": "Stars",
+      "labels": [
+        {
+          "line": 1,
+          "unit": "Lx",
+          "text": "oror sheey",
+          "words": [
+            "oror",
+            "sheey"
+          ]
+        }
+      ]
+    }
+  },
+  "word_index": {
+    "sar": {
+      "folios": [
+        "f100r",
+        "f70v2"
+      ],
+      "sections": [
+        "P",
+        "Z"
+      ]
+    },
+    "orol": {
+      "folios": [
+        "f100r",
+        "f82r"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "ykchdy": {
+      "folios": [
+        "f100v",
+        "f68r1"
+      ],
+      "sections": [
+        "A",
+        "P"
+      ]
+    },
+    "chos": {
+      "folios": [
+        "f100v",
+        "f89r2",
+        "f89v1"
+      ],
+      "sections": [
+        "P"
+      ]
+    },
+    "otaldy": {
+      "folios": [
+        "f101v",
+        "f88r"
+      ],
+      "sections": [
+        "P"
+      ]
+    },
+    "otal": {
+      "folios": [
+        "f101v",
+        "f72r2",
+        "f75v",
+        "f99v"
+      ],
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ]
+    },
+    "okol": {
+      "folios": [
+        "f101v",
+        "f73v",
+        "f88r",
+        "f89r2"
+      ],
+      "sections": [
+        "P",
+        "Z"
+      ]
+    },
+    "am": {
+      "folios": [
+        "f101v",
+        "f67r2",
+        "f70v1",
+        "f70v2",
+        "f88r"
+      ],
+      "sections": [
+        "A",
+        "P",
+        "Z"
+      ]
+    },
+    "okeody": {
+      "folios": [
+        "f102v1",
+        "f73v"
+      ],
+      "sections": [
+        "P",
+        "Z"
+      ]
+    },
+    "dy": {
+      "folios": [
+        "f102v2",
+        "f70v1",
+        "f75v",
+        "f89r2"
+      ],
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ]
+    },
+    "oror": {
+      "folios": [
+        "f102v2",
+        "f116v"
+      ],
+      "sections": [
+        "P",
+        "S"
+      ]
+    },
+    "otol": {
+      "folios": [
+        "f102v2",
+        "f68r1",
+        "f71r",
+        "f77r",
+        "f77v"
+      ],
+      "sections": [
+        "A",
+        "B",
+        "P",
+        "Z"
+      ]
+    },
+    "otory": {
+      "folios": [
+        "f102v2",
+        "f68r3",
+        "f88v"
+      ],
+      "sections": [
+        "A",
+        "P"
+      ]
+    },
+    "dam": {
+      "folios": [
+        "f65r",
+        "f99r"
+      ],
+      "sections": [
+        "H",
+        "P"
+      ]
+    },
+    "qokal": {
+      "folios": [
+        "f66r",
+        "f75v"
+      ],
+      "sections": [
+        "B",
+        "T"
+      ]
+    },
+    "air": {
+      "folios": [
+        "f66r",
+        "f67r2"
+      ],
+      "sections": [
+        "A",
+        "T"
+      ]
+    },
+    "okal": {
+      "folios": [
+        "f67r2",
+        "f82r"
+      ],
+      "sections": [
+        "A",
+        "B"
+      ]
+    },
+    "okain": {
+      "folios": [
+        "f67r2",
+        "f77v",
+        "f82v",
+        "f89r2"
+      ],
+      "sections": [
+        "A",
+        "B",
+        "P"
+      ]
+    },
+    "otor": {
+      "folios": [
+        "f68r1",
+        "f88r",
+        "f89v1"
+      ],
+      "sections": [
+        "A",
+        "P"
+      ]
+    },
+    "okoldy": {
+      "folios": [
+        "f68r1",
+        "f82r"
+      ],
+      "sections": [
+        "A",
+        "B"
+      ]
+    },
+    "dchol": {
+      "folios": [
+        "f68r2",
+        "f68r3"
+      ],
+      "sections": [
+        "A"
+      ]
+    },
+    "chol": {
+      "folios": [
+        "f68r2",
+        "f89r1"
+      ],
+      "sections": [
+        "A",
+        "P"
+      ]
+    },
+    "dal": {
+      "folios": [
+        "f68r3",
+        "f75v"
+      ],
+      "sections": [
+        "A",
+        "B"
+      ]
+    },
+    "okos": {
+      "folios": [
+        "f68r3",
+        "f99r"
+      ],
+      "sections": [
+        "A",
+        "P"
+      ]
+    },
+    "chdy": {
+      "folios": [
+        "f68r3",
+        "f71r"
+      ],
+      "sections": [
+        "A",
+        "Z"
+      ]
+    },
+    "oteos": {
+      "folios": [
+        "f69r",
+        "f71r"
+      ],
+      "sections": [
+        "C",
+        "Z"
+      ]
+    },
+    "or": {
+      "folios": [
+        "f72r3",
+        "f84r"
+      ],
+      "sections": [
+        "B",
+        "Z"
+      ]
+    },
+    "okaiin": {
+      "folios": [
+        "f72v2",
+        "f83v",
+        "f88v",
+        "f89r1"
+      ],
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ]
+    },
+    "otoly": {
+      "folios": [
+        "f73r",
+        "f75v",
+        "f84r"
+      ],
+      "sections": [
+        "B",
+        "Z"
+      ]
+    },
+    "otaly": {
+      "folios": [
+        "f73r",
+        "f84r",
+        "f88r",
+        "f99v"
+      ],
+      "sections": [
+        "B",
+        "P",
+        "Z"
+      ]
+    },
+    "okary": {
+      "folios": [
+        "f73r",
+        "f99r"
+      ],
+      "sections": [
+        "P",
+        "Z"
+      ]
+    },
+    "otedy": {
+      "folios": [
+        "f73v",
+        "f75v",
+        "f77r",
+        "f82v",
+        "f84r"
+      ],
+      "sections": [
+        "B",
+        "Z"
+      ]
+    },
+    "darol": {
+      "folios": [
+        "f75v",
+        "f82r"
+      ],
+      "sections": [
+        "B"
+      ]
+    },
+    "oty": {
+      "folios": [
+        "f75v",
+        "f82v"
+      ],
+      "sections": [
+        "B"
+      ]
+    },
+    "dary": {
+      "folios": [
+        "f75v",
+        "f88r"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "opal": {
+      "folios": [
+        "f75v",
+        "f89v1"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "okchdy": {
+      "folios": [
+        "f78r",
+        "f83v"
+      ],
+      "sections": [
+        "B"
+      ]
+    },
+    "okolo": {
+      "folios": [
+        "f80r",
+        "f99r"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "okory": {
+      "folios": [
+        "f80r",
+        "f89v2"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "olkol": {
+      "folios": [
+        "f81v",
+        "f82v"
+      ],
+      "sections": [
+        "B"
+      ]
+    },
+    "olaiin": {
+      "folios": [
+        "f82r",
+        "f89v1"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "daiin": {
+      "folios": [
+        "f82v",
+        "f89v1"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "otoldy": {
+      "folios": [
+        "f82v",
+        "f89r1",
+        "f89r2",
+        "f99r",
+        "f99v"
+      ],
+      "sections": [
+        "B",
+        "P"
+      ]
+    },
+    "otoky": {
+      "folios": [
+        "f88r",
+        "f99v"
+      ],
+      "sections": [
+        "P"
+      ]
+    },
+    "sheol": {
+      "folios": [
+        "f89r2",
+        "f89v2"
+      ],
+      "sections": [
+        "P"
+      ]
+    }
+  }
+}

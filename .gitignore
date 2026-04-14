@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+crops/
+folios/
+source/
+annotated/
+segments/
+/tmp/
+.DS_Store
